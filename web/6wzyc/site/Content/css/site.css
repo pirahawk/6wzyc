@@ -1,2 +1,117 @@
-body {
+/*@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab'), local('JosefinSlab'), url(http://themes.googleusercontent.com/static/fonts/josefinslab/v4/46aYWdgz-1oFX11flmyEfXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Cutive Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cutive Mono'), local('CutiveMono-Regular'), url(http://themes.googleusercontent.com/static/fonts/cutivemono/v2/N5odNRruTwjvCM8y77PhQYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+    
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Cond Light'), local('OpenSans-CondensedLight'), url(http://themes.googleusercontent.com/static/fonts/opensanscondensed/v7/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff) format('woff');
+}
+    
+
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web'), local('TitilliumWeb-Regular'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/7XUFZ5tgS-tD6QamInJTcdGU7DQ8I6RFMlK0vgclk7w.woff) format('woff');
+}
+    
+font-family: 'Josefin Slab', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Cutive Mono', ;
+font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+
+THIS IS THE ONE
+    
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}    
+    
+    
+    font-family: 'Open Sans', sans-serif;  //can use the weight with this
+    
+    or 
+    font-family: 'Open Sans Light', sans-serif;
+*/
+
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+
+.transparent {
+    background-color: rgba(0,0,0, .0);
+    border: 3px solid red;
+}
+
+.site-green {
+    color: #26cc5c;
+}
+
+.text-colour {
+    color: rgb(55, 54, 47);
+}
+
+div.slide {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 40px;
+}
+
+.gray {
+    background: #eee;
+}
+
+div.intro h1{
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    div.intro h1 {
+        font-size: 62px;
+        margin-bottom: 40px;
+        line-height: 1.2;
+    }
+
+    div.intro h1:first-child {
+        font-size: 120px;
+        margin-bottom: 80px;
+    }
+
+    .intro .container {
+        padding-top: 120px;
+    }
 }
