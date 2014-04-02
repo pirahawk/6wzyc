@@ -63,6 +63,16 @@ THIS IS THE ONE
 */
 
 
+/*.transparent {
+    background-color: rgba(0,0,0, .0);
+    border: 3px solid red;
+}*/
+
+
+/*.green {
+    color: #26b67c;
+}*/
+
 @font-face {
     font-family: 'Open Sans';
     font-style: normal;
@@ -70,34 +80,51 @@ THIS IS THE ONE
     src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
-.transparent {
-    background-color: rgba(0,0,0, .0);
-    border: 3px solid red;
-}
+
 
 .site-green {
     color: #26cc5c;
 }
 
-.text-colour {
-    color: rgb(55, 54, 47);
-}
-
 div.slide {
+    color: rgb(55, 54, 47);
     position: relative;
     left: 0px;
     right: 0px;
     font-family: 'Open Sans', sans-serif;
     padding-top: 40px;
+    padding-bottom: 40px;
 }
 
-.gray {
-    background: #eee;
-}
-
-div.intro h1{
+.slide .container .row p{
     margin-bottom: 40px;
 }
+
+div.gray {
+    background: #f2f1ed;
+}
+
+div.green {
+    background-color: #26b67c;
+    color: #fff;
+}
+
+div.black {
+    background-color: #000;
+    color: #fff;
+}
+
+div.intro h1 {
+    margin-bottom: 40px;
+}
+
+@media (max-width:768px) {
+    .video {
+        width: 420px;
+        height: 315px;
+    }
+}
+
 
 @media (min-width: 768px) {
     div.intro h1 {
@@ -114,4 +141,41 @@ div.intro h1{
     .intro .container {
         padding-top: 120px;
     }
+
+    .video {
+        width: 640px;
+        height: 480px;
+    }
 }
+
+
+.slide h1 {
+    margin-bottom: 40px;
+}
+
+.team-list {
+    margin-top: 50px;
+}
+
+.team-list li{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.team-list li img{
+    margin-bottom: 50px;
+}
+
+div.slide ul.team-list li p.name{
+    font-size: 20px;
+    color: #ffd800;
+    margin-bottom: 10px;
+}
+
+div.slide ul.team-list li p.title{
+    margin-top: 0;
+}
+
+
+
+
