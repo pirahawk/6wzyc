@@ -40,6 +40,20 @@
 
 
 
+        <?php
+            /*
+            * If you wish to inject any additional javascript onto the page, ensure the named function 
+            * as defined by constant RENDER_SCRIPTS (see _settings.php) is defined
+            */
+            renderScripts(
+            "jquery-2.1.0.js", 
+            "bootstrap.js");
+
+            if(function_exists(RENDER_SCRIPTS)){
+                call_user_func(RENDER_SCRIPTS);
+            }
+        ?>
+
 
     </body>
 </html>
