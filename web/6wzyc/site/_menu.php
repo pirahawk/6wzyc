@@ -19,7 +19,12 @@
             <ul class="nav navbar-nav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Away</a></li>
-                <li><a href="#">something</a></li>
+                <li><a href="#">Something</a></li>
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="https://twitter.com/6WZYC"><i class="fa fa-twitter-square fa-5"></i></a></li>
+                <li><a href="https://www.facebook.com/groups/223424211030360/"><i class="fa fa-facebook-square fa-5"></i></a></li>                
             </ul>
         </div>
     </div>

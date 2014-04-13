@@ -80,7 +80,13 @@ THIS IS THE ONE
     src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
+nav.navbar #all-navbar-links ul.nav .fa{
+    font-size: 30px;
+}
 
+nav.navbar {
+    font-size: 20px;
+}
 
 .site-green {
     color: #26cc5c;

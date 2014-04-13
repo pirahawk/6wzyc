@@ -15,7 +15,8 @@
 
         <?php
             renderStyleSheets(
-            "bootstrap.css", 
+            "bootstrap.css",
+            "font-awesome.min.css", 
             "css/site.css");
         ?>
 
