@@ -80,7 +80,7 @@ THIS IS THE ONE
     src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
 }
 
-nav.navbar #all-navbar-links ul.nav .fa{
+nav.navbar #all-navbar-links ul.nav .fa {
     font-size: 30px;
 }
 
@@ -102,7 +102,7 @@ div.slide {
     padding-bottom: 40px;
 }
 
-.slide .container .row p{
+.slide .container .row p {
     margin-bottom: 40px;
 }
 
@@ -125,9 +125,14 @@ div.intro h1 {
 }
 
 @media (max-width:768px) {
+    div.video-col {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
     .video {
-        width: 420px;
-        height: 315px;
+        width: 100%;
+        height: 200px;
     }
 }
 
@@ -163,25 +168,21 @@ div.intro h1 {
     margin-top: 50px;
 }
 
-.team-list li{
+.team-list li {
     margin-left: 50px;
     margin-right: 50px;
 }
 
-.team-list li img{
+.team-list li img {
     margin-bottom: 50px;
 }
 
-div.slide ul.team-list li p.name{
+div.slide ul.team-list li p.name {
     font-size: 20px;
     color: #ffd800;
     margin-bottom: 10px;
 }
 
-div.slide ul.team-list li p.title{
+div.slide ul.team-list li p.title {
     margin-top: 0;
 }
-
-
-
-

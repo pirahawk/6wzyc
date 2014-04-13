@@ -9,8 +9,9 @@
 <div class="slide intro gray text-center">
     <div class="container">
         <h1><span class="site-green">6</span>WZYC</h1>
-        <h1><strong> 6th World Zoroastrian Youth Congress</strong></h1>
-        <h2>Auckland, New Zealand 2015</h2>
+        <h1><strong> 6<sup>th</sup> World Zoroastrian Youth Congress</strong></h1>
+        <h2>Auckland, New Zealand</h2>
+        <h3>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</h3>
     </div>
 </div>
 
@@ -33,13 +34,13 @@
 <div class="slide green">
     <div class="container">
         <div class="row green-nz">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
                 <h1><strong><em>Green</em> New Zealand</strong></h1>
                 <p class="lead">The 6th WZYC organisers envision making this event the first ecologically conscious World Zoroastrian Youth Congress.</p>
                 <p class="lead">By aiming to create an eco-friendly event, we hope to spread awareness of our country’s pride and educate ourselves of our religious responsibilities.</p>
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 video-col">
                 <iframe class="video" src="//www.youtube.com/embed/kM9bLxTDpYc?showinfo=0&autohide=1&theme=light&cc_load_policy=0&controls=2&iv_load_policy=3&modestbranding=1&disablekb=1" frameborder="0"></iframe>
             </div>
         </div>
