@@ -38,6 +38,9 @@
                 <h1><strong><em>Green</em> New Zealand</strong></h1>
                 <p class="lead">The 6th WZYC organisers envision making this event the first ecologically conscious World Zoroastrian Youth Congress.</p>
                 <p class="lead">By aiming to create an eco-friendly event, we hope to spread awareness of our country’s pride and educate ourselves of our religious responsibilities.</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="/cue-haven.php">About Cue Haven <i class="fa fa-angle-right"></i> </a>
+                </p>
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 video-col">
@@ -54,7 +57,7 @@
         </div>
 
         <div class="row text-center">
-            
+
 
             <ul class="team-list list-inline">
                 <li>
@@ -99,7 +102,7 @@
                     <p class="title"><em>Visa & Registration</em></p>
                 </li>
 
-               
+
 
                 <li>
                     <img class="img-circle" alt="mahafrin" src="<?php echo createImagePath("mahafrin.jpg","people")?>">
@@ -107,7 +110,7 @@
                     <p class="title"><em>Secretary Speakers</em></p>
                 </li>
 
-                 <li>
+                <li>
                     <img class="img-circle" alt="cyrus" src="<?php echo createImagePath("cyrus.jpg","people")?>">
                     <p class="name"><strong>Cyrus Daji</strong></p>
                     <p class="title"><em>Accomodation & Transport</em></p>
