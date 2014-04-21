@@ -6,12 +6,42 @@
     function renderBody(){
 ?>
 
-<div class="slide intro gray text-center">
-    <div class="container">
-        <h1><span class="site-green">6</span>WZYC</h1>
-        <h1><strong> 6<sup>th</sup> World Zoroastrian Youth Congress</strong></h1>
-        <h2>Auckland, New Zealand</h2>
-        <h3>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</h3>
+<div id="intro-slide" class="slide intro text-center">
+            <!--<div class="container">
+                                        <h1><span class="site-green">6</span>WZYC</h1>
+                                        <h1><strong> 6<sup>th</sup> World Zoroastrian Youth Congress</strong></h1>
+                                        <h2>Auckland, New Zealand</h2>
+                                        <h3>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</h3>
+                                    </div>-->
+    <div class="carousel" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="item active" style="background-image: url(<?php echo createImagePath("auk-1.jpg","site")?>);">
+                <div class="container">
+                    <h1><span class="site-green">6</span>WZYC</h1>
+                    <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
+                    <h2>Auckland, New Zealand</h2>
+                    <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(<?php echo createImagePath("auk-2.jpg","site")?>);">
+                <div class="container">
+                    <h1><span class="site-green">6</span>WZYC</h1>
+                    <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
+                    <h2>Auckland, New Zealand</h2>
+                    <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(<?php echo createImagePath("auk-3.jpg","site")?>);">
+                <div class="container">
+                    <h1><span class="site-green">6</span>WZYC</h1>
+                    <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
+                    <h2>Auckland, New Zealand</h2>
+                    <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
@@ -144,5 +174,27 @@
     }    
 ?>
 
+<?php
+    function renderScript(){
+?>
+
+<script>
+    $(function () {
+
+        var resizeFunc = function () {
+            var navBar = document.getElementById('navigation-bar');
+            if (navBar) {
+                var scrollHeight = navBar.scrollHeight;
+                $('#intro-slide').css('margin-top', scrollHeight + 'px');
+            }
+        };
+
+        $(window).resize(resizeFunc);
+        resizeFunc();
+    });
+</script>
 
 
+<?php
+    }    
+?>

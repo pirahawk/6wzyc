@@ -2,7 +2,7 @@
         /*Render the menu bar*/
     function createSiteMenu(){
 ?>
-<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+<nav id="navigation-bar" class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#all-navbar-links">

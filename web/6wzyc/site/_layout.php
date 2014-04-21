@@ -12,7 +12,7 @@
 
         <title></title>
         
-
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
         <?php
             renderStyleSheets(
             "bootstrap.css",
