@@ -7,13 +7,7 @@
 ?>
 
 <div id="intro-slide" class="slide intro text-center">
-            <!--<div class="container">
-                                        <h1><span class="site-green">6</span>WZYC</h1>
-                                        <h1><strong> 6<sup>th</sup> World Zoroastrian Youth Congress</strong></h1>
-                                        <h2>Auckland, New Zealand</h2>
-                                        <h3>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</h3>
-                                    </div>-->
-    <div class="carousel" data-ride="carousel">
+    <div class="carousel" data-ride="carousel" data-interval="3500" data-pause="none">
         <div class="carousel-inner">
             <div class="item active" style="background-image: url(<?php echo createImagePath("auk-1.jpg","site")?>);">
                 <div class="container">

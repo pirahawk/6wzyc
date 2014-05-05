@@ -8,8 +8,25 @@
 
 <div class="slide">
     <div class="container text-left">
+
         <div class="row">
             <h1><strong>CUE Haven</strong></h1>
+            <div class="carousel col-lg-offset-2" data-ride="carousel" data-interval="3000">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="<?php echo createImagePath("ch-1.jpg","cue-haven")?>" alt=""/>
+                    </div>
+                    <div class="item">
+                        <img src="<?php echo createImagePath("ch-2.jpg","cue-haven")?>" alt=""/>
+                    </div>
+                    <div class="item">
+                        <img src="<?php echo createImagePath("ch-3.jpg","cue-haven")?>" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            
             <p class="lead">
                 CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest. The restoration plan will be completed over a 15 year period. The undertaking is meticulously planned far into its completion and the Stazyks work painstakingly hard in adhering to its each stage. The detailed re-vegetation attempts to create a haven among all too common stretches of agricultural land being divided and sub-divided for lifestyle blocks or property development.
             </p>
