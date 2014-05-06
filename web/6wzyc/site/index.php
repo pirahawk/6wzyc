@@ -3,38 +3,65 @@
 ?>
 
 <?php
+    
+    function renderTitleCarousel(){
+        $images = array(
+        array("auk-1.jpg", "active"),
+        array("auk-2.jpg"),
+        array("auk-3.jpg"));
+    
+        foreach($images as $img){
+?>
+<div class="item <?php echo $img[1] ?>" style="background-image: url(<?php echo createImagePath($img[0],"site")?>);">
+    <div class="container">
+        <h1><span class="site-green">6</span>WZYC</h1>
+        <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
+        <h2>Auckland, New Zealand</h2>
+        <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
+    </div>
+</div>
+<?php
+    
+        }
+    }
+    
+    function renderTeamList(){
+        $team = array(
+        array("name" => "Tinaz Karbhari","title" =>"Chair", "image" =>"tinaz.jpg"),
+        array("name" => "Roxanne Medhora","title" =>"Co-Vice Chair", "image" =>"roxanne.jpg"),
+        array("name" => "Nazneen Sukhia","title" =>"Co-Vice Chair", "image" =>"nazneen.jpg"),
+        array("name" => "Burzin Fatakia","title" =>"Treasurer", "image" =>"burzin.jpg"),
+        array("name" => "Xerxes Sukhia","title" =>"Secretary", "image" =>"xerxes.jpg"),
+        array("name" => "Delzin Balsara","title" =>"Web Master", "image" =>"delzin.jpg"),
+        array("name" => "Kainaz Jamasbnejad","title" =>"Visa & Registration", "image" =>"kainaz.jpg"),
+        array("name" => "Mahafrin Suntoke","title" =>"Secretary Speakers", "image" =>"mahafrin.jpg"),
+        array("name" => "Cyrus Daji","title" =>"Accomodation & Transport", "image" =>"cyrus.jpg"),
+        array("name" => "Delzin & Zirak Vazifdar","title" =>"Fundraising", "image" =>"blank.jpg"),
+        array("name" => "Ferzeen Irani","title" =>"Marketing", "image" =>"ferzeen.jpg"),
+        array("name" => "Karmin Homavazir","title" =>"Entertainment", "image" =>"karmin.jpg")
+        );
+    
+        foreach($team as $member){ 
+?>
+<li>
+    <img class="img-circle" alt="<?php echo $member["name"] ?>" src="<?php echo createImagePath($member["image"],"people")?>">
+    <p class="name"><strong><?php echo $member["name"] ?></strong></p>
+    <p class="title"><em><?php echo $member["title"] ?></em></p>
+</li>
+<?php
+         }
+    }
+?>
+
+
+<?php
     function renderBody(){
 ?>
 
 <div id="intro-slide" class="slide intro text-center">
     <div class="carousel" data-ride="carousel" data-interval="3500" data-pause="none">
         <div class="carousel-inner">
-            <div class="item active" style="background-image: url(<?php echo createImagePath("auk-1.jpg","site")?>);">
-                <div class="container">
-                    <h1><span class="site-green">6</span>WZYC</h1>
-                    <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
-                    <h2>Auckland, New Zealand</h2>
-                    <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
-                </div>
-            </div>
-
-            <div class="item" style="background-image: url(<?php echo createImagePath("auk-2.jpg","site")?>);">
-                <div class="container">
-                    <h1><span class="site-green">6</span>WZYC</h1>
-                    <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
-                    <h2>Auckland, New Zealand</h2>
-                    <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
-                </div>
-            </div>
-
-            <div class="item" style="background-image: url(<?php echo createImagePath("auk-3.jpg","site")?>);">
-                <div class="container">
-                    <h1><span class="site-green">6</span>WZYC</h1>
-                    <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
-                    <h2>Auckland, New Zealand</h2>
-                    <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
-                </div>
-            </div>
+            <?php renderTitleCarousel() ?>
         </div>
     </div>
 </div>
@@ -81,85 +108,20 @@
         </div>
 
         <div class="row text-center">
-
-
             <ul class="team-list list-inline">
-                <li>
-                    <img class="img-circle" alt="tinaz" src="<?php echo createImagePath("tinaz.jpg","people")?>">
-                    <p class="name"><strong>Tinaz Karbhari</strong></p>
-                    <p class="title"><em>Chair</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="Roxanne" src="<?php echo createImagePath("roxanne.jpg","people")?>">
-                    <p class="name"><strong>Roxanne Medhora</strong></p>
-                    <p class="title"><em>Co-Vice Chair</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="nazneen" src="<?php echo createImagePath("nazneen.jpg","people")?>">
-                    <p class="name"><strong>Nazneen Sukhia</strong></p>
-                    <p class="title"><em>Co-Vice Chair</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="burzin" src="<?php echo createImagePath("burzin.jpg","people")?>">
-                    <p class="name"><strong>Burzin Fatakia</strong></p>
-                    <p class="title"><em>Treasurer</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="xerxes" src="<?php echo createImagePath("xerxes.jpg","people")?>">
-                    <p class="name"><strong>Xerxes Sukhia</strong></p>
-                    <p class="title"><em>Secretary</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="delzin" src="<?php echo createImagePath("delzin.jpg","people")?>">
-                    <p class="name"><strong>Delzin Balsara</strong></p>
-                    <p class="title"><em>Web Master</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="kainaz" src="<?php echo createImagePath("kainaz.jpg","people")?>">
-                    <p class="name"><strong>Kainaz Jamasbnejad</strong></p>
-                    <p class="title"><em>Visa & Registration</em></p>
-                </li>
-
-
-
-                <li>
-                    <img class="img-circle" alt="mahafrin" src="<?php echo createImagePath("mahafrin.jpg","people")?>">
-                    <p class="name"><strong>Mahafrin Suntoke</strong></p>
-                    <p class="title"><em>Secretary Speakers</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="cyrus" src="<?php echo createImagePath("cyrus.jpg","people")?>">
-                    <p class="name"><strong>Cyrus Daji</strong></p>
-                    <p class="title"><em>Accomodation & Transport</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="blank" src="<?php echo createImagePath("blank.jpg","people")?>">
-                    <p class="name"><strong>Delzin & Zirak Vazifdar</strong></p>
-                    <p class="title"><em>Fundraising</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="ferzeen" src="<?php echo createImagePath("ferzeen.jpg","people")?>">
-                    <p class="name"><strong>Ferzeen Irani</strong></p>
-                    <p class="title"><em>Marketing</em></p>
-                </li>
-
-                <li>
-                    <img class="img-circle" alt="karmin" src="<?php echo createImagePath("karmin.jpg","people")?>">
-                    <p class="name"><strong>Karmin Homavazir</strong></p>
-                    <p class="title"><em>Entertainment</em></p>
-                </li>
-
+                <?php renderTeamList()?>
             </ul>
+        </div>
+    </div>
+</div>
 
+
+<div class="slide sponsors">
+    <div class="container">
+        <div class="row">
+
+            <img class="img-responsive" src="<?php echo createImagePath("hk.jpg","sponsors")?>" alt="sponsor" />
+            <img class="img-responsive" src="<?php echo createImagePath("poona.jpg","sponsors")?>" alt="sponsor" />
         </div>
     </div>
 </div>
@@ -174,7 +136,7 @@
 
 <script>
     $(function () {
-
+    
         var resizeFunc = function () {
             var navBar = document.getElementById('navigation-bar');
             if (navBar) {
@@ -182,7 +144,7 @@
                 $('#intro-slide').css('margin-top', scrollHeight + 'px');
             }
         };
-
+    
         $(window).resize(resizeFunc);
         resizeFunc();
     });

@@ -1,3 +1,11 @@
+
+/*@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}*/
+
 /*.transparent {
     background-color: rgba(0,0,0, .0);
     border: 3px solid red;
@@ -8,11 +16,11 @@
     color: #26b67c;
 }*/
 
-span.yellow{
+span.yellow {
     color: #FFD400;
 }
 
-span.blue{
+span.blue {
     color: #439AE0;
 }
 
@@ -61,13 +69,13 @@ div.slide {
     margin-bottom: 40px;
 }
 
-div.intro{
+div.intro {
     margin-top: 0;
     padding-top: 0;
     color: #f2f1ed;
 }
 
-div.intro h1, div.intro h2, div.intro h3{
+div.intro h1, div.intro h2, div.intro h3 {
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 300!important;
 }
@@ -141,4 +149,24 @@ div.slide ul.team-list li p.name {
 
 div.slide ul.team-list li p.title {
     margin-top: 0;
+}
+
+
+
+/*div.sponsors div.row > div{
+height: 100%;    
+}
+
+*/
+
+div.sponsors img.img-responsive {
+    display: inline-block;
+}
+
+
+@media (min-width: 768px) {
+    div.sponsors img.img-responsive:nth-child(2) {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
 }
