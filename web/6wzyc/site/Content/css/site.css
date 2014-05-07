@@ -151,18 +151,13 @@ div.slide ul.team-list li p.title {
     margin-top: 0;
 }
 
-
-
-/*div.sponsors div.row > div{
-height: 100%;    
-}
-
-*/
-
 div.sponsors img.img-responsive {
     display: inline-block;
 }
 
+img.sponsor{
+    margin-bottom: 40px;
+} 
 
 @media (min-width: 768px) {
     div.sponsors img.img-responsive:nth-child(2) {

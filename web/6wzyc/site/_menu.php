@@ -18,11 +18,12 @@
         <div class="collapse navbar-collapse" id="all-navbar-links">
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
+                <li><a href="/cue-haven.php">CUE Haven</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://twitter.com/6WZYC"><i class="fa fa-twitter-square fa-5"></i></a></li>
-                <li><a href="https://www.facebook.com/groups/223424211030360/"><i class="fa fa-facebook-square fa-5"></i></a></li>                
+                <li><a href="https://twitter.com/6WZYC" target="_blank"><i class="fa fa-twitter-square fa-5"></i></a></li>
+                <li><a href="https://www.facebook.com/groups/223424211030360/" target="_blank"><i class="fa fa-facebook-square fa-5"></i></a></li>                
             </ul>
         </div>
     </div>
