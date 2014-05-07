@@ -136,32 +136,33 @@
             </div>
         </div>
     </div>
+</div>
 
-    <?php
-        }    
-    ?>
+<?php
+    }    
+?>
 
-    <?php
-        function renderScript(){
-    ?>
+<?php
+    function renderScript(){
+?>
 
-    <script>
-        $(function () {
-        
-            var resizeFunc = function () {
-                var navBar = document.getElementById('navigation-bar');
-                if (navBar) {
-                    var scrollHeight = navBar.scrollHeight;
-                    $('#intro-slide').css('margin-top', scrollHeight + 'px');
-                }
-            };
-        
-            $(window).resize(resizeFunc);
-            resizeFunc();
-        });
-    </script>
+<script>
+    $(function () {
+    
+        var resizeFunc = function () {
+            var navBar = document.getElementById('navigation-bar');
+            if (navBar) {
+                var scrollHeight = navBar.scrollHeight;
+                $('#intro-slide').css('margin-top', scrollHeight + 'px');
+            }
+        };
+    
+        $(window).resize(resizeFunc);
+        resizeFunc();
+    });
+</script>
 
 
-    <?php
-        }    
-    ?>
+<?php
+    }    
+?>
