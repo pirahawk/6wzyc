@@ -84,9 +84,12 @@
 
 <div class="slide green">
     <div class="container">
+        <div class="row">
+            <h1><strong><em>Green</em> New Zealand</strong></h1>
+        </div>
         <div class="row green-nz">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                <h1><strong><em>Green</em> New Zealand</strong></h1>
+                
                 <p class="lead">The 6th WZYC organisers envision making this event the first ecologically conscious World Zoroastrian Youth Congress.</p>
                 <p class="lead">By aiming to create an eco-friendly event, we hope to spread awareness of our country’s pride and educate ourselves of our religious responsibilities.</p>
                 <p>
