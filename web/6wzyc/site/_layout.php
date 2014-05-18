@@ -11,8 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title></title>
-        
-        <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
+
+        <link href="http://fonts.googleapis.com/css?family=Roboto+Condensed:300,400" rel="stylesheet" type="text/css">
         <?php
             renderStyleSheets(
             "bootstrap.css",
@@ -49,7 +49,26 @@
             renderScripts(
             "jquery-2.1.0.js", 
             "bootstrap.js");
+        ?>
 
+        <script type="text/javascript">
+            $(function () {
+                var resizeFunc = function () {
+                    var navBar = document.getElementById('navigation-bar');
+                    if (navBar) {
+                        var scrollHeight = navBar.scrollHeight;
+                        $('body>div.slide:first').css('margin-top', scrollHeight + 'px');
+                    }
+                };
+            
+                $(window).resize(resizeFunc);
+                resizeFunc();
+            });
+        </script>
+
+
+        <?php
+            
             if(function_exists(RENDER_SCRIPTS)){
                 call_user_func(RENDER_SCRIPTS);
             }

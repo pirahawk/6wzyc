@@ -18,6 +18,7 @@
         <div class="collapse navbar-collapse" id="all-navbar-links">
             <ul class="nav navbar-nav">
                 <li><a href="/">Home</a></li>
+                <li><a href="/accomodation.php">Accomodation</a></li>
                 <li><a href="/cue-haven.php">CUE Haven</a></li>
             </ul>
 
