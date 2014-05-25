@@ -89,7 +89,7 @@
         </div>
         <div class="row green-nz">
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-                
+
                 <p class="lead">The 6th WZYC organisers envision making this event the first ecologically conscious World Zoroastrian Youth Congress.</p>
                 <p class="lead">By aiming to create an eco-friendly event, we hope to spread awareness of our country’s pride and educate ourselves of our religious responsibilities.</p>
                 <p>
@@ -117,30 +117,7 @@
         </div>
     </div>
 </div>
-
-
-<div class="slide sponsors">
-    <div class="container">
-        <div class="row">
-            <h1>Our Sponsors</h1>
-        </div>
-        <div class="row">
-            <div class="col-lg-offset-3">
-                <a href="http://www.seruminstitute.com/" target="_blank"><img class="img-responsive sponsor" src="<?php echo createImagePath("poona.jpg","sponsors")?>" alt="sponsor" /></a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="img-responsive" src="<?php echo createImagePath("hk.jpg","sponsors")?>" alt="sponsor" />
-            </div>
-            <div class="col-lg-offset-4 col-lg-4">
-                <a href="http://www.zanz.org.nz/" target="_blank"><img class="img-responsive sponsor" src="<?php echo createImagePath("zanz.jpg","sponsors")?>" alt="sponsor" /> </a>
-            </div>
-        </div>
-    </div>
-</div>
-
 <?php
+        renderFooter();
     }    
 ?>

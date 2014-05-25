@@ -63,5 +63,10 @@
         }
     }
 
+
+    function renderFooter(){
+        require 'footer.php';
+    }
+
 ?>
 
