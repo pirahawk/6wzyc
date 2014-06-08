@@ -183,3 +183,17 @@ img.sponsor {
         height: 200px;
     }
 }
+
+
+span.email-contact {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+address {
+font-size: 30px;
+}
+
+address i {
+font-size: 40px;
+}
