@@ -113,6 +113,9 @@ div.intro .carousel .item {
     }
 }
 
+div.welcome img {
+    max-height: 250px;
+}
 
 @media (max-width:768px) {
     div.video-col {

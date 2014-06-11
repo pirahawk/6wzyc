@@ -66,17 +66,27 @@
     </div>
 </div>
 
-<div class="slide">
+<div class="slide welcome">
     <div class="container text-left">
         <div class="row">
             <h1><strong>Welcome - <em>Haere Mai</em></strong></h1>
-            <p class="lead">
-            We, the Zoroastrian Youth of New Zealand (ZYNZ) are the youth wing of the Zarathushtrian Association of New Zealand (ZANZ) and are hosting and organizing the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future.
-            </p>
+        </div>
 
-            <p class="lead">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
+                <p class="lead">
+            We, the Zoroastrian Youth of New Zealand (ZYNZ) are the youth wing of the Zarathushtrian Association of New Zealand (ZANZ) and are hosting and organizing the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future.
+                </p>
+
+                <p class="lead">
             We strive to provide a memorable, religious and social experience for our young global Zoroastrian attendees while taking the initiative at organising the first ecologically conscious WZYC.
-            </p>
+                </p>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                <img alt="6wzyc" src="<?php echo createImagePath("6wzyc.jpg","site")?>" class="img-rounded">
+            </div>
         </div>
     </div>
 </div>
