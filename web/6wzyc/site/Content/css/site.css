@@ -135,6 +135,7 @@ div.intro .carousel .item {
 .team-list li {
     margin-left: 50px;
     margin-right: 50px;
+    min-width: 200px;
 }
 
 .team-list li img {
