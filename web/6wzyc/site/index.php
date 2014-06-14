@@ -3,28 +3,6 @@
 ?>
 
 <?php
-    
-    function renderTitleCarousel(){
-        $images = array(
-        array("auk-1.jpg", "active"),
-        array("auk-2.jpg"),
-        array("auk-3.jpg"));
-    
-        foreach($images as $img){
-?>
-<div class="item <?php echo $img[1] ?>" style="background-image: url(<?php echo createImagePath($img[0],"site")?>);">
-    <div class="container">
-        <h1><span class="site-green">6</span>WZYC</h1>
-        <h1><span class="yellow">6<sup>th</sup> World Zoroastrian Youth Congress</span></h1>
-        <h2>Auckland, New Zealand</h2>
-        <h3><span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
-    </div>
-</div>
-<?php
-    
-        }
-    }
-    
     function renderTeamList(){
         $team = array(
         array("name" => "Tinaz Karbhari","title" =>"Chair", "image" =>"tinaz.jpg"),
@@ -59,9 +37,14 @@
 ?>
 
 <div id="intro-slide" class="slide intro text-center">
-    <div class="carousel" data-ride="carousel" data-interval="3500" data-pause="none">
-        <div class="carousel-inner">
-            <?php renderTitleCarousel() ?>
+    <div class="container">
+        <div class="row">
+            <div class="intro-title">
+                <h1><span class="site-green">6</span><span class="black">WZYC</span></h1>
+                <h2><span class="black">6<sup>th</sup> World Zoroastrian Youth Congress</span></h2>
+                <h3>Auckland, New Zealand</h3>
+                <h3><span class="black">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
+            </div>
         </div>
     </div>
 </div>
@@ -85,7 +68,7 @@
             </div>
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <img alt="6wzyc" src="<?php echo createImagePath("6wzyc.jpg","site")?>" class="img-rounded">
+                <img class="logo" alt="6wzyc" src="<?php echo createImagePath("6wzyc.png","site")?>">
             </div>
         </div>
     </div>
@@ -128,5 +111,28 @@
 </div>
 <?php
         renderFooter();
-    }    
+    }  
+    
+    function renderScript(){
+?>
+<script type="text/javascript">
+    $(function () {
+        var resizeFunc = function () {
+            var navbarHeight = 0;
+    
+            var navBar = document.getElementById('navigation-bar');
+            if (navBar) {
+                navbarHeight = navBar.scrollHeight;
+            }
+    
+            var windowHeight = document.documentElement.clientHeight - navbarHeight;
+            $('#intro-slide').css('height', windowHeight + 'px');
+        };
+    
+        $(window).resize(resizeFunc);
+        resizeFunc();
+    });
+</script>
+<?php
+    }  
 ?>

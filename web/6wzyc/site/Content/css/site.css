@@ -17,11 +17,16 @@
 }*/
 
 body {
-    font-family: 'Roboto', sans-serif;!important;
+    font-family: 'Roboto', sans-serif;
+    !important;
 }
 
 span.yellow {
     color: #FFD400;
+}
+
+span.black {
+    color: #000;
 }
 
 span.blue {
@@ -77,14 +82,8 @@ div.intro {
     color: #f2f1ed;
 }
 
-div.intro h1 {
-    margin-bottom: 40px;
-}
-
-div.intro .carousel .item {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+#intro-slide {
+    background: url('/content/images/site/auckland-pano.jpg');
     background-size: cover;
 }
 
@@ -95,13 +94,13 @@ div.intro .carousel .item {
         line-height: 1.2;
     }
 
-    div.intro h1:first-child {
-        font-size: 120px;
-        margin-bottom: 80px;
+    div.intro-title > h1 {
+        font-size: 200px;
     }
 
-    .intro .container {
-        padding-top: 120px;
+    div.secondary-title {
+    position: absolute;
+    bottom: 40px;
     }
 
     .video {
@@ -112,6 +111,8 @@ div.intro .carousel .item {
 
 div.welcome img {
     max-height: 250px;
+    width: auto;
+    max-width: 100%;
 }
 
 @media (max-width:768px) {
@@ -125,8 +126,6 @@ div.welcome img {
         height: 200px;
     }
 }
-
-
 
 .team-list {
     margin-top: 50px;
@@ -167,16 +166,12 @@ img.sponsor {
     }
 }
 
-
-
-
 @media (min-width: 768px) {
     .map {
         width: 640px;
         height: 480px;
     }
 }
-
 
 @media (max-width:768px) {
     .map {
@@ -192,21 +187,20 @@ span.email-contact {
 }
 
 address {
-font-size: 30px;
+    font-size: 30px;
 }
 
 address i {
-font-size: 40px;
+    font-size: 40px;
 }
 
-
 body > div.carousel {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 img.location-img {
-width: 100%;
-height: auto;
-max-height: 100%;
+    width: 100%;
+    height: auto;
+    max-height: 100%;
 }
