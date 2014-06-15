@@ -20,7 +20,7 @@
                 </h3>
 
                 <div id="q1" class="lead faq-answer collapse">
-                Registration is open to all global practicing Zoroastrians from age 15 (27 December 1975) to 35 (as of 3 January 2016).
+                Registration is open to all global practicing Zoroastrians from age 15 (27<sup>th</sup> December 1975) to 35 (as of 3<sup>rd</sup> January 2016).
                 </div>
 
             </div>
@@ -32,7 +32,7 @@
                 </h3>
 
                 <div id="q2" class="lead faq-answer collapse">
-                Please email &#104;&#101;&#108;&#112;&#046;&#054;&#116;&#104;&#119;&#122;&#121;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+                Please email: &#104;&#101;&#108;&#112;&#046;&#054;&#116;&#104;&#119;&#122;&#121;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
                 </div>
 
             </div>
@@ -65,7 +65,7 @@
                 </h3>
 
                 <div id="q5" class="lead faq-answer collapse">
-                Airport pick up will be provided on the 28th of December. Please send us your flight details via <?php renderEmailAddress()?> once you book your flights. There will be a volunteer waiting for you to transport you to Kings College when you arrive. Drop offs will also be provided on the 2nd of January. Transportation to and from the Congress will only be provided on 28th December and 2nd January.
+                Airport pick up will be provided on the 28th of December. Please send us your flight details via <?php renderEmailAddress()?> once you book your flights. There will be a volunteer waiting for you to transport you to Kings College when you arrive. Drop offs will also be provided on the 2nd of January. Transportation to and from the Congress will only be provided on 28<sup>th</sup> December and 2<sup>nd</sup> January.
                 </div>
             </div>
 
@@ -75,7 +75,7 @@
                 </h3>
 
                 <div id="q6" class="lead faq-answer collapse">
-                Please fly into Auckland International Airport
+                Please fly into Auckland International Airport.
                 </div>
             </div>
 
@@ -135,7 +135,7 @@
                 </h3>
 
                 <div id="q12" class="lead faq-answer collapse">
-                The 6th WZYC is an all-inclusive Congress. This will include Registration, Accommodation, Transportation, Breakfast, Lunch, Dinner, All Congress events/entertainment between the 28th of December and 2nd of January.
+                The 6<sup>th</sup> WZYC is an all-inclusive Congress. This will include Registration, Accommodation, Transportation, Breakfast, Lunch, Dinner, All Congress events/entertainment between the 28<sup>th</sup> of December and 2<sup>nd</sup> of January.
                 </div>
             </div>
 
@@ -145,7 +145,7 @@
                 </h3>
 
                 <div id="q13" class="lead faq-answer collapse">
-                Being in the Southern Hemisphere, it is summer time during December and January, with expected temperatures between 20-30degrees Celsius but please prepare for rain and shine.
+                Being in the Southern Hemisphere, it is summer time during December and January, with expected temperatures between 20-30 degrees but please prepare for rain and shine.
                 </div>
             </div>
 
@@ -155,7 +155,7 @@
                 </h3>
 
                 <div id="q14" class="lead faq-answer collapse">
-                The Congress will last 6 days 5 nights. The dates are from 28th December 2015 to 2nd January 2016.
+                The Congress will last 6 days 5 nights. The dates are from 28<sup>th</sup> December 2015 to 2<sup>nd</sup> January 2016.
                 </div>
             </div>
 
@@ -185,28 +185,17 @@
                 </h3>
 
                 <div id="q17" class="lead faq-answer collapse">
-                All items that delegates bring along are their own responsibility. Suggested items of clothing include an all-weather coat though it will be Summer time. With the tentative program in mind, we suggest appropriate footwear for events such as The Amazing Race, New Years Eve Ball, Cruise, Private Beach Party, etc.Bring along clothes to suit all the above events.
+                    <p>
+                All items that delegates bring along are their own responsibility. Suggested items of clothing include an all-weather coat though it will be Summer time. With the tentative program in mind, we suggest appropriate footwear for events such as The Amazing Race, New Years Eve Ball, Cruise, Private Beach Party, etc. Bring along clothes to suit all the above events.
+                    </p>
+                    <p>
 The climate may be very hot; an essential item of clothing is a sun hat or cap. Sunscreen and sunglasses are optional.
-Swim-ware as delegates have access to the pool on campus.
-For the Jashan ceremony appropriate religious headgear is essential.
-Bring along personal toiletries with international plugs.
-Personal medication, if required, should be clearly indicated on your application form so that the medical team is made aware of this from the start.
-                </div>
-            </div>
-
-            <div class="panel faq">
-                <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q18">What things do I need to bring for the Congress?</a>
-                </h3>
-
-                <div id="q18" class="lead faq-answer collapse">
-                All items that delegates bring along are their own responsibility. Suggested items of clothing include an all-weather coat though it will be Summer time. With the tentative program in mind, we suggest appropriate footwear for events such as The Amazing Race, New Years Eve Ball, Cruise, Private Beach Party, etc.
-Bring along clothes to suit all the above events.
-The climate may be very hot; an essential item of clothing is a sun hat or cap. Sunscreen and sunglasses are optional.
-Swim-ware as delegates have access to the pool on campus.
-For the Jashan ceremony appropriate religious headgear is essential.
-Bring along personal toiletries with international plugs.
-Personal medication, if required, should be clearly indicated on your application form so that the medical team is made aware of this from the start.
+Swim-ware as delegates have access to the pool on campus. For the Jashan ceremony appropriate religious headgear is essential.
+Bring along personal toiletries with international plugs. 
+                    </p>
+                    <p>
+                    Personal medication, if required, should be clearly indicated on your application form so that the medical team is made aware of this from the start.
+                    </p>
                 </div>
             </div>
 
@@ -241,10 +230,10 @@ Food and drink vending machines on campus can also be accessed at your own cost.
                         <li>Delegates’ registration fees</li>
                         <li>Completed registration forms (must be signed and sent back, via email or post)</li>
                         <li>Signed & dated terms & conditions by all delegates and legal guardians/parents where applicable (must be scanned and sent back via email or post)</li>
-                        <li>2 verified visa copies; for delegates who need a visa prior to entering New Zealand (can be scanned and sent back via email or post)</li>
-                        <li>2 verified passport copies (must be scanned and sent back via email or post)</li>
+                        <li>2 <strong>verified</strong> visa copies; for delegates who need a visa prior to entering New Zealand (can be scanned and sent back via email or post)</li>
+                        <li>2 <strong>verified</strong> passport copies (must be scanned and sent back via email or post)</li>
                         <li>1 recent colour passport size photo (must be scanned and sent back via email or post. If sending by email the file name must state the name of the delegate & country. If sending by post, the delegate must have labeled it with their name & country).</li>
-                        <li>Doctor’s certificate (if said delegate has a pre-existing medical condition)Documents can be sent VIA <br>EMAIL to: <?php renderEmailAddress()?> <br> OR POST to: <?php renderPostalAddress()?></li>
+                        <li>Doctor’s certificate (if said delegate has a pre-existing medical condition). Documents can be sent VIA <br>EMAIL to: <?php renderEmailAddress()?> <br> <strong>OR</strong><br> POST to: <?php renderPostalAddress()?></li>
                     </ol>
                 </div>
             </div>
@@ -286,9 +275,9 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
                 <div id="q25" class="lead faq-answer collapse">
                     <ul>
-                        <li>Before 28 October 2015: Full refund (Less NZD$100.00 for administration charges)</li>
-                        <li>From 28 October 2015 – 28 November 2015: 60% refund</li>
-                        <li>After 28 November 2015: No refund</li>
+                        <li>Before 28<sup>th</sup> October 2015: Full refund (Less NZD$100.00 for administration charges)</li>
+                        <li>From 28<sup>th</sup> October 2015 – 28<sup>th</sup> November 2015: 60% refund</li>
+                        <li>After 28<sup>th</sup> November 2015: No refund</li>
 
                     </ul>
                     Refunds will be in New Zealand dollars and returned via bank wire transfer only. Applicable bank charges deducted from all refunds.
@@ -297,7 +286,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q26">How can I get in touch with others who are planning on going to the 6th WZYC?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q26">How can I get in touch with others who are planning on going to the 6<sup>th</sup> WZYC?</a>
                 </h3>
 
                 <div id="q26" class="lead faq-answer collapse">

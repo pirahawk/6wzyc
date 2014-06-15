@@ -5,7 +5,7 @@
 ?>
 
 
-<div class="jumbotron slide grey">
+<div class="jumbotron slide black">
     <h1>Our Sponsors</h1>
 </div>
 
@@ -32,7 +32,7 @@
     </div>
 </div>
 
-<div class="jumbotron slide grey">
+<div class="jumbotron slide black">
     <h1>Our Partners</h1>
 </div>
 
