@@ -20,8 +20,9 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/accommodation.php">Accommodation</a></li>
                 <li><a href="/sponsors.php">Sponsors</a></li>
-                <li><a href="/cue-haven.php">CUE Haven</a></li>
+                <li><a href="/cue-haven.php">CUE-Haven</a></li>
                 <li><a href="/contact-us.php">Contact Us</a></li>
+                <li><a href="/faq.php">FAQ</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">

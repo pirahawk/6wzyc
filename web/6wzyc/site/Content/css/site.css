@@ -46,8 +46,8 @@ nav.navbar {
 }
 
 div.jumbotron {
-margin-bottom: 0px;
-background-color: #fff;
+    margin-bottom: 0px;
+    background-color: #fff;
 }
 
 div.grey {
@@ -66,6 +66,11 @@ div.white {
 
 div.black {
     background-color: #000;
+    color: #fff !important;
+}
+
+div.blue {
+    background-color: #3995df;
     color: #fff !important;
 }
 
@@ -111,8 +116,8 @@ div.intro {
     }
 
     div.secondary-title {
-    position: absolute;
-    bottom: 40px;
+        position: absolute;
+        bottom: 40px;
     }
 
     .video {

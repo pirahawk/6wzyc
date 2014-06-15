@@ -64,8 +64,21 @@
     }
 
 
+    function renderEmailAddress(){
+?>
+&#104;&#101;&#108;&#112;&#046;&#054;&#116;&#104;&#119;&#122;&#121;&#099;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;
+<?php
+    }
+
+    function renderPostalAddress(){
+?>
+        <p>PO Box 251128<br> Pakuranga <br> Auckland<br> New Zealand</p>
+<?php
+    }
+
+
     function renderFooter(){
-        require 'footer.php';
+        require '_footer.php';
     }
 
 ?>
