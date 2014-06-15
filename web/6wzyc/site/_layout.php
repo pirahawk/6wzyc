@@ -9,7 +9,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title></title>
+        <title>6WZYC</title>
+        <link rel="icon" href="<?php echo createImagePath("6wzyc.png","site")?>" sizes="454x340">
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <?php
             renderStyleSheets(

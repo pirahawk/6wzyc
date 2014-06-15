@@ -11,7 +11,7 @@
 <div class="slide">
     <div class="container">
         <div class="row">
-            <h1><strong>Contact Us</strong></h1>
+            <h1><strong>Our Mailing address is:</strong></h1>
             <address>
                 <strong>6<sup>th</sup> World Zoroastrian Youth Congress</strong><br />
                 <?php renderPostalAddress()?>
