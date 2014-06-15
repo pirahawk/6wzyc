@@ -13,7 +13,7 @@
         <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <?php
             renderStyleSheets(
-            "bootstrap.css",
+            "bootstrap.min.css",
             "font-awesome.min.css", 
             "css/site.css");
         ?>
@@ -45,8 +45,8 @@
             * as defined by constant RENDER_SCRIPTS (see _settings.php) is defined
             */
             renderScripts(
-            "jquery-2.1.0.js", 
-            "bootstrap.js");
+            "jquery-2.1.0.min.js", 
+            "bootstrap.min.js");
         ?>
 
         <script type="text/javascript">
