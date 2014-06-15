@@ -25,10 +25,13 @@
     function renderBody(){
 ?>
 
+<div class="jumbotron slide">
+    <h1>CUE Haven</h1>
+</div>
+
 <div class="slide">
     <div class="container">
         <div class="row">
-            <h1><strong>CUE Haven</strong></h1>
             <div class="carousel col-lg-offset-2" data-ride="carousel" data-interval="3000">
                 <div class="carousel-inner">
                     <?php renderCarousel() ?>

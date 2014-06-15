@@ -25,11 +25,14 @@
     
     function renderBody(){
 ?>
+
+<div class="jumbotron slide">
+    <h1>King's College</h1>
+</div>
+
 <div class="slide green">
     <div class="container text-left">
         <div class="row">
-            <h1><strong>King's College</strong></h1>
-
             <p class="lead">
                 Founded in 1896, King's College is one of New Zealand's top private secondary schools. It prides itself at being the best it can be through the College’s various Disciplines, which includes: academic, sporting, cultural, spiritual and social. With links to the Anglican Church, the foundation of Kings is built on generosity of spirit, gratitude, honesty, moral courage, pursuit of learning, respect, spirituality and tolerance (http://www.kingscollege.school.nz).
             </p>

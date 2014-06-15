@@ -45,12 +45,22 @@ nav.navbar {
     font-size: 20px;
 }
 
-div.gray {
-    background: #f2f1ed;
+div.jumbotron {
+margin-bottom: 0px;
+background-color: #fff;
+}
+
+div.grey {
+    background-color: #f2f1ed;
 }
 
 div.green {
     background-color: #26b67c;
+    color: #fff;
+}
+
+div.white {
+    background-color: #000;
     color: #fff;
 }
 
@@ -75,6 +85,8 @@ div.slide {
 .slide h1 {
     margin-bottom: 40px;
 }
+
+
 
 div.intro {
     margin-top: 0;
