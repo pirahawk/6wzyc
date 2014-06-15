@@ -32,7 +32,7 @@
 <div class="slide">
     <div class="container">
         <div class="row">
-            <div class="carousel col-lg-offset-2" data-ride="carousel" data-interval="3000">
+            <div class="carousel col-lg-offset-2" data-ride="carousel" data-interval="3000" data-pause="none">
                 <div class="carousel-inner">
                     <?php renderCarousel() ?>
                 </div>

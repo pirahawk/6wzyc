@@ -45,7 +45,7 @@
     </div>
 </div>
 
-<div class="carousel col-lg-offset-2" data-ride="carousel" data-interval="3000">
+<div class="carousel col-lg-offset-2" data-ride="carousel" data-interval="3000" data-pause="none">
     <div class="carousel-inner">
         <?php renderCarousel() ?>
     </div>
