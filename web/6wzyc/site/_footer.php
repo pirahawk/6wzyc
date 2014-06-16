@@ -11,11 +11,8 @@
             <div class="col-lg-4">
                 <img class="img-responsive" src="<?php echo createImagePath("hk.jpg","sponsors")?>" alt="sponsor" />
             </div>
-            <div class="col-lg-4">
-                <a href="http://www.bbtes.com/" target="_blank"><img class="img-responsive sponsor" src="<?php echo createImagePath("bb-travel.jpg","sponsors")?>" alt="sponsor" /></a>
-            </div>
-            <div class="col-lg-4">
-                <a href="http://www.zanz.org.nz/" target="_blank"><img class="img-responsive sponsor" src="<?php echo createImagePath("zanz.jpg","sponsors")?>" alt="sponsor" /> </a>
+            <div class="col-lg-offset-4 col-lg-4">
+                <h2 class="special-footer-ad">Mr & Mrs Rusy Shroff</h2>
             </div>
         </div>
     </div>
