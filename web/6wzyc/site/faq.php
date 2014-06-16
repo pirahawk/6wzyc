@@ -51,7 +51,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q4">How do I get help with visa’s?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q4">How do I get help with visa’s</a>
                 </h3>
 
                 <div id="q4" class="lead faq-answer collapse">
@@ -61,7 +61,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q5">How does the airport pick up and drop off work?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q5">How does the airport pick up and drop off work</a>
                 </h3>
 
                 <div id="q5" class="lead faq-answer collapse">
@@ -71,7 +71,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q6">Which airport do I fly to?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q6">Which airport do I fly to</a>
                 </h3>
 
                 <div id="q6" class="lead faq-answer collapse">
@@ -81,7 +81,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q7">How many people are in one room?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q7">How many people are in one room</a>
                 </h3>
 
                 <div id="q7" class="lead faq-answer collapse">
@@ -91,7 +91,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q8">If I attend the Congress on my own, how will my accommodation work?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q8">If I attend the Congress on my own, how will my accommodation work</a>
                 </h3>
 
                 <div id="q8" class="lead faq-answer collapse">
@@ -101,7 +101,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q9">Is it true that you can’t register for the Congress unless you stay in the Congress accommodation at Kings College?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q9">Is it true that you can’t register for the Congress unless you stay in the Congress accommodation at Kings College</a>
                 </h3>
 
                 <div id="q9" class="lead faq-answer collapse">
@@ -111,7 +111,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q10">Is there any provision for those over 35 to attend, maybe just as observers?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q10">Is there any provision for those over 35 to attend, maybe just as observers</a>
                 </h3>
 
                 <div id="q10" class="lead faq-answer collapse">
@@ -121,7 +121,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q11">What about transport to and from the venue during the duration of the Congress?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q11">What about transport to and from the venue during the duration of the Congress</a>
                 </h3>
 
                 <div id="q11" class="lead faq-answer collapse">
@@ -131,7 +131,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q12">What does the registration cost include?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q12">What does the registration cost include</a>
                 </h3>
 
                 <div id="q12" class="lead faq-answer collapse">
@@ -141,7 +141,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q13">What is the weather like in December/January in New Zealand?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q13">What is the weather like in December/January in New Zealand</a>
                 </h3>
 
                 <div id="q13" class="lead faq-answer collapse">
@@ -151,7 +151,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q14">How long is the 6th WZYC?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q14">How long is the 6<sup>th</sup> WZYC</a>
                 </h3>
 
                 <div id="q14" class="lead faq-answer collapse">
@@ -161,7 +161,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q15">What is the program of the Congress?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q15">What is the program of the Congress</a>
                 </h3>
 
                 <div id="q15" class="lead faq-answer collapse">
@@ -171,7 +171,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q16">Will there be spare time to do things like sightseeing at the Congress?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q16">Will there be spare time to do things like sightseeing at the Congress</a>
                 </h3>
 
                 <div id="q16" class="lead faq-answer collapse">
@@ -181,7 +181,7 @@
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q17">What things do I need to bring for the Congress?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q17">What things do I need to bring for the Congress</a>
                 </h3>
 
                 <div id="q17" class="lead faq-answer collapse">
@@ -201,7 +201,7 @@ Bring along personal toiletries with international plugs.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q19">What items may not be brought into New Zealand?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q19">What items may not be brought into New Zealand</a>
                 </h3>
 
                 <div id="q19" class="lead faq-answer collapse">
@@ -211,7 +211,7 @@ Bring along personal toiletries with international plugs.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q20">What type of food will be provided?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q20">What type of food will be provided</a>
                 </h3>
 
                 <div id="q20" class="lead faq-answer collapse">
@@ -222,7 +222,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q21">What do I need to supply with my application for registration?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q21">What do I need to supply with my application for registration</a>
                 </h3>
 
                 <div id="q21" class="lead faq-answer collapse">
@@ -240,7 +240,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q22">What payment options are provided for delegates?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q22">What payment options are provided for delegates</a>
                 </h3>
 
                 <div id="q22" class="lead faq-answer collapse">
@@ -250,7 +250,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q23">How will I know that I have been accepted to attend the Congress?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q23">How will I know that I have been accepted to attend the Congress</a>
                 </h3>
 
                 <div id="q23" class="lead faq-answer collapse">
@@ -260,7 +260,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q24">When does early bird registration open?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q24">When does early bird registration open</a>
                 </h3>
 
                 <div id="q24" class="lead faq-answer collapse">
@@ -270,7 +270,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q25">What are the cancellation charges?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q25">What are the cancellation charges</a>
                 </h3>
 
                 <div id="q25" class="lead faq-answer collapse">
@@ -286,17 +286,17 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q26">How can I get in touch with others who are planning on going to the 6<sup>th</sup> WZYC?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q26">How can I get in touch with others who are planning on going to the 6<sup>th</sup> WZYC</a>
                 </h3>
 
                 <div id="q26" class="lead faq-answer collapse">
-                    Join our <a href="https://www.facebook.com/groups/223424211030360/" target="_blank">Facebook page</a> and be kept up to date. Also visit our <a href="6wzyc.co.nz" target="_blank">website</a> periodically for further updates.
+                    You can join our <a href="https://www.facebook.com/groups/223424211030360/" target="_blank">Facebook page</a> or follow us on <a href="https://twitter.com/6WZYC" target="_blank">Twitter</a> and be kept up to date. Also visit our <a href="http://6wzyc.co.nz" target="_blank">website</a> periodically for further updates.
                 </div>
             </div>
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q27">How do I get in contact with someone if I have further questions?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q27">How do I get in contact with someone if I have further questions</a>
                 </h3>
 
                 <div id="q27" class="lead faq-answer collapse">
@@ -306,7 +306,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q28">Will Kings College have security?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q28">Will Kings College have security</a>
                 </h3>
 
                 <div id="q28" class="lead faq-answer collapse">
@@ -316,7 +316,7 @@ Food and drink vending machines on campus can also be accessed at your own cost.
 
             <div class="panel faq">
                 <h3 class="faq-question">
-                    <a data-toggle="collapse" data-parent="#faq-body" href="#q29">What happens if a delegate sets off the smoke alarms?</a>
+                    <a data-toggle="collapse" data-parent="#faq-body" href="#q29">What happens if a delegate sets off the smoke alarms</a>
                 </h3>
 
                 <div id="q29" class="lead faq-answer collapse">
