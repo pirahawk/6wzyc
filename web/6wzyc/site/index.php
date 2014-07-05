@@ -80,7 +80,7 @@
             <h1><strong><em>Green</em> New Zealand</strong></h1>
         </div>
         <div class="row green-nz">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+            <div class="col-lg-6">
 
                 <p class="lead">CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest.</p>
                 <p class="lead">As part our green initiative the 6thWZYC team is going to plant one tree for every delegate travelling to our shores in order to help offset their carbon footprint. Our congress will stress the necessity to evolve as a faith and a community. Like the trees being planted, we only secure perpetuity through adaptability once our roots take to foreign ground. The Stazyks are admirably dedicated to preserving this land’s legacy just as the congress is in preserving that of our religion.</p>
@@ -89,8 +89,10 @@
                 </p>
             </div>
 
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-5 video-col">
-                <iframe class="video" src="//www.youtube.com/embed/kM9bLxTDpYc?showinfo=0&autohide=1&theme=light&cc_load_policy=0&controls=2&iv_load_policy=3&modestbranding=1&disablekb=1" frameborder="0"></iframe>
+            <div class="col-lg-6">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/kM9bLxTDpYc?showinfo=0&autohide=1&theme=light&cc_load_policy=0&controls=2&iv_load_policy=3&modestbranding=1&disablekb=1" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
     </div>

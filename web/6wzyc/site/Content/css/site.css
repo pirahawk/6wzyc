@@ -119,29 +119,12 @@ div.intro {
         position: absolute;
         bottom: 40px;
     }
-
-    .video {
-        width: 640px;
-        height: 480px;
-    }
 }
 
 div.welcome img {
     max-height: 250px;
     width: auto;
     max-width: 100%;
-}
-
-@media (max-width:768px) {
-    div.video-col {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .video {
-        width: 100%;
-        height: 200px;
-    }
 }
 
 .team-list {
@@ -182,21 +165,6 @@ img.sponsor {
         margin-right: 40px;
     }
 }
-
-@media (min-width: 768px) {
-    .map {
-        width: 640px;
-        height: 480px;
-    }
-}
-
-@media (max-width:768px) {
-    .map {
-        width: 100%;
-        height: 200px;
-    }
-}
-
 
 span.email-contact {
     unicode-bidi: bidi-override;

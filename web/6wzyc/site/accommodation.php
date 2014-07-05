@@ -55,8 +55,8 @@
     <div class="container text-left">
         <div class="row">
             <h1>Location</h1>
-            <div class="col-lg-offset-2">
-                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51007.705624992115!2d174.80322236178807!3d-36.962496243854666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4e9387b661f5%3A0xb11f02d9696aeaf6!2sKing&#39;s+College!5e0!3m2!1sen!2snz!4v1400398685320" frameborder="0" style="border:0"></iframe>
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="map embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51007.705624992115!2d174.80322236178807!3d-36.962496243854666!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4e9387b661f5%3A0xb11f02d9696aeaf6!2sKing&#39;s+College!5e0!3m2!1sen!2snz!4v1400398685320" frameborder="0" style="border:0"></iframe>
             </div>
         </div>
     </div>
