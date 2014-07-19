@@ -20,6 +20,14 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/accommodation.php">Accommodation</a></li>
                 <li><a href="/sponsors.php">Sponsors &amp; Partners</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fundraising<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/fundraising.php?year=2011">2011</a></li>
+                        <li><a href="/fundraising.php?year=2012">2012</a></li>
+                        <li><a href="/fundraising.php?year=2013">2013</a></li>
+                    </ul>
+                </li>
                 <li><a href="/cue-haven.php">CUE-Haven</a></li>
                 <li><a href="/contact-us.php">Contact Us</a></li>
                 <li><a href="/faq.php">FAQ</a></li>
@@ -27,7 +35,7 @@
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://twitter.com/6WZYC" target="_blank"><i class="fa fa-twitter-square fa-5"></i></a></li>
-                <li><a href="https://www.facebook.com/groups/223424211030360/" target="_blank"><i class="fa fa-facebook-square fa-5"></i></a></li>                
+                <li><a href="https://www.facebook.com/groups/223424211030360/" target="_blank"><i class="fa fa-facebook-square fa-5"></i></a></li>
             </ul>
         </div>
     </div>

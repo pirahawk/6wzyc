@@ -46,8 +46,12 @@
             * as defined by constant RENDER_SCRIPTS (see _settings.php) is defined
             */
             renderScripts(
-            "jquery-2.1.0.min.js", 
-            "bootstrap.min.js");
+            "jquery-2.1.1.min.js", 
+            "bootstrap.min.js",
+            "lodash.min.js",
+            "knockout-3.1.0.js",
+            "6WZYC/site.js"
+            );
         ?>
 
         <script type="text/javascript">
