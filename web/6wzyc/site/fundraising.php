@@ -32,7 +32,7 @@
     foreach($events as $eventId){
 ?>
 
-<div class="slide <?php if($index++ % 2 == 0){ echo 'green'; } ?>">
+<div class="slide <?php if($index++ % 2 == 0){ echo 'green'; }else{ echo 'black';} ?>">
     <div class="container" id="<?php echo $eventId?>">
         <div class="row">
             <h1 data-bind="html: title"></h1>
