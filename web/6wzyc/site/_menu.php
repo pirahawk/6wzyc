@@ -36,6 +36,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://twitter.com/6WZYC" target="_blank"><i class="fa fa-twitter-square fa-5"></i></a></li>
                 <li><a href="https://www.facebook.com/groups/223424211030360/" target="_blank"><i class="fa fa-facebook-square fa-5"></i></a></li>
+                <li><a href="http://6wzyc.tumblr.com/" target="_blank"><i class="fa fa-tumblr-square fa-5"></i></a></li>
             </ul>
         </div>
     </div>

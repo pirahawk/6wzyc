@@ -26,7 +26,6 @@
                 accepts: 'application/json'
             }).done(function (response) {
                 if(func){
-                    console.log(response);
                     func(response);
                 }
             });

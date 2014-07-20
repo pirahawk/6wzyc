@@ -65,7 +65,7 @@
         renderFooter();
     }  
     
-    function renderScript(){
+    function renderFundRaiseScript(){
 ?>
 <script type="text/javascript">
         $(function () {

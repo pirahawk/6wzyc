@@ -47,11 +47,7 @@
             */
             renderScripts(
             "jquery-2.1.1.min.js", 
-            "bootstrap.min.js",
-            "lodash.min.js",
-            "knockout-3.1.0.js",
-            "6WZYC/site.js"
-            );
+            "bootstrap.min.js");
         ?>
 
         <script type="text/javascript">
@@ -75,6 +71,17 @@
             if(function_exists(RENDER_SCRIPTS)){
                 call_user_func(RENDER_SCRIPTS);
             }
+
+
+            if(function_exists(RENDER_FUNDRAISE_SCRIPTS)){
+                renderScripts(
+                "lodash.min.js",
+                "knockout-3.1.0.js",
+                "6WZYC/site.js");
+
+                call_user_func(RENDER_FUNDRAISE_SCRIPTS);
+            }
+
         ?>
 
 
