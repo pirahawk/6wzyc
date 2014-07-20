@@ -195,3 +195,8 @@ bottom: 0;
 margin: 0;
 margin-top: 50px;
 }
+
+
+img.fundraise-img {
+max-height: 730px;
+}

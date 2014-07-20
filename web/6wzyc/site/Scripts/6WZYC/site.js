@@ -7,6 +7,7 @@
         var self = this;
         self.title =  ko.observable(modelArgs.title);
         self.images = ko.observableArray(modelArgs.images);
+        self.postUrl = ko.observable(modelArgs.postUrl);
     }
 
     var Tumblr = function() {
@@ -40,6 +41,7 @@
             var modelArgs = {
                 id: post.id,
                 title: post.caption,
+                postUrl: post.post_url,
                 images: _.map(post.photos, function(photo){
                     return photo['alt_sizes'][0]['url'];//get the image that is 1024*627
                 })
@@ -59,41 +61,3 @@
 
     WZYC.Tumblr = new Tumblr();
 })();
-
-
-/*
- 
-
- $.ajax(
-        {
-            dataType: 'jsonp',
-            url: 'http://api.tumblr.com/v2/blog/6wzyc.tumblr.com/posts/photo?',
-            data:{
-                'api_key': '1lg92yaVZeqIBEdRwEk4QZPGnMaLxPatBzpcDcH0r6CBTQccKU',
-                'id': '90816918213'
-                },
-            accepts: 'application/json'
-        }).done(function (response) {
-            console.log(response);
-        });
-
- */
-
-
-
-
- /*
- $.ajax(
-        {
-            dataType: 'jsonp',
-            url: 'http://api.tumblr.com/v2/blog/6wzyc.tumblr.com/posts/photo?',
-            data:{
-                'api_key': '1lg92yaVZeqIBEdRwEk4QZPGnMaLxPatBzpcDcH0r6CBTQccKU',
-                'id': '90816918213'
-                },
-            accepts: 'application/json'
-        }).done(function (response) {
-            console.log(response);
-        });
- 
- */
