@@ -6,11 +6,11 @@ body, h1, h2, p {
     font-family: 'Roboto', sans-serif !important;
 }
 
-#navigation-bar ul{
+#navigation-bar ul {
     font-size: 1.25em;
 }
 
-#navigation-bar .navbar-brand, #navigation-bar i.fa{
+#navigation-bar .navbar-brand, #navigation-bar i.fa {
     font-size: 1.5em;
 }
 
@@ -41,8 +41,8 @@ body, h1, h2, p {
     }
 }
 
-.white-fg{
-    color:  #fff;
+.white-fg {
+    color: #fff;
 }
 
 .site-green {
@@ -61,7 +61,7 @@ span.blue {
     color: #439AE0;
 }
 
-section.green{
+section.green {
     background-color: #26b67c;
     color: #fff;
 }
@@ -71,36 +71,48 @@ section.black {
     color: #fff !important;
 }
 
-.logo{
+.logo {
     /*max-height: 9.375em;*/
     max-height: 12em;
 }
 
-.center-txt{
-    text-align: center
+.center-txt {
+    text-align: center;
 }
 
-.vert-align{
+
+.vert-align {
     display: table-cell;
     vertical-align: middle;
 }
 
-.vert-align > *{
+.vert-align > * {
     display: block;
     margin: 0 auto;
     max-width: 100%;
 }
 
-footer .row{
+footer .row {
     margin-top: 1.25em;
 }
 
-p{
-    font-size: 1.25em;
-    font-weight: 400;
+.sponsor-container {
+    display: table;
+    width: 100%;
+    text-align: center;
 }
 
-section{
+.sponsor-container img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1.25em;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+section {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
 }
