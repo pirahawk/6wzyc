@@ -1,19 +1,24 @@
-
-<div class="slide sponsors">
+<footer>
     <div class="container">
         <div class="row">
-            <div class="col-lg-offset-3">
-                <a href="http://www.seruminstitute.com/" target="_blank"><img class="img-responsive sponsor" src="<?php echo createImagePath("poona.jpg","sponsors")?>" alt="sponsor" /></a>
+            <div class="col-12">
+                <div class="center-txt">
+                    <a href="http://www.seruminstitute.com/" target="_blank"><img src="<?php echo createImagePath("poona.jpg","sponsors")?>" alt="sponsor" /></a>
+                </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-lg-4">
-                <img class="img-responsive" src="<?php echo createImagePath("hk.jpg","sponsors")?>" alt="sponsor" />
+         <div class="row">
+            <div class="col-md-6">
+                <div class="center-txt">
+                    <img src="<?php echo createImagePath("hk.jpg","sponsors")?>" alt="sponsor" />
+                </div>
             </div>
-            <div class="col-lg-offset-4 col-lg-4">
-                <h2 class="special-footer-ad">Mr Rusy M. Shroff, BBS MBE & Mrs Purviz R.Shroff</h2>
+            <div class="col-md-6">
+                <div  class="center-txt">
+                    <h3 class="special-footer-ad">Mr Rusy M. Shroff, <em>BBS MBE</em> <br/> Mrs Purviz R.Shroff</h3>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</footer>

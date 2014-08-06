@@ -11,15 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>6WZYC</title>
         <link rel="icon" href="<?php echo createImagePath("6wzyc.png","site")?>" sizes="454x340">
-        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+        <link href="http://fonts.googleapis.com/css?family=Roboto:700,500,400" rel="stylesheet" type="text/css">
         <?php
-            renderStyleSheets(
-            "bootstrap.min.css",
-            "font-awesome.min.css", 
-            "css/site.css");
+            renderStyleSheets("bootstrap.min.css", "font-awesome.min.css", "css/site.css");
         ?>
-
-
     </head>
     <body>
 
@@ -27,18 +22,19 @@
             createSiteMenu();
         ?>
 
+        <main>
 
-        <?php
-            /*
-            * Ensure that the page this layout is used for has a named function 
-            * as defined by constant PAGE_BODY (see _settings.php)
-            */
-            if(function_exists(RENDER_BODY)){
-                call_user_func(RENDER_BODY);
-            }
-        ?>
+            <?php
+                /*
+                * Ensure that the page this layout is used for has a named function 
+                * as defined by constant PAGE_BODY (see _settings.php)
+                */
+                if(function_exists(RENDER_BODY)){
+                    call_user_func(RENDER_BODY);
+                }
+            ?>
 
-
+        </main>
 
         <?php
             /*
@@ -60,8 +56,8 @@
                     }
                 };
             
-                $(window).resize(resizeFunc);
-                resizeFunc();
+                //$(window).resize(resizeFunc);
+                //resizeFunc();
             });
         </script>
 
@@ -71,17 +67,17 @@
             if(function_exists(RENDER_SCRIPTS)){
                 call_user_func(RENDER_SCRIPTS);
             }
-
-
+            
+            
             if(function_exists(RENDER_FUNDRAISE_SCRIPTS)){
                 renderScripts(
                 "lodash.min.js",
                 "knockout-3.1.0.js",
                 "6WZYC/site.js");
-
+            
                 call_user_func(RENDER_FUNDRAISE_SCRIPTS);
             }
-
+            
         ?>
 
 

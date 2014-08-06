@@ -1,8 +1,6 @@
 <?php
     require '_layout.php';
-?>
-
-<?php
+    
     function renderTeamList(){
         $team = array(
         array("name" => "Tinaz Karbhari","title" =>"Chair", "image" =>"tinaz.jpg"),
@@ -21,121 +19,77 @@
     
         foreach($team as $member){ 
 ?>
-<li>
+<div class="col-xs-12 col-md-3 center-txt">
     <img class="img-circle" alt="<?php echo $member["name"] ?>" src="<?php echo createImagePath($member["image"],"people")?>">
-    <p class="name"><strong><?php echo $member["name"] ?></strong></p>
+    <p class="name"><span class="yellow"><strong><?php echo $member["name"] ?></strong></span></p>
     <p class="title"><em><?php echo $member["title"] ?></em></p>
-</li>
+</div>
+
 <?php
-         }
+        }
     }
-?>
-
-
-<?php
+    
     function renderBody(){
 ?>
 
-<div id="intro-slide" class="slide intro text-center">
+<div id="intro-slide" class="white-fg">
+    <h1><span class="site-green">6</span><span class="black">WZYC</span></h1>
+    <h2><span class="black">6<sup>th</sup> World Zoroastrian Youth Congress</span></h2>
+    <h3>Auckland, New Zealand</h3>
+    <h3>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</h3>
+</div>
+
+<section>
     <div class="container">
+        <h1>Welcome - <em>Haere Mai</em></h1>
         <div class="row">
-            <div class="intro-title">
-                <h1><span class="site-green">6</span><span class="black">WZYC</span></h1>
-                <h2><span class="black">6<sup>th</sup> World Zoroastrian Youth Congress</span></h2>
-                <h3>Auckland, New Zealand</h3>
-                <h3>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</h3>
+            <div class="col-md-6">
+                <p>We, the Zoroastrian Youth of New Zealand (ZYNZ) with the guidance of the Zarathushtrian Association of New Zealand (ZANZ) will be hosting and organising the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future.</p>
+                <p>We strive to provide a memorable, religious and social experience for our young global Zoroastrian attendees, while taking the initiative at organising the first ecologically conscious WZYC.</p>
+            </div>
+
+            <div class="col-md-6 center-txt">
+                <img alt="6wzyc" src="<?php echo createImagePath("6wzyc.png","site")?>" class="logo">
+                <img alt="6wzyc" src="<?php echo createImagePath("zanz.jpg","sponsors")?>" class="logo">
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="slide welcome">
-    <div class="container text-left">
-        <div class="row">
-            <h1><strong>Welcome - <em>Haere Mai</em></strong></h1>
-        </div>
 
-        <div class="row">
-
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
-                <p class="lead">
-            We, the Zoroastrian Youth of New Zealand (ZYNZ) with the guidance of the Zarathushtrian Association of New Zealand (ZANZ) will be hosting and organising the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future.
-                </p>
-
-                <p class="lead">
-            We strive to provide a memorable, religious and social experience for our young global Zoroastrian attendees, while taking the initiative at organising the first ecologically conscious WZYC.
-                </p>
-            </div>
-
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
-                <img class="logo" alt="6wzyc" src="<?php echo createImagePath("6wzyc.png","site")?>">
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="slide green">
+<section class="green">
     <div class="container">
+        <h1>The <em>Green</em> Initiative</h1>
         <div class="row">
-            <h1>The <strong><em>Green</em> Initiative</strong></h1>
-        </div>
-        <div class="row green-nz">
-            <div class="col-lg-6">
-
-                <p class="lead">CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest.</p>
-                <p class="lead">As part of our green initiative and fundraising drive, the 6th WZYC Organising Committee will be planting a native New Zealand tree at CUE Haven for every NZ$10 donation to help create a greener future for the wider NZ community.</p>
-                <p class="lead">Our Congress will stress the necessity to evolve as a faith and a community. Like the trees being planted, we only secure perpetuity through adaptability once our roots take to foreign ground. The Stazyks are admirably dedicated to preserving this land’s legacy, just as this Congress is in preserving that of our religion.</p>
-                <p>
-                    <a class="btn btn-primary btn-lg" href="/cue-haven.php">About Cue Haven <i class="fa fa-angle-right"></i> </a>
-                </p>
+            <div class="col-md-6">
+                <p>CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest.</p>
+                <p>As part of our green initiative and fundraising drive, the 6th WZYC Organising Committee will be planting a native New Zealand tree at CUE Haven for every NZ$10 donation to help create a greener future for the wider NZ community.</p>
+                <p>Our Congress will stress the necessity to evolve as a faith and a community. Like the trees being planted, we only secure perpetuity through adaptability once our roots take to foreign ground. The Stazyks are admirably dedicated to preserving this land’s legacy, just as this Congress is in preserving that of our religion.</p>
+                <a class="btn btn-primary btn-lg" href="/cue-haven.php">About Cue Haven <i class="fa fa-angle-right"></i> </a>
             </div>
 
-            <div class="col-lg-6">
+            <div class="col-md-6">
                 <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/kM9bLxTDpYc?showinfo=0&autohide=1&theme=light&cc_load_policy=0&controls=2&iv_load_policy=3&modestbranding=1&disablekb=1" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 
-<div class="slide team black">
+
+<section class="black">
     <div class="container">
+        <h1><em>Our</em> Team</h1>
         <div class="row">
-            <h1>Our Team</h1>
-        </div>
-
-        <div class="row text-center">
-            <ul class="team-list list-inline">
-                <?php renderTeamList()?>
-            </ul>
+            <?php renderTeamList()?>
         </div>
     </div>
-</div>
+</section>
+
+
 <?php
         renderFooter();
-    }  
-    
-    function renderScript(){
+    }      
 ?>
-<script type="text/javascript">
-    $(function () {
-        var resizeFunc = function () {
-            var navbarHeight = 0;
-    
-            var navBar = document.getElementById('navigation-bar');
-            if (navBar) {
-                navbarHeight = navBar.scrollHeight;
-            }
-    
-            var windowHeight = document.documentElement.clientHeight - navbarHeight;
-            $('#intro-slide').css('height', windowHeight + 'px');
-        };
-    
-        $(window).resize(resizeFunc);
-        resizeFunc();
-    });
-</script>
-<?php
-    }  
-?>
+

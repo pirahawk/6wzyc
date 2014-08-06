@@ -1,24 +1,52 @@
+html, body, main {
+    height: 100%;
+}
 
-/*@font-face {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
-}*/
+body, h1, h2, p {
+    font-family: 'Roboto', sans-serif !important;
+}
 
-/*.transparent {
-    background-color: rgba(0,0,0, .0);
-    border: 3px solid red;
-}*/
+#navigation-bar ul{
+    font-size: 1.25em;
+}
 
+#navigation-bar .navbar-brand, #navigation-bar i.fa{
+    font-size: 1.5em;
+}
 
-/*.green {
-    color: #26b67c;
-}*/
+#intro-slide {
+    width: 100%;
+    height: 100%;
+    background-image: url('/content/images/site/auckland-pano.jpg');
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    padding-top: 7em;
+}
 
-body {
-    font-family: 'Roboto', sans-serif;
-    !important;
+#intro-slide h1, #intro-slide h2, #intro-slide h3 {
+    font-weight: 500;
+}
+
+@media (min-width: 768px) {
+    #intro-slide h1 {
+        font-size: 12.5em;
+    }
+
+    #intro-slide h2 {
+        font-size: 2em;
+    }
+}
+
+.white-fg{
+    color:  #fff;
+}
+
+.site-green {
+    color: #26cc5c;
 }
 
 span.yellow {
@@ -33,170 +61,46 @@ span.blue {
     color: #439AE0;
 }
 
-.site-green {
-    color: #26cc5c;
-}
-
-nav.navbar #all-navbar-links ul.nav .fa {
-    font-size: 30px;
-}
-
-nav.navbar {
-    font-size: 20px;
-}
-
-div.jumbotron {
-    margin-bottom: 0px;
-    background-color: #fff;
-}
-
-div.grey {
-    background-color: #f2f1ed;
-}
-
-div.green {
+section.green{
     background-color: #26b67c;
     color: #fff;
 }
 
-div.white {
-    background-color: #000;
-    color: #fff;
-}
-
-div.black {
+section.black {
     background-color: #000;
     color: #fff !important;
 }
 
-div.blue {
-    background-color: #3995df;
-    color: #fff !important;
+.logo{
+    /*max-height: 9.375em;*/
+    max-height: 12em;
 }
 
-div.slide {
-    color: rgb(55, 54, 47);
-    position: relative;
-    left: 0px;
-    right: 0px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+.center-txt{
+    text-align: center
 }
 
-.slide .container .row p {
-    margin-bottom: 40px;
+.vert-align{
+    display: table-cell;
+    vertical-align: middle;
 }
 
-.slide h1 {
-    margin-bottom: 40px;
-}
-
-
-
-div.intro {
-    margin-top: 0;
-    padding-top: 0;
-    color: #f2f1ed;
-}
-
-#intro-slide {
-    background: url('/content/images/site/auckland-pano.jpg');
-    background-size: cover;
-}
-
-@media (min-width: 768px) {
-    div.intro h1 {
-        font-size: 62px;
-        margin-bottom: 40px;
-        line-height: 1.2;
-    }
-
-    div.intro-title > h1 {
-        font-size: 200px;
-    }
-
-    div.secondary-title {
-        position: absolute;
-        bottom: 40px;
-    }
-}
-
-div.welcome img {
-    max-height: 250px;
-    width: auto;
+.vert-align > *{
+    display: block;
+    margin: 0 auto;
     max-width: 100%;
 }
 
-.team-list {
-    margin-top: 50px;
+footer .row{
+    margin-top: 1.25em;
 }
 
-.team-list li {
-    margin-left: 50px;
-    margin-right: 50px;
-    min-width: 200px;
+p{
+    font-size: 1.25em;
+    font-weight: 400;
 }
 
-.team-list li img {
-    margin-bottom: 50px;
-}
-
-div.slide ul.team-list li p.name {
-    font-size: 20px;
-    color: #ffd800;
-    margin-bottom: 10px;
-}
-
-div.slide ul.team-list li p.title {
-    margin-top: 0;
-}
-
-div.sponsors img.img-responsive {
-    display: inline-block;
-}
-
-img.sponsor {
-    margin-bottom: 40px;
-}
-
-@media (min-width: 768px) {
-    div.sponsors img.img-responsive:nth-child(2) {
-        margin-left: 40px;
-        margin-right: 40px;
-    }
-}
-
-span.email-contact {
-    unicode-bidi: bidi-override;
-    direction: rtl;
-}
-
-address {
-    font-size: 30px;
-}
-
-address i {
-    font-size: 40px;
-}
-
-body > div.carousel {
-    margin: 0;
-    padding: 0;
-}
-
-img.location-img {
-    width: 100%;
-    height: auto;
-    max-height: 100%;
-}
-
-.special-footer-ad {
-bottom: 0;
-margin: 0;
-margin-top: 50px;
-}
-
-
-img.fundraise-img {
-max-height: 730px;
+section{
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
