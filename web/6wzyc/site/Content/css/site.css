@@ -14,6 +14,15 @@ body, h1, h2, p {
     font-size: 1.5em;
 }
 
+#intro-slide, .page-title {
+    text-align: center;
+    padding-top: 7em;
+}
+
+.page-title {
+    margin-bottom: 1.25em;
+}
+
 #intro-slide {
     width: 100%;
     height: 100%;
@@ -23,16 +32,14 @@ body, h1, h2, p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    text-align: center;
-    padding-top: 7em;
 }
 
-#intro-slide h1, #intro-slide h2, #intro-slide h3 {
+#intro-slide h1, #intro-slide h2, #intro-slide h3, .page-title h1 {
     font-weight: 500;
 }
 
 @media (min-width: 768px) {
-    #intro-slide h1 {
+    #intro-slide h1, .page-title h1 {
         font-size: 12.5em;
     }
 
@@ -109,10 +116,21 @@ footer .row {
 p {
     font-size: 1.25em;
     font-weight: 400;
-    margin: 0 auto;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 section {
     padding-top: 2.5em;
     padding-bottom: 2.5em;
+}
+
+section.stretch{
+    padding: 0;
+}
+
+div.item img {
+    margin:  0 auto;
+    max-width: 100%;
+    width: 100%;
 }
