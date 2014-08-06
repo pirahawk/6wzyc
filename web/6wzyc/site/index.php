@@ -59,11 +59,11 @@
 
             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
                 <p class="lead">
-            We, the Zoroastrian Youth of New Zealand (ZYNZ) are the youth wing of the Zarathushtrian Association of New Zealand (ZANZ) and are hosting and organizing the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future.
+            We, the Zoroastrian Youth of New Zealand (ZYNZ) with the guidance of the Zarathushtrian Association of New Zealand (ZANZ) will be hosting and organising the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future.
                 </p>
 
                 <p class="lead">
-            We strive to provide a memorable, religious and social experience for our young global Zoroastrian attendees while taking the initiative at organising the first ecologically conscious WZYC.
+            We strive to provide a memorable, religious and social experience for our young global Zoroastrian attendees, while taking the initiative at organising the first ecologically conscious WZYC.
                 </p>
             </div>
 
@@ -77,13 +77,14 @@
 <div class="slide green">
     <div class="container">
         <div class="row">
-            <h1><strong><em>Green</em> New Zealand</strong></h1>
+            <h1>The <strong><em>Green</em> Initiative</strong></h1>
         </div>
         <div class="row green-nz">
             <div class="col-lg-6">
 
                 <p class="lead">CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest.</p>
-                <p class="lead">As part our green initiative the 6thWZYC team is going to plant one tree for every delegate travelling to our shores in order to help offset their carbon footprint. Our congress will stress the necessity to evolve as a faith and a community. Like the trees being planted, we only secure perpetuity through adaptability once our roots take to foreign ground. The Stazyks are admirably dedicated to preserving this land’s legacy just as the congress is in preserving that of our religion.</p>
+                <p class="lead">As part of our green initiative and fundraising drive, the 6th WZYC Organising Committee will be planting a native New Zealand tree at CUE Haven for every NZ$10 donation to help create a greener future for the wider NZ community.</p>
+                <p class="lead">Our Congress will stress the necessity to evolve as a faith and a community. Like the trees being planted, we only secure perpetuity through adaptability once our roots take to foreign ground. The Stazyks are admirably dedicated to preserving this land’s legacy, just as this Congress is in preserving that of our religion.</p>
                 <p>
                     <a class="btn btn-primary btn-lg" href="/cue-haven.php">About Cue Haven <i class="fa fa-angle-right"></i> </a>
                 </p>

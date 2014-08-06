@@ -53,7 +53,7 @@
             </p>
 
             <p class="lead">
-                Thomas and Mahrukh Stazyk carry out their vision with an emphatic and contagious zeal that rings true with all that the youth congress stands for in its aim of preserving posterity. We’ve chosen nature to be a central fixture of the congress just as Zoroastrianism is predominantly a faith founded on the transcendence of nature. CUE Haven is more than a unique cause; it’s an imperative in a world that too readily overlooks nature. The Zoroastrian Youth of New Zealand will plant trees on the behalf of congress attendees in an attempt to offset their carbon footprint. In time, these plants will grow into a lasting and collective contribution.
+                Thomas and Mahrukh Stazyk carry out their vision with an emphatic and contagious zeal that rings true with all that the youth congress stands for in its aim of preserving posterity. We’ve chosen nature to be a central fixture of the congress just as Zoroastrianism is predominantly a faith founded on the transcendence of nature. CUE Haven is more than a unique cause; it’s an imperative in a world that too readily overlooks nature. The Zoroastrian Youth of New Zealand  plant a tree for every individual that donates to the cause - including delegates travelling to our shores, in order to help offset their carbon footprint. In time, these plants will grow into a lasting and collective contribution.
             </p>
             <a class="btn btn-primary btn-lg" href="http://cuehaven.com/" target="_blank">Find Out More <i class="fa fa-angle-right"></i> </a>
         </div>

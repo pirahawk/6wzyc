@@ -27,7 +27,7 @@
 
         <div class="row">
             <h2>Bronze</h2>
-            <h1>Mr & Mrs Rusy Shroff</h1>
+            <h1>Mr Rusy M. Shroff, BBS MBE & Mrs Purviz R.Shroff</h1>
         </div>
     </div>
 </div>
