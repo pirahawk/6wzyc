@@ -68,14 +68,27 @@ span.blue {
     color: #439AE0;
 }
 
+
 section.green {
     background-color: #26b67c;
-    color: #fff;
 }
 
 section.black {
     background-color: #000;
     color: #fff !important;
+}
+
+section.platinum {
+    background-color: #E5E4E2;
+}
+
+section.bronze{
+    background-color: #e8c4a0
+}
+
+
+section.gold {
+    background-color: #ffeb7f;
 }
 
 .logo {
@@ -109,8 +122,9 @@ footer .row {
     text-align: center;
 }
 
-.sponsor-container img {
-    max-width: 100%;
+.sponsor-container img, .sponsor-logo {
+    max-width: 300px;
+    /*NEED TO CHANGE THIS AFTER IMAGES RESIZED*/
 }
 
 p {

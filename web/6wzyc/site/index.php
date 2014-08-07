@@ -50,7 +50,7 @@
 
             <div class="col-md-6 center-txt">
                 <img alt="6wzyc" src="<?php echo createImagePath("6wzyc.png","site")?>" class="logo">
-                <img alt="6wzyc" src="<?php echo createImagePath("zanz.jpg","sponsors")?>" class="logo">
+                <img alt="6wzyc" src="<?php echo createImagePath("zanz.png","sponsors")?>" class="logo">
             </div>
         </div>
     </div>

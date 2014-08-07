@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="sponsor-container">
-                    <a href="http://www.seruminstitute.com/" target="_blank"><img src="<?php echo createImagePath("poona.jpg","sponsors")?>" alt="sponsor" /></a>
+                    <a href="http://www.seruminstitute.com/" target="_blank"><img src="<?php echo createImagePath("poona.png","sponsors")?>" alt="sponsor" /></a>
                 </div>
             </div>
         </div>
@@ -11,7 +11,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="sponsor-container">
-                    <img src="<?php echo createImagePath("hk.jpg","sponsors")?>" alt="sponsor" />
+                    <img src="<?php echo createImagePath("hk.png","sponsors")?>" alt="sponsor" />
                 </div>
             </div>
             <div class="col-md-6">
