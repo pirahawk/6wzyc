@@ -5,7 +5,7 @@
 ?>
 
 <div class="page-title">
-    <h1>Partners and Sponsors</h1>
+    <h1>Sponsors &amp; Partners</h1>
 </div>
 
 <section class="platinum">

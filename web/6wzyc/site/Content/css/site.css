@@ -2,7 +2,7 @@ html, body, main {
     height: 100%;
 }
 
-body, h1, h2, p, a, address, ul  {
+body, h1, h2,h3,h4, p, a, address, ul  {
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -73,8 +73,8 @@ section.green {
     background-color: #26b67c;
 }
 
-section.black {
-    background-color: #000;
+section.black, div.panel-default:nth-child(2n) > div.panel-heading{
+    background-color: #000 !important;
     color: #fff !important;
 }
 
@@ -127,7 +127,7 @@ footer .row {
     /*NEED TO CHANGE THIS AFTER IMAGES RESIZED*/
 }
 
-p {
+p,ul,ol {
     font-size: 1.25em;
     font-weight: 400;
     margin-left: auto;
@@ -174,4 +174,14 @@ address{
 address.social-media i.fa{
     font-size: 3.75em;
 }
+
+
+div.panel-heading a{
+    font-size: 1.25em;
+}
+
+.panel-title{
+    margin-top: 0.625em;
+}
+
 
