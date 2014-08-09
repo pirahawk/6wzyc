@@ -24,44 +24,40 @@
     
     function renderEvents($year, $events){
 ?>
-<div class="jumbotron slide">
+
+<div class="page-title">
     <h1>Fundraising <?php echo $year?></h1>
 </div>
+
+
 <?php
     $index = 0;
     foreach($events as $eventId){
 ?>
 
-<div class="slide <?php if($index++ % 2 == 0){ echo 'green'; }else{ echo 'black';} ?>">
-    <div class="container" id="<?php echo $eventId?>">
-        <div class="row">
-            <h1 data-bind="html: title"></h1>
-            <div class="carousel col-lg-offset-2" data-ride="carousel" data-interval="3000" data-pause="none">
-                <div class="carousel-inner" data-bind="foreach: images">
-                    <div class="item ">
-                        <img data-bind="attr:{src: $data}" class="fundraise-img" />
-                    </div>
+<section class="slide <?php if($index++ % 2 == 0){ echo ''; }else{ echo 'black';} ?>">
+    <div class="container fundraising" id="<?php echo $eventId?>">
+        <h1 data-bind="html: title"></h1>
+        <div class="carousel"  data-ride="carousel" data-interval="3000" data-pause="none">
+            <div class="carousel-inner" data-bind="foreach: images">
+                <div class="item">
+                     <img data-bind="attr:{src: $data}" class="fundraise-img" />
                 </div>
             </div>
         </div>
-        <div class="row">
-            <a class="btn btn-primary btn-lg" target="_blank" data-bind="attr:{href: postUrl}">Full Image List</a>
-        </div>
+        <a target="_blank" data-bind="attr:{href: postUrl}">View on Blog</a>
     </div>
-</div>
+</section>
 
 <?php
         }
     }
     
-    function renderFundraiserSlides(){
+    function renderBody(){
         $year = getYear();
         $events = getEventsForYear($year);
-        renderEvents($year, $events);    
-    }
-    
-    function renderBody(){
-        renderFundraiserSlides();
+        renderEvents($year, $events);
+
         renderFooter();
     }  
     
@@ -70,10 +66,6 @@
 <script type="text/javascript">
         $(function () {
     <?php   
-            //WZYC.Tumblr.requestBlogSlides({blogId:'90816918213'});
-    
-    
-    
             $year = getYear();
             $events = getEventsForYear($year);
             foreach($events as $eventId){
@@ -81,7 +73,6 @@
         WZYC.Tumblr.requestBlogSlides({blogId:'<?php echo $eventId?>'});
     <?php
             }
-    
     ?>    
         });
 </script>

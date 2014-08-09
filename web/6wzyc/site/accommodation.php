@@ -27,7 +27,7 @@
     <h1>King's College</h1>
 </div>
 
-<section class="black">
+<section>
     <div class="container">
         <h1>About <em>King's College</em></h1>
         <div class="row">

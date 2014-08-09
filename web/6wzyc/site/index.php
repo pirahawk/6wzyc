@@ -69,7 +69,7 @@
             </div>
 
             <div class="col-md-6">
-                <div class="embed-responsive embed-responsive-4by3">
+                <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="//www.youtube.com/embed/kM9bLxTDpYc?showinfo=0&autohide=1&theme=light&cc_load_policy=0&controls=2&iv_load_policy=3&modestbranding=1&disablekb=1" allowfullscreen></iframe>
                 </div>
             </div>

@@ -82,8 +82,8 @@ section.platinum {
     background-color: #E5E4E2;
 }
 
-section.bronze{
-    background-color: #e8c4a0
+section.bronze {
+    background-color: #e8c4a0;
 }
 
 
@@ -130,8 +130,8 @@ footer .row {
 p {
     font-size: 1.25em;
     font-weight: 400;
-    margin-left:auto;
-    margin-right:auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 section {
@@ -139,12 +139,29 @@ section {
     padding-bottom: 2.5em;
 }
 
-section.stretch{
+section.stretch {
     padding: 0;
 }
 
 div.item img {
-    margin:  0 auto;
+    margin: 0 auto;
     max-width: 100%;
     width: 100%;
+}
+
+
+.fundraising{
+    text-align: center;
+}
+
+.fundraising .carousel{
+    margin: 1.25em auto;
+}
+
+.fundraising img.fundraise-img {
+    max-width: 1024px !important;
+}
+
+.fundraising a{
+    font-size: 1.125em;
 }

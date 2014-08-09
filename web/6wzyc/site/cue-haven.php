@@ -25,7 +25,7 @@
     <h1>CUE Haven</h1>
 </div>
 
-<section class="black">
+<section >
     <div class="container">
         <h1>About <em>Cue</em> Haven</h1>
         <div class="row">
@@ -48,7 +48,7 @@
 </section>
 
 
-<section>
+<section class="black">
     <div class="container">
         <div class="carousel" data-ride="carousel" data-interval="3000" data-pause="none">
             <div class="carousel-inner">

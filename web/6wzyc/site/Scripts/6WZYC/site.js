@@ -42,7 +42,7 @@
                 title: post.caption,
                 postUrl: post.post_url,
                 images: _.map(post.photos, function(photo){
-                    return photo['alt_sizes'][0]['url'];//get the image that is 1024*627
+                    return photo['original_size']['url'];
                 })
             };
             var model = new BlogModel(modelArgs);
