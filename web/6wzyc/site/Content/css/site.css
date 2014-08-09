@@ -2,7 +2,7 @@ html, body, main {
     height: 100%;
 }
 
-body, h1, h2, p {
+body, h1, h2, p, a, address, ul  {
     font-family: 'Roboto', sans-serif !important;
 }
 
@@ -165,3 +165,13 @@ div.item img {
 .fundraising a{
     font-size: 1.125em;
 }
+
+
+address{
+    font-size: 1.375em;
+}
+
+address.social-media i.fa{
+    font-size: 3.75em;
+}
+
