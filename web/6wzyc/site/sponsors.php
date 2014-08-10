@@ -4,6 +4,9 @@
     function renderBody(){
 ?>
 
+<div id="background" style="background-image:url('<?php echo createImagePath('sponsors.jpg',"backgrounds")?>')">
+</div>
+
 <div class="page-title">
     <h1>Sponsors &amp; Partners</h1>
 </div>

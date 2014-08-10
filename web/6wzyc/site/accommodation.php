@@ -23,6 +23,9 @@
     function renderBody(){
 ?>
 
+<div id="background" style="background-image:url('<?php echo createImagePath('kc-5.jpg',"location")?>')">
+</div>
+
 <div class="page-title">
     <h1>King's College</h1>
 </div>
@@ -30,19 +33,17 @@
 <section>
     <div class="container">
         <h1>About <em>King's College</em></h1>
-        <div class="row">
-            <div class="col-12">
-                <p>Founded in 1896, King's College is one of New Zealand's top private secondary schools. It prides itself at being the best it can be through the College’s various Disciplines, which includes: academic, sporting, cultural, spiritual and social. With links to the Anglican Church, the foundation of Kings is built on generosity of spirit, gratitude, honesty, moral courage, pursuit of learning, respect, spirituality and tolerance (http://www.kingscollege.school.nz).</p>
-                <p>The 6th WZYC Organising Committee have grown to create a highly respectable and professional working relationship with Kings College and are very confident that Kings will be a great host to our delegates. We cannot wait to show off this little gem situated in the suburbs of Auckland and we hope to see you all there!</p>
-            </div>
-        </div>
+        <p>Founded in 1896, King's College is one of New Zealand's top private secondary schools. It prides itself at being the best it can be through the College’s various Disciplines, which includes: academic, sporting, cultural, spiritual and social. With links to the Anglican Church, the foundation of Kings is built on generosity of spirit, gratitude, honesty, moral courage, pursuit of learning, respect, spirituality and tolerance (http://www.kingscollege.school.nz).</p>
+        <p>The 6th WZYC Organising Committee have grown to create a highly respectable and professional working relationship with Kings College and are very confident that Kings will be a great host to our delegates. We cannot wait to show off this little gem situated in the suburbs of Auckland and we hope to see you all there!</p>
     </div>
 </section>
 
-<section class="stretch">
-    <div class="carousel" data-ride="carousel" data-interval="3000" data-pause="none">
-        <div class="carousel-inner">
-            <?php renderCarousel() ?>
+<section class="black">
+    <div class="container">
+        <div class="carousel" data-ride="carousel" data-interval="3000" data-pause="none">
+            <div class="carousel-inner">
+                <?php renderCarousel() ?>
+            </div>
         </div>
     </div>
 </section>

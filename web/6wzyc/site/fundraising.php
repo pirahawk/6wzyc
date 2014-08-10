@@ -36,7 +36,7 @@
 ?>
 
 <section class="slide <?php if($index++ % 2 == 0){ echo ''; }else{ echo 'black';} ?>">
-    <div class="container fundraising" id="<?php echo $eventId?>">
+    <div class="container fundraising center-txt" id="<?php echo $eventId?>">
         <h1 data-bind="html: title"></h1>
         <div class="carousel"  data-ride="carousel" data-interval="3000" data-pause="none">
             <div class="carousel-inner" data-bind="foreach: images">
@@ -54,10 +54,17 @@
     }
     
     function renderBody(){
+
+?>
+
+<div id="background" style="background-image:url('<?php echo createImagePath('fundraising.jpg',"backgrounds")?>')">
+</div>
+
+<?php
+
         $year = getYear();
         $events = getEventsForYear($year);
         renderEvents($year, $events);
-
         renderFooter();
     }  
     

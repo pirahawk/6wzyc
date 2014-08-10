@@ -2,8 +2,13 @@ html, body, main {
     height: 100%;
 }
 
-body, h1, h2,h3,h4, p, a, address, ul  {
+body, h1, h2, h3, h4, p, a, address, ul {
     font-family: 'Roboto', sans-serif !important;
+}
+
+p, ul, ol {
+    font-size: 1.25em;
+    font-weight: 400;
 }
 
 #navigation-bar ul {
@@ -23,10 +28,9 @@ body, h1, h2,h3,h4, p, a, address, ul  {
     margin-bottom: 1.25em;
 }
 
-#intro-slide {
+#intro-slide, #background {
     width: 100%;
     height: 100%;
-    background-image: url('/content/images/site/auckland-pano.jpg');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -34,13 +38,26 @@ body, h1, h2,h3,h4, p, a, address, ul  {
     background-size: cover;
 }
 
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -12;
+    opacity: 0.2;
+}
+
+
 #intro-slide h1, #intro-slide h2, #intro-slide h3, .page-title h1 {
     font-weight: 500;
 }
 
 @media (min-width: 768px) {
-    #intro-slide h1, .page-title h1 {
+    #intro-slide h1 {
         font-size: 12.5em;
+    }
+
+    .page-title h1 {
+        font-size: 9.375em;
     }
 
     #intro-slide h2 {
@@ -48,16 +65,12 @@ body, h1, h2,h3,h4, p, a, address, ul  {
     }
 }
 
-.white-fg {
-    color: #fff;
-}
-
 .site-green {
-    color: #26cc5c;
+    color: #26b67c;
 }
 
 span.yellow {
-    color: #FFD400;
+    color: #ffeb7f;
 }
 
 span.black {
@@ -68,38 +81,42 @@ span.blue {
     color: #439AE0;
 }
 
+section > div, footer > div {
+    background-color: #fff;
+}
 
-section.green {
+section.green > div {
     background-color: #26b67c;
 }
 
-section.black, div.panel-default:nth-child(2n) > div.panel-heading{
+section.black > div, div.panel-default:nth-child(2n) > div.panel-heading {
     background-color: #000 !important;
     color: #fff !important;
 }
 
-section.platinum {
+section.platinum > div {
     background-color: #E5E4E2;
 }
 
-section.bronze {
+section.bronze > div {
     background-color: #e8c4a0;
 }
 
-
-section.gold {
+section.gold > div {
     background-color: #ffeb7f;
 }
 
+div.container {
+    padding-bottom: 1.25em;
+}
+
 .logo {
-    /*max-height: 9.375em;*/
     max-height: 12em;
 }
 
 .center-txt {
     text-align: center;
 }
-
 
 .vert-align {
     display: table-cell;
@@ -127,20 +144,10 @@ footer .row {
     /*NEED TO CHANGE THIS AFTER IMAGES RESIZED*/
 }
 
-p,ul,ol {
-    font-size: 1.25em;
-    font-weight: 400;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-section {
-    padding-top: 2.5em;
-    padding-bottom: 2.5em;
-}
 
-section.stretch {
-    padding: 0;
+div.container > div.carousel {
+    margin-top: 0.625em;
 }
 
 div.item img {
@@ -150,11 +157,11 @@ div.item img {
 }
 
 
-.fundraising{
+/*.fundraising {
     text-align: center;
-}
+}*/
 
-.fundraising .carousel{
+.fundraising .carousel {
     margin: 1.25em auto;
 }
 
@@ -162,26 +169,24 @@ div.item img {
     max-width: 1024px !important;
 }
 
-.fundraising a{
+.fundraising a {
     font-size: 1.125em;
 }
 
 
-address{
+address {
     font-size: 1.375em;
 }
 
-address.social-media i.fa{
+address.social-media i.fa {
     font-size: 3.75em;
 }
 
 
-div.panel-heading a{
+div.panel-heading a {
     font-size: 1.25em;
 }
 
-.panel-title{
+.panel-title {
     margin-top: 0.625em;
 }
-
-

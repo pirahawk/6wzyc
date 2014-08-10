@@ -32,11 +32,15 @@
     function renderBody(){
 ?>
 
-<div id="intro-slide" class="white-fg">
+<div id="background" style="background-image:url('<?php echo createImagePath('auckland-pano.jpg',"site")?>')">
+</div>
+
+
+<div id="intro-slide" style="background-image:url('<?php echo createImagePath('auckland-pano.jpg',"site")?>')">
     <h1><span class="site-green">6</span><span class="black">WZYC</span></h1>
     <h2><span class="black">6<sup>th</sup> World Zoroastrian Youth Congress</span></h2>
     <h3>Auckland, New Zealand</h3>
-    <h3>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</h3>
+    <h3> <span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
 </div>
 
 <section>
