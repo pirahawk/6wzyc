@@ -4,6 +4,9 @@
     function renderBody(){
 ?>
 
+<div id="background" style="background-color: #F5F5F5;" class="non-opaque">
+</div>
+
 <div class="page-title">
     <h1>Contact Us</h1>
 </div>

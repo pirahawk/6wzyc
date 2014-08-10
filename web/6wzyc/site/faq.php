@@ -41,6 +41,9 @@
     function renderBody(){
 ?>
 
+<div id="background" style="background-color: #F5F5F5;" class="non-opaque">
+</div>
+
 <div class="page-title">
     <h1>Frequently Asked Questions</h1>
 </div>

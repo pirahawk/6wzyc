@@ -65,9 +65,16 @@ p, ul, ol {
     top: 0;
     left: 0;
     z-index: -12;
-    opacity: 0.2;
+    opacity: 0.4;
+    /*-moz-filter: grayscale(100%);
+    -webkit-filter: grayscale(0.3);
+    filter: grayscale(0.3);*/
 }
 
+
+#background.non-opaque{
+    opacity: 1;
+}
 
 #intro-slide h1, #intro-slide h2, #intro-slide h3, .page-title h1 {
     font-weight: 500;
@@ -99,12 +106,8 @@ span.black {
     color: #000;
 }
 
-span.blue {
-    color: #439AE0;
-}
-
 section > div, footer > div {
-    background-color: #fff;
+    background-color: #F5F5F5;
 }
 
 section.green > .container {
@@ -113,7 +116,7 @@ section.green > .container {
 
 section.black > .container, div.panel-default:nth-child(2n) > div.panel-heading {
     background-color: #000 !important;
-    color: #fff !important;
+    color: #F5F5F5 !important;
 }
 
 div.platinum {
@@ -237,6 +240,3 @@ div.panel-heading a {
 .panel-title {
     margin-top: 0.625em;
 }
-
-
-
