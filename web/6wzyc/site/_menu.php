@@ -17,7 +17,7 @@
 
         <div class="collapse navbar-collapse" id="all-navbar-links">
             <ul class="nav navbar-nav">
-                <li><a href="/">Home</a></li>
+                <li class="hidden-md"><a href="/">Home</a></li>
                 <li><a href="/accommodation.php">Accommodation</a></li>
                 <li><a href="/sponsors.php">Sponsors &amp; Partners</a></li>
                 <li class="dropdown">
