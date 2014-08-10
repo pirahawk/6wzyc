@@ -85,25 +85,45 @@ section > div, footer > div {
     background-color: #fff;
 }
 
-section.green > div {
+section.green > .container {
     background-color: #26b67c;
 }
 
-section.black > div, div.panel-default:nth-child(2n) > div.panel-heading {
+section.black > .container, div.panel-default:nth-child(2n) > div.panel-heading {
     background-color: #000 !important;
     color: #fff !important;
 }
 
-section.platinum > div {
-    background-color: #E5E4E2;
+div.platinum {
+    background-color: rgba(229,228,226,0.5);
 }
 
-section.bronze > div {
-    background-color: #e8c4a0;
+div.bronze {
+    background-color: rgba(232,196,160,0.5);
 }
 
-section.gold > div {
-    background-color: #ffeb7f;
+div.gold {
+    background-color: rgba(255,235,127, 0.5);
+}
+
+div.grey {
+    background-color: rgba(209,201,201,0.5);
+}
+
+div.platinum:hover {
+    background-color: rgba(229,228,226,1);
+}
+
+div.bronze:hover {
+    background-color: rgba(232,196,160,1);
+}
+
+div.gold:hover {
+    background-color: rgba(255,235,127, 1);
+}
+
+div.grey:hover {
+    background-color: rgba(209,201,201,1);
 }
 
 div.container {
@@ -129,8 +149,8 @@ div.container {
     max-width: 100%;
 }
 
-footer .row {
-    margin-top: 1.25em;
+footer > .container {
+    background-color: rgba(189, 180, 180, 0);
 }
 
 .sponsor-container {
@@ -139,12 +159,22 @@ footer .row {
     text-align: center;
 }
 
-.sponsor-container img, .sponsor-logo {
-    max-width: 300px;
-    /*NEED TO CHANGE THIS AFTER IMAGES RESIZED*/
+.sponsor-container:first-child {
+    margin-top: 1.25em;
 }
 
+.sponsor-container img, .sponsor-container h3 {
+    display: inline-block;
+    max-width: 100%;
+}
 
+@media (min-width: 768px) {
+    .sponsor-container img, .sponsor-container h3 {
+        display: inline-block;
+        max-width: 350px;
+        margin: 10px;
+    }
+}
 
 div.container > div.carousel {
     margin-top: 0.625em;
@@ -155,11 +185,6 @@ div.item img {
     max-width: 100%;
     width: 100%;
 }
-
-
-/*.fundraising {
-    text-align: center;
-}*/
 
 .fundraising .carousel {
     margin: 1.25em auto;
