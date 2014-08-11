@@ -29,7 +29,7 @@
 
 <section>
     <div class="container">
-        <h1>About <em>Cue</em> Haven</h1>
+        <h1>About Cue Haven</h1>
         <p>
                 CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest. The restoration plan will be completed over a 15 year period. The undertaking is meticulously planned far into its completion and the Stazyks work painstakingly hard in adhering to its each stage. The detailed re-vegetation attempts to create a haven among all too common stretches of agricultural land being divided and sub-divided for lifestyle blocks or property development.
         </p>

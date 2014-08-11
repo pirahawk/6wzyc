@@ -72,8 +72,17 @@ p, ul, ol {
 }
 
 
-#background.non-opaque{
+#background.non-opaque {
     opacity: 1;
+}
+
+#splash-label {
+    display: inline-block;
+    background-color: rgba(169,169,169, 0.5);
+}
+
+#intro-slide h1, #intro-slide h2, #intro-slide h3 {
+    display: inline-block;
 }
 
 #intro-slide h1, #intro-slide h2, #intro-slide h3, .page-title h1 {
@@ -102,6 +111,10 @@ span.yellow {
     color: #ffeb7f;
 }
 
+span.gold {
+    color: #FFD700;
+}
+
 span.black {
     color: #000;
 }
@@ -119,37 +132,23 @@ section.black > .container, div.panel-default:nth-child(2n) > div.panel-heading 
     color: #F5F5F5 !important;
 }
 
+
 div.platinum {
-    background-color: rgba(229,228,226,0.5);
-}
-
-div.bronze {
-    background-color: rgba(232,196,160,0.5);
-}
-
-div.gold {
-    background-color: rgba(255,235,127, 0.5);
-}
-
-div.grey {
-    background-color: rgba(209,201,201,0.5);
-}
-
-div.platinum:hover {
     background-color: rgba(229,228,226,1);
 }
 
-div.bronze:hover {
+div.bronze {
     background-color: rgba(232,196,160,1);
 }
 
-div.gold:hover {
+div.gold {
     background-color: rgba(255,235,127, 1);
 }
 
-div.grey:hover {
+div.grey {
     background-color: rgba(209,201,201,1);
 }
+
 
 div.container {
     padding-bottom: 1.25em;
@@ -190,7 +189,17 @@ footer > .container {
 
 .sponsor-container img, .sponsor-container h3 {
     display: inline-block;
-    max-width: 100%;
+    max-width: 70%;
+    margin-top: 15px;
+}
+
+
+.sponsors .container {
+    opacity: 1;
+}
+
+.sponsors .container:hover {
+    opacity: 1;
 }
 
 @media (min-width: 768px) {
@@ -198,6 +207,12 @@ footer > .container {
         display: inline-block;
         max-width: 350px;
         margin: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sponsors .container {
+        opacity: 0.7;
     }
 }
 

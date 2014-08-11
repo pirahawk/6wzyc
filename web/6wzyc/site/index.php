@@ -37,10 +37,13 @@
 
 
 <div id="intro-slide" style="background-image:url('<?php echo createImagePath('auckland-pano.jpg',"site")?>')">
-    <h1><span class="site-green">6</span><span class="black">WZYC</span></h1>
-    <h2><span class="black">6<sup>th</sup> World Zoroastrian Youth Congress</span></h2>
-    <h3>Auckland, New Zealand</h3>
-    <h3> <span class="yellow">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3>
+    <div id="splash-label">
+        <h1><span class="site-green">6</span><span class="black">WZYC</span></h1><br/>
+        <h2><span class="black">6<sup>th</sup> World Zoroastrian Youth Congress</span></h2><br/>
+        <h3><span class="black">Auckland, New Zealand</span></h3><br/>
+        <h3> <span class="gold">28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2014</span></h3><br/>
+    </div>
+
 </div>
 
 <section>
@@ -63,7 +66,7 @@
 
 <section class="green">
     <div class="container">
-        <h1>The <em>Green</em> Initiative</h1>
+        <h1>The Green Initiative</h1>
         <div class="row">
             <div class="col-md-6">
                 <p>CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest.</p>
@@ -84,7 +87,7 @@
 
 <section class="black">
     <div class="container">
-        <h1><em>Our</em> Team</h1>
+        <h1>The Team</h1>
         <div class="row">
             <?php renderTeamList()?>
         </div>
