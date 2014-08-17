@@ -145,7 +145,7 @@
             How many people are in one room
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Each delegate will be given single room accommodation. Delegates can request to be put in rooms next to one another. Married couples and underage minors (15-17years) of the same gender will be given the option of sharing a room with one other person or having individual rooms.</p>
+            <p>Each delegate will be given single room accommodation. Delegates can request to be put in rooms next to one another. Married couples have the option of sharing a room. Minors (those aged 15 to 17 years) of the same gender will be given the option of sharing a room with one other person or having individual rooms.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -159,7 +159,7 @@
             Is it true that you can’t register for the Congress unless you stay in the Congress accommodation at Kings College
             <?php endHeading();?>
             <?php startAnswer();?>
-            Yes, all delegates will have to stay on campus, even locals from New Zealand.
+            <p>Yes, it is mandatory that all delegates will have to stay on campus, even locals from New Zealand.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -180,14 +180,14 @@
             What does the registration cost include
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>The 6<sup>th</sup> WZYC is an all-inclusive Congress. This will include Registration, Accommodation, Transportation, Breakfast, Lunch, Dinner, All Congress events/entertainment between the 28<sup>th</sup> of December and 2<sup>nd</sup> of January.</p>
+            <p>The 6<sup>th</sup> WZYC is an all-inclusive Congress. This will include registration, accommodation, transportation, breakfast, lunch, dinner, all congress events/entertainment between the 28<sup>th</sup> of December and 2<sup>nd</sup> of January. Any activities other than those planned by the congress will be at the delegate’s own expense.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
             What is the weather like in December/January in New Zealand
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Being in the Southern Hemisphere, it is summer time during December and January, with expected temperatures between 20-30 degrees but please prepare for rain and shine.</p>
+            <p>Being in the Southern Hemisphere, it is summer time during December and January, with expected temperatures between 20 to 30 degrees Celsius. We recommend bringing appropriate clothing, sunscreen etc. for both rain and shine.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -208,7 +208,8 @@
             Will there be spare time to do things like sightseeing at the Congress
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>The Congress event plan has been designed to keep youth busy, engaged and encourage them to participate as a collective in what has been organized for them. In saying that there is free time that has been allocated during the days where delegates are available to do their own thing, however, should delegates that leave the campus arrive back late for an event it will be expected to have started without them.</p>
+            <p>The Congress event plan has been designed to keep youth busy, engaged and encourage them to participate as a collective in what has been organized for them.</p>
+            <p>There will be designated free time for delegates. Delegates can organize their own activities during these periods, however, this is at the delegate’s own expense.  To ensure we fit everything into the program, events will be running to time and delegates should be aware that if they are late for an event, it will have started without them.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -237,7 +238,8 @@
             What type of food will be provided
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p> International cuisine will be prepared and available during the Congress. A variety of foods will cater for all pallets. Please let us know of any specific dietary requirements or allergies on your registration form. Kitchens in houses on campus will also be replenished with sufficient snacks, fruit, tea and coffee. Food and drink vending machines on campus can also be accessed at your own cost.</p>
+            <p>International cuisine will be available during the Congress. A variety of foods will cater for all palates. Please let us know of any specific dietary requirements or allergies on your registration form. The kitchens each in house on campus will also be replenished with sufficient snacks, fruit, tea and coffee.</p>
+            <p>Food and drink vending machines on campus can also be accessed at your own cost.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -261,21 +263,21 @@
             What payment options are provided for delegates
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Bank transfers, drafts, cheques and credit card facilities are available.</p>
+            <p>Bank transfers, drafts, cheques and credit card facilities are available. We will release this information soon.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
             How will I know that I have been accepted to attend the Congress
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>A confirmation letter will be sent to you via email once your entire payment and all paper work is in order. Please make sure you carry this letter with your passport as proof of the reason for your visit to New Zealand.</p>
+            <p>A confirmation letter will be sent to you via email once your completed registration has been processed and payment of the registration fee has been received. Please make sure you carry this confirmation letter with your passport as proof of the purpose for your visit to New Zealand.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
             When does early bird registration open
             <?php endHeading();?>
             <?php startAnswer();?>
-            Early bird registration will open in July 2014.
+            <p>Early bird registration will open in December 2014.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -294,7 +296,7 @@
             How can I get in touch with others who are planning on going to the 6<sup>th</sup> WZYC
             <?php endHeading();?>
             <?php startAnswer();?>
-            You can join our <a href="https://www.facebook.com/groups/223424211030360/" target="_blank">Facebook page</a> or follow us on <a href="https://twitter.com/6WZYC" target="_blank">Twitter</a> and be kept up to date. Also visit our <a href="http://6wzyc.co.nz" target="_blank">website</a> periodically for further updates.
+            <p>You can join our <a href="https://www.facebook.com/groups/223424211030360/" target="_blank">Facebook page</a> to link up with other delegates that are attending. You may also follow us on <a href="https://twitter.com/6WZYC" target="_blank">Twitter</a>. Please visit our <a href="http://6wzyc.co.nz" target="_blank">website</a> periodically for further updates.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -335,8 +337,6 @@
         </div>
     </div>
 </section>
-
-
 <?php
     
         renderFooter();

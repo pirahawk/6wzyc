@@ -50,7 +50,7 @@
                 <img src="<?php echo createImagePath("bb-travel.png","sponsors")?>" alt="bb-travel" class="sponsor-logo" />
             </a>
 
-            <a href="www.trailblazertours.com" target="_blank">
+            <a href="http://www.trailblazertours.com" target="_blank">
                 <img src="<?php echo createImagePath("trail-blazer.png","sponsors")?>" alt="trail-blazer-tours" class="sponsor-logo" />
             </a>
 
