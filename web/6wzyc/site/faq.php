@@ -263,7 +263,7 @@
             What payment options are provided for delegates
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Bank transfers, drafts, cheques and credit card facilities are available. We will release this information soon.</p>
+            <p>We will release more information soon once we have finalised all payment options.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
