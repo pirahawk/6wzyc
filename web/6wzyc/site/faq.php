@@ -65,6 +65,13 @@
         <div class="panel-group" id="faq-body">
 
             <?php startHeading();?>
+            When does early bird registration open
+            <?php endHeading();?>
+            <?php startAnswer();?>
+            <p>Early bird registration will open in December 2014.</p>
+            <?php endAnswer();?>
+
+            <?php startHeading();?>
             Who can attend the Congress
             <?php endHeading();?>
             <?php startAnswer();?>
@@ -273,12 +280,7 @@
             <p>A confirmation letter will be sent to you via email once your completed registration has been processed and payment of the registration fee has been received. Please make sure you carry this confirmation letter with your passport as proof of the purpose for your visit to New Zealand.</p>
             <?php endAnswer();?>
 
-            <?php startHeading();?>
-            When does early bird registration open
-            <?php endHeading();?>
-            <?php startAnswer();?>
-            <p>Early bird registration will open in December 2014.</p>
-            <?php endAnswer();?>
+            
 
             <?php startHeading();?>
             What are the cancellation charges

@@ -27,6 +27,7 @@
                         <li><a href="/fundraising.php?year=2013">2013</a></li>
                     </ul>
                 </li>
+                <li><a href="/press.php">Press</a></li>
                 <li><a href="/cue-haven.php">CUE-Haven</a></li>
                 <li><a href="/contact-us.php">Contact Us</a></li>
                 <li><a href="/faq.php">FAQ</a></li>

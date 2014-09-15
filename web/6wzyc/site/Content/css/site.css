@@ -132,6 +132,10 @@ section.black > .container, div.panel-default:nth-child(2n) > div.panel-heading 
     color: #F5F5F5 !important;
 }
 
+section.grey > .container {
+    background-color: rgba(209,201,201,1);
+}
+
 
 div.platinum {
     background-color: rgba(229,228,226,1);
@@ -148,6 +152,9 @@ div.gold {
 div.grey {
     background-color: rgba(209,201,201,1);
 }
+
+
+
 
 
 div.container {
@@ -177,44 +184,11 @@ footer > .container {
     background-color: rgba(189, 180, 180, 0);
 }
 
-.sponsor-container {
-    display: table;
-    width: 100%;
-    text-align: center;
-}
-
-.sponsor-container:first-child {
-    margin-top: 1.25em;
-}
-
-.sponsor-container img, .sponsor-container h3 {
-    display: inline-block;
-    max-width: 70%;
-    margin-top: 15px;
+footer img{
+    max-height: 300px;
 }
 
 
-.sponsors .container {
-    opacity: 1;
-}
-
-.sponsors .container:hover {
-    opacity: 1;
-}
-
-@media (min-width: 768px) {
-    .sponsor-container img, .sponsor-container h3 {
-        display: inline-block;
-        max-width: 350px;
-        margin: 10px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .sponsors .container {
-        opacity: 0.7;
-    }
-}
 
 div.container > div.carousel {
     margin-top: 0.625em;
@@ -255,3 +229,46 @@ div.panel-heading a {
 .panel-title {
     margin-top: 0.625em;
 }
+
+.sponsor-row{
+    width: 100%;
+    text-align: center;
+}
+
+.sponsor{
+    display: inline-block;
+    max-width: 100%;
+    
+}
+
+.sponsor > img{
+    display: block;
+    max-width: 100%;
+}
+
+span.sponsor{
+    font-size: 1.875em;
+}
+
+
+footer .sponsor{
+    margin: 20px;
+}
+
+
+section.sponsors  .sponsor-row{
+    margin: 20px auto;
+}
+
+section.sponsors .sponsor{
+    max-width: 350px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+section.sponsors .special-sponsor{
+    max-width: 500px;
+}
+
+

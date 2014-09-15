@@ -1,12 +1,12 @@
 <footer>
     <div class="container">
-        <div class="sponsor-container">
-            <a href="http://www.seruminstitute.com/" target="_blank"><img src="<?php echo createImagePath("poona.png","sponsors")?>" alt="sponsor" /></a>
+        <div class="sponsor-row">
+            <a class="sponsor" href="http://www.seruminstitute.com/" target="_blank"><img src="<?php echo createImagePath("poona.png","sponsors")?>" alt="sponsor" /></a>
         </div>
 
-        <div class="sponsor-container">
-            <img src="<?php echo createImagePath("hk.png","sponsors")?>" alt="sponsor" />
-            <h3 class="special-footer-ad">Mr Rusy M. Shroff, <em>BBS MBE</em> <br /> Mrs Purviz R.Shroff</h3>
+        <div class="sponsor-row">
+            <img class="sponsor" src="<?php echo createImagePath("hk.png","sponsors")?>" alt="sponsor" />
+            <span class="sponsor">Mr Rusy M. Shroff, <em>BBS MBE</em> <br /> Mrs Purviz R.Shroff</span>
         </div>
     </div>
 </footer>

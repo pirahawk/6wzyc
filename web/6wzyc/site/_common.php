@@ -39,11 +39,17 @@
         if( empty($imageName) || is_null($imageName)){
             return "";
         }
+        $path .= $category . PATH_SEPERATOR . $imageName;
+        return $path;
+    }
 
-        if( !empty($imageName) && !is_null($imageName)){
-            $path .= $category . PATH_SEPERATOR;
+    function createDocumentPath($documentName){
+        $path = CONTENT_PATH . "documents/";
+        if( empty($documentName) || is_null($documentName)){
+            return "";
         }
-        $path .= $imageName;
+
+       $path .= $documentName;
         return $path;
     }
 

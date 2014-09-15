@@ -69,9 +69,11 @@
         <h1>The Green Initiative</h1>
         <div class="row">
             <div class="col-md-6">
-                <p>CUE Haven is an initiative run by Thomas and Mahrukh Stazyk that is committed to the preservation of native plant and animal life. The 60 acre farm in Araparera, an hour north of the city and overlooking the Kaipara Harbour is to be reconverted into native forest.</p>
-                <p>As part of our green initiative and fundraising drive, the 6th WZYC Organising Committee will be planting a native New Zealand tree at CUE Haven for every NZ$10 donation to help create a greener future for the wider NZ community.</p>
-                <p>Our Congress will stress the necessity to evolve as a faith and a community. Like the trees being planted, we only secure perpetuity through adaptability once our roots take to foreign ground. The Stazyks are admirably dedicated to preserving this land’s legacy, just as this Congress is in preserving that of our religion.</p>
+                <p>New Zealand and Zoroastrianism have an important common theme: New Zealand is reputed to be a ‘clean green’ country and Zoroastrianism is recognized as an environmentally conscious religion due, to the rituals and injunctions that aim to safeguard nature from polluting influences. The Green Initiative is an effort made by ZYNZ to hold the first ecologically conscious World Zoroastrian Youth Congress and we intend to achieve this by spreading awareness of New Zealand’s pristine environment, along with Zoroastrianism’s customs to the best of our ability.</p>
+                <p>As part of our green initiative and fundraising drive, we (ZYNZ) will be planting a native New Zealand tree at CUE Haven for every NZ$10 donation to help create a greener future for the wider NZ community.</p>
+                <p>Our Congress will stress the necessity to evolve as a faith and a community. Like the trees being planted, we only secure perpetuity through adaptability once our roots take to foreign ground.</p>
+                <p>We are dedicated to assisting in the preservation of this land’s legacy, just as this Congress is in preserving that of our religion.</p>
+
                 <a class="btn btn-primary btn-lg" href="/cue-haven.php">About Cue Haven <i class="fa fa-angle-right"></i> </a>
             </div>
 
