@@ -16,7 +16,7 @@
     <div class="container">
         <h1>Our Sponsors</h1>
         <p>We would like to sincerely thank our our Official Key Sponsors and Partners for their support and commitment to the Congress. Sponsorship and donation opportunities are still available. For more information, please download our Sponsorship Proposal below.</p>
-        <a class="btn btn-primary btn-lg" href="<?php echo createDocumentPath("6WZYC-Sponsorship-proposal.pdf")?>" target="_blank">Sponsorship Proposal <i class="fa fa-angle-right"></i></a>
+        <a class="btn btn-primary btn-lg" href="<?php echo createDocumentPath("6WZYC-Sponsorship-proposal.pdf")?>" target="_blank" rel="nofollow">Sponsorship Proposal <i class="fa fa-angle-right"></i></a>
     </div>
 </section>
 

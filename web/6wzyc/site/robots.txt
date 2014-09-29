@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /Content/*
+Disallow: /Scripts/*
+Disallow: /fonts/*
+Disallow: /obj/*
+Disallow: /bin/*
+Allow: /
