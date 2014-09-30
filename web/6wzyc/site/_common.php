@@ -1,4 +1,10 @@
 <?php
+    
+    function isSplashPage(){
+        $isSplashPage = $GLOBALS['isSplashPage'];
+        return $isSplashPage;
+    }
+    
     /**
     Regex check to make sure that the string ends with a '.css' extension to make sure its a style sheet
     */

@@ -12,7 +12,7 @@
                 <span class="icon-bar"></span>
             </button>
 
-            <a class="navbar-brand" href="/">6WZYC</a>
+            <a class="navbar-brand" href="/about.php">6WZYC</a>
         </div>
 
         <div class="collapse navbar-collapse" id="all-navbar-links">
