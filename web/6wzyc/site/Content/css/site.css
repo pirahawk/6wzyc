@@ -122,6 +122,11 @@ p, ul, ol {
         font-size: 2em;
         background-color: rgba(255,255,255, 0.7);
     }
+
+    #enter-button:hover {
+        /*background-color: rgb(255,255,255);*/
+        background-color: #FFFFFF;
+    }
 }
 
 .site-green {
@@ -157,26 +162,10 @@ section.grey > .container {
     background-color: rgba(209,201,201,1);
 }
 
-
-div.platinum {
-    background-color: rgba(229,228,226,1);
+section.blue > .container {
+    background-color:#428bca;
+    color: #F5F5F5;
 }
-
-div.bronze {
-    background-color: rgba(232,196,160,1);
-}
-
-div.gold {
-    background-color: rgba(255,235,127, 1);
-}
-
-div.grey {
-    background-color: rgba(209,201,201,1);
-}
-
-
-
-
 
 div.container {
     padding-bottom: 1.25em;
@@ -275,6 +264,27 @@ footer .sponsor {
     margin: 20px;
 }
 
+.sponsors h3 {
+    display: inline-block;
+    padding-bottom: 10px;
+    border-bottom: 6px solid;
+}
+
+h3.platinum {
+    border-bottom-color: rgba(229,228,226,1);
+}
+
+h3.gold {
+    border-bottom-color: rgba(255,235,127, 1);
+}
+
+h3.bronze {
+    border-bottom-color: rgba(232,196,160,1);
+}
+
+h3.grey {
+    border-bottom-color: rgba(209,201,201,1);
+}
 
 section.sponsors .sponsor-row {
     margin: 20px auto;
@@ -284,9 +294,11 @@ section.sponsors .sponsor {
     max-width: 350px;
     display: inline-block;
     vertical-align: middle;
+    color: #000000;
 }
 
 
 section.sponsors .special-sponsor {
-    max-width: 500px;
+    max-height: 500px;
+    max-width: 100%;
 }

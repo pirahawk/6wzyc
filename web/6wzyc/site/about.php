@@ -57,6 +57,15 @@
 </section>
 
 
+<section class="blue">
+    <div class="container">
+        <h1>Advertise with us</h1>
+        <p>Advertising for the congress is now open. Please download our advertising proposal for more information.</p>
+        <a class="btn btn-default btn-lg" href="<?php echo createDocumentPath("6WZYC-Advertising-proposal.pdf")?>" target="_blank" rel="nofollow">Advertising Proposal <i class="fa fa-angle-right"></i></a>
+    </div>
+</section>
+
+
 <section class="green">
     <div class="container">
         <h1>The Green Initiative</h1>
