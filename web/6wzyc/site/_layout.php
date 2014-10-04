@@ -20,9 +20,7 @@
     <body>
 
         <?php
-            if(!isSplashPage()){
-                createSiteMenu();    
-            }
+                createSiteMenu();
         ?>
 
         <main>

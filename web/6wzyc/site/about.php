@@ -100,7 +100,8 @@
 
 
 <?php
-        renderFooter();
-    }      
+      renderFooter();  
+    }   
+       
 ?>
 
