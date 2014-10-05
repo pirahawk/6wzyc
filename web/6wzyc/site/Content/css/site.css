@@ -100,6 +100,10 @@ section.green > .container {
     background-color: #26b67c;
 }
 
+section.green a {
+    color: #FFFFFF
+}
+
 section.black > .container, div.panel-default:nth-child(2n) > div.panel-heading {
     background-color: #000 !important;
     color: #F5F5F5 !important;

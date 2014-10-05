@@ -64,6 +64,9 @@
     <div class="container">
         <div class="panel-group" id="faq-body">
 
+            
+
+
             <?php startHeading();?>
             When does early bird registration open
             <?php endHeading();?>
@@ -336,6 +339,14 @@
             <?php startAnswer();?>
             <p>This is strictly a drug and alcohol-free event. This policy will be firmly enforced for ALL registrants (minors as well as adults). By filling out the registration form as a delegate, or parent/legal guardian of a delegate, you are agreeing to abide by this. Should you be found with drugs or alcohol on the school premises, you will be asked to leave the premises and find alternative accommodation at your own expense.  Please note that in New Zealand it is illegal to supply alcohol to anyone under the age of 18 years old and it is illegal to consume, possess or supply certain drugs.  Congress officials may be required to involve Police if any criminal offending is detected.</p>
             <?php endAnswer();?>
+
+            <?php startHeading();?>
+            What can I do outside of the days of the congress
+            <?php endHeading();?>
+            <?php startAnswer();?>
+            <p>For travel ideas and information, please visit the official site of <a href="http://www.newzealand.com/" target="_blank">Tourism New Zealand</a></p>
+            <?php endAnswer();?>
+
         </div>
     </div>
 </section>
