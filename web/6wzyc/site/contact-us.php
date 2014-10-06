@@ -11,7 +11,7 @@
     <h1>Contact Us</h1>
 </div>
 
-<section>
+<section class="grey">
     <div class="container">
         <h1>Our Mailing address</h1>
         <address>
@@ -23,7 +23,7 @@
 </section>
 
 
-<section>
+<section class="grey">
     <div class="container">
         <h1>Social Media</h1>
         <p>Were also on the following social media channels:</p>
