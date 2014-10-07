@@ -23,7 +23,7 @@
 
 <section class="sponsors">
     <div class="container">
-        <h3 class="platinum">Platinum Sponsors</h3>
+        <h3 class="platinum">Platinum Sponsor</h3>
         <div class="sponsor-row">
             <a class="sponsor special-sponsor" href="http://www.seruminstitute.com/" target="_blank" rel="nofollow">
                 <img src="<?php echo createImagePath("poona.png","sponsors")?>" alt="Serum-Institute-Of-India" />
@@ -32,7 +32,7 @@
     </div>
 
     <div class="container">
-        <h3 class="gold">Gold Sponsors</h3>
+        <h3 class="gold">Gold Sponsor</h3>
         <div class="sponsor-row">
             <span class="sponsor special-sponsor">
                 <img class="" src="<?php echo createImagePath("hk.png","sponsors")?>" alt="Zoraztrian-Charity-Funds-HK" />
@@ -41,9 +41,9 @@
     </div>
 
     <div class="container">
-        <h3 class="bronze">Bronze Sponsors</h3>
+        <h3 class="bronze">Bronze Sponsor</h3>
         <div class="sponsor-row">
-            <span class="sponsor">
+            <span class="sponsor special-sponsor">
                 <img class="" src="<?php echo createImagePath("rusy-purviz-shroff.png","sponsors")?>" alt="rusy-purviz-shroff" />
             </span>
 
@@ -95,7 +95,6 @@
         <h3 class="grey">Law Partners</h3>
         <div class="sponsor-row">
             <a class="sponsor" href="http://www.fortunemanning.co.nz" target="_blank" rel="nofollow">
-                <span class="sponsor">Jenna Riddle (Solicitor) from</span>
                 <img src="<?php echo createImagePath("fortune-manning.png","sponsors")?>" alt="fortune-manning" />
             </a>
         </div>
