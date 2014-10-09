@@ -1,3 +1,7 @@
+body {
+    background-color: #F5F5F5;
+}
+
 body, h1, h2, h3, h4, p, a, address, ul {
     font-family: 'Roboto', sans-serif !important;
 }
@@ -57,23 +61,24 @@ h1, h2, h3 {
 
 .sponsor > img {
     display: block;
-    /*max-width: 100%;*/
-    max-height: 100%;
-    max-width: 100%;
+    max-width: 100%
 }
 
 footer {
     text-align: center;
-    background-color: #F5F5F5;
 }
 
-.sponsor {
+img.sponsor, a.sponsor{
     display: inline-block;
+    vertical-align: middle;
     max-width: 100%;
-    max-height: 200px;
-    margin: 0 auto;
-    vertical-align: inherit;
 }
+
+
+img.sponsor, a.sponsor > img {
+    max-height: 200px;
+}
+
 
 @media (min-width: 540px) and (orientation: portrait ), (min-height: 540px) and (orientation: landscape ) {
 
@@ -90,47 +95,38 @@ footer {
         font-size: 2em;
     }
 
-    main {
+    /*main {
         padding: 0;
         padding-bottom: 5px;
-    }
+    }*/
 
     #enter-button {
         font-size: 2em;
     }
 
-    .sponsor {
-        max-width: 33%;
-        max-height: 200px;
-    }
+    
 }
 
 
 @media (min-height: 600px) and (orientation: landscape ), (min-height: 600px) and (orientation: portrait ) {
 
     
-    .sponsor {
-        max-width: 33%;
-        max-height: 100px;
-    }
+   
 }
 
 
 
 @media (min-height: 768px) and (orientation: landscape ), (min-height: 768px) and (orientation: portrait ) {
 
-    main {
+    /*main {
         padding-bottom: 120px;
-    }
+    }*/
 
     h1 {
         font-size: 12.5em;
     }
 
-    .sponsor {
-        max-width: 33%;
-        /*max-height: 250px;*/
-    }
+   
 }
 
 @media (min-width: 1920px) {
@@ -143,24 +139,10 @@ footer {
         background-color: #FFFFFF;
     }
 
-    main {
+    /*main {
         padding: 100px 0;
         text-align: center;
-    }
-
-    footer {
-        text-align: center;
-        vertical-align: middle;
-    }
-
-    .sponsor {
-        /*display: inline-block;*/
-        margin: 0 auto;
-        max-height: 300px;
-        max-width: 600px;
-    }
-
-    /*.sponsor > img {
-        max-height: 300px;
     }*/
+
+    
 }
