@@ -56,12 +56,15 @@ h1, h2, h3 {
 }
 
 .sponsor > img {
-    display: inline-block;
+    display: block;
+    /*max-width: 100%;*/
+    max-height: 100%;
     max-width: 100%;
 }
 
 footer {
     text-align: center;
+    background-color: #F5F5F5;
 }
 
 .sponsor {
@@ -69,6 +72,7 @@ footer {
     max-width: 100%;
     max-height: 200px;
     margin: 0 auto;
+    vertical-align: inherit;
 }
 
 @media (min-width: 540px) and (orientation: portrait ), (min-height: 540px) and (orientation: landscape ) {
@@ -79,7 +83,7 @@ footer {
     }
 
     h1 {
-        font-size: 12.5em;
+        font-size: 9em;
     }
 
     h2 {
@@ -103,6 +107,8 @@ footer {
 
 
 @media (min-height: 600px) and (orientation: landscape ), (min-height: 600px) and (orientation: portrait ) {
+
+    
     .sponsor {
         max-width: 33%;
         max-height: 100px;
@@ -112,9 +118,18 @@ footer {
 
 
 @media (min-height: 768px) and (orientation: landscape ), (min-height: 768px) and (orientation: portrait ) {
+
+    main {
+        padding-bottom: 120px;
+    }
+
+    h1 {
+        font-size: 12.5em;
+    }
+
     .sponsor {
         max-width: 33%;
-        max-height: 250px;
+        /*max-height: 250px;*/
     }
 }
 
@@ -139,9 +154,13 @@ footer {
     }
 
     .sponsor {
-        display: inline-block;
+        /*display: inline-block;*/
         margin: 0 auto;
         max-height: 300px;
         max-width: 600px;
     }
+
+    /*.sponsor > img {
+        max-height: 300px;
+    }*/
 }

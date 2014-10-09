@@ -44,8 +44,8 @@
         <h1>Welcome - <em>Haere Mai</em></h1>
         <div class="row">
             <div class="col-md-6">
-                <p>We, the Zoroastrian Youth of New Zealand (ZYNZ) with the guidance of the Zarathushtrian Association of New Zealand (ZANZ) will be hosting and organising the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future.</p>
-                <p>We strive to provide a memorable, religious and social experience for our young global Zoroastrian attendees, while taking the initiative at organising the first ecologically conscious WZYC.</p>
+                <p>We, the Zoroastrian Youth of New Zealand (ZYNZ) with the guidance of the Zarathushtrian Association of New Zealand (ZANZ) are hosting and organising the 6th World Zoroastrian Youth Congress in 2015. Our vision is to create a global platform for our Zoroastrian youth to embrace our treasured culture, enhance our unique traditions and evolve to create a united future. In essence, the Congress motto: Embrace, Enhance, Evolve.</p>
+                <p>Our goal to provide a memorable, religious and social experience for our young global Zoroastrian attendees, whilst striving to make this the first ecologically conscious WZYC.</p>
             </div>
 
             <div class="col-md-6 center-txt">
@@ -60,7 +60,7 @@
 <section class="blue">
     <div class="container">
         <h1>Advertise with us</h1>
-        <p>Advertising for the congress is now open. Please view our advertising proposal for more information.</p>
+        <p>Advertising for the Congress is now open. Please view our advertising proposal for more information.</p>
         <a class="btn btn-default btn-lg" href="<?php echo createDocumentPath("6WZYC-Advertising-proposal.pdf")?>" target="_blank" rel="nofollow">Advertising Proposal <i class="fa fa-angle-right"></i></a>
     </div>
 </section>

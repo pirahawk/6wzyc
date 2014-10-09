@@ -40,6 +40,16 @@
         </div>
     </div>
 
+
+    <div class="container">
+        <h3 class="silver">Silver Sponsor</h3>
+        <div class="sponsor-row">
+            <a class="sponsor special-sponsor" href="http://www.w-z-o.org/" target="_blank" rel="nofollow">
+                <img class="" src="<?php echo createImagePath("wzo.png","sponsors")?>" alt="World-Zoroastrian-Organisation" />
+            </a>
+        </div>
+    </div>
+
     <div class="container">
         <h3 class="bronze">Bronze Sponsor</h3>
         <div class="sponsor-row">
@@ -88,11 +98,8 @@
         </div>
    
 
-
-
-
     <div class="container">
-        <h3 class="grey">Law Partners</h3>
+        <h3 class="grey">Law Partner</h3>
         <div class="sponsor-row">
             <a class="sponsor" href="http://www.fortunemanning.co.nz" target="_blank" rel="nofollow">
                 <img src="<?php echo createImagePath("fortune-manning.png","sponsors")?>" alt="fortune-manning" />
@@ -105,7 +112,7 @@
 <section class="blue">
     <div class="container">
         <h1>Advertise with us</h1>
-        <p>Advertising for the congress is now open. Please download our advertising proposal for more information.</p>
+        <p>Advertising for the Congress is now open. Please view our advertising proposal for more information.</p>
         <a class="btn btn-default btn-lg" href="<?php echo createDocumentPath("6WZYC-Advertising-proposal.pdf")?>" target="_blank" rel="nofollow">Advertising Proposal <i class="fa fa-angle-right"></i></a>
     </div>
 </section>

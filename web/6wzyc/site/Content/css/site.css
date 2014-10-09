@@ -206,7 +206,12 @@ div.panel-heading a {
 }
 
 footer .sponsor {
-    margin: 20px;
+    /*margin: 20px;*/
+    vertical-align: inherit;
+}
+
+footer .sponsor-row:last-of-type  .sponsor {
+    max-width: 320px;
 }
 
 .sponsors h3 {
@@ -216,19 +221,24 @@ footer .sponsor {
 }
 
 h3.platinum {
-    border-bottom-color: rgba(229,228,226,1);
+    border-bottom-color: rgb(229,228,226);
 }
 
 h3.gold {
-    border-bottom-color: rgba(255,235,127, 1);
+    border-bottom-color: rgb(255,235,127);
+}
+
+
+h3.silver {
+    border-bottom-color: rgb(192,192,192);
 }
 
 h3.bronze {
-    border-bottom-color: rgba(232,196,160,1);
+    border-bottom-color: rgb(232,196,160);
 }
 
 h3.grey {
-    border-bottom-color: rgba(209,201,201,1);
+    border-bottom-color: rgb(209,201,201);
 }
 
 section.sponsors .sponsor-row {
