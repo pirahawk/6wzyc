@@ -20,6 +20,8 @@
     <body>
         <main style="background-image:url('<?php echo createImagePath('auckland-pano.jpg',"site")?>')">
             <?php
+                
+                
                 /*
                 * Ensure that the page this layout is used for has a named function 
                 * as defined by constant PAGE_BODY (see _settings.php)

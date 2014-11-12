@@ -31,11 +31,35 @@
     }
 
 
+    function getBlobHostName(){
+        $hostName = $_SERVER["HTTP_HOST"];
+        $localHost = "/^(localhost|127.0.0.1)/";
+        $test = "/^test6wzyc\.azurewebsites\.net$/";
+        $live = "/^6wzyc\.co\.nz$/";
+
+
+        if(preg_match($localHost, $hostName) != false){
+            return "http://127.0.0.1:10000/devstoreaccount1/";
+        }
+
+        if(preg_match($test, $hostName) != false){
+            return "http://6wzyc.blob.core.windows.net/";
+        }
+
+        if(preg_match($live, $hostName) != false){
+            return "http://az684910.vo.msecnd.net/";
+        }
+
+        return "http://az684910.vo.msecnd.net/";
+    }
+
+
     /*
     Creates the image url in the form ~/<path-to-image>/$category/$imageName
     */
     function createImagePath($imageName, $category = ""){
-        $path = CONTENT_PATH . "images/";
+        
+        $path = getBlobHostName() . "6wzyc-images/";
         if( empty($imageName) || is_null($imageName)){
             return "";
         }
@@ -44,7 +68,7 @@
     }
 
     function createDocumentPath($documentName){
-        $path = CONTENT_PATH . "documents/";
+        $path = getBlobHostName() . "6wzyc-documents/";
         if( empty($documentName) || is_null($documentName)){
             return "";
         }
@@ -52,6 +76,9 @@
        $path .= $documentName;
         return $path;
     }
+
+
+    
 
 
     function renderScripts(){
