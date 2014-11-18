@@ -75,6 +75,13 @@
             <?php endAnswer();?>
 
             <?php startHeading();?>
+            How long is the 6<sup>th</sup> WZYC
+            <?php endHeading();?>
+            <?php startAnswer();?>
+            <p>The Congress will last 6 days 5 nights. The dates are from 28<sup>th</sup> December 2015 to 2<sup>nd</sup> January 2016.</p>
+            <?php endAnswer();?>
+
+            <?php startHeading();?>
             Who can attend the Congress
             <?php endHeading();?>
             <?php startAnswer();?>
@@ -200,12 +207,7 @@
             <p>Being in the Southern Hemisphere, it is summer time during December and January, with expected temperatures between 20 to 30 degrees Celsius. We recommend bringing appropriate clothing, sunscreen etc. for both rain and shine.</p>
             <?php endAnswer();?>
 
-            <?php startHeading();?>
-            How long is the 6<sup>th</sup> WZYC
-            <?php endHeading();?>
-            <?php startAnswer();?>
-            <p>The Congress will last 6 days 5 nights. The dates are from 28<sup>th</sup> December 2015 to 2<sup>nd</sup> January 2016.</p>
-            <?php endAnswer();?>
+            
 
             <?php startHeading();?>
             What is the program of the Congress

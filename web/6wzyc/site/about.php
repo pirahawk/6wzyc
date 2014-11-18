@@ -37,6 +37,7 @@
 
 <div class="page-title">
     <h1>6WZYC</h1>
+    <h2>28<sup>th</sup> Dec 2015 - 2<sup>nd</sup> Jan 2016</h2>
 </div>
 
 <section>
