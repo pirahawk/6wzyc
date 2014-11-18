@@ -17,8 +17,9 @@
 
         <div class="collapse navbar-collapse" id="all-navbar-links">
             <ul class="nav navbar-nav">
-                <li><a href="/accommodation.php">Accommodation</a></li>
                 <li><a href="/sponsors.php">Sponsors &amp; Partners</a></li>
+                <li><a href="/accommodation.php">Accommodation</a></li>
+                
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fundraising<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">

@@ -11,35 +11,24 @@ p, ul, ol {
     font-weight: 400;
 }
 
-#navigation-bar ul {
-    font-size: 1.25em;
+.navbar-right > li > a {
+    padding: 8px 8px;
 }
 
-#navigation-bar .navbar-brand, #navigation-bar i.fa {
-    font-size: 1.5em;
+.navbar-right i.fa {
+    font-size: 35px;
 }
 
-#navigation-bar a {
-    padding-bottom: 5px;
-}
+@media (max-width: 768px) {
+    .navbar-right > li {
+        display: inline-block;
+    }
 
-#navigation-bar .navbar-right a {
-    display: inline-block;
-    vertical-align: middle;
-    padding-bottom: 0;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-@media (min-width: 1200px) {
-    #navigation-bar i.fa {
-        font-size: 1.875em;
-        padding-bottom: 15px;
-        padding-left: 10px;
-        padding-right: 10px;
+    .navbar-right > li > a {
+        padding-top: 2px;
+        padding-bottom: 0;
     }
 }
-
 
 .page-title {
     text-align: center;
@@ -101,7 +90,7 @@ section.green > .container {
 }
 
 section.green a {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 section.black > .container, div.panel-default:nth-child(2n) > div.panel-heading {
@@ -114,7 +103,7 @@ section.grey > .container {
 }
 
 section.blue > .container {
-    background-color:#428bca;
+    background-color: #428bca;
     color: #F5F5F5;
 }
 
@@ -210,7 +199,7 @@ footer .sponsor {
     vertical-align: inherit;
 }
 
-footer .sponsor-row:last-of-type  .sponsor {
+footer .sponsor-row:last-of-type .sponsor {
     max-width: 320px;
 }
 
