@@ -2,12 +2,12 @@ html, body, main {
     height: 100%;
 }
 
-body, h1, h2, h3, h4, p, a, address, ul {
+body, h1, h2, h3, h4, p, a, address, ul, ol {
     font-family: 'Roboto', sans-serif !important;
 }
 
 p, ul, ol {
-    font-size: 1.25em;
+    font-size: 1.25em !important;
     font-weight: 400;
 }
 
@@ -105,6 +105,22 @@ section.grey > .container {
 section.blue > .container {
     background-color: #428bca;
     color: #F5F5F5;
+}
+
+div.panel.cream {
+    background-color: rgb(249, 242, 160);
+}
+
+div.panel.ice-blue {
+    background-color: rgb(79, 204, 204);
+}
+
+div.panel.light-green {
+    background-color: rgb(111, 197, 146);
+}
+
+div.panel.violet {
+    background-color: rgb(200, 166, 181);
 }
 
 div.container {
