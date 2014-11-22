@@ -37,7 +37,7 @@
                             <li>One recent colour passport-sized photo, with an appropriate label/file name to identify the delegate and their country of origin</li>
                             <li>One doctor’s certificate if said delegate has a pre-existing medical condition</li>
                         </ul>
-                        <p>Once you have provided all details, necessary documents and accepted the <a  href="<?php echo createDocumentPath("6wzyc-terms-conditions.docx")?>" target="_blank">Terms and Conditions</a>, you may submit this form. <strong>Note:</strong> <em>You will not be required to make a payment at this stage</em></p>
+                        <p>Once you have provided all details, necessary documents and accepted the <a  href="<?php echo createDocumentPath("6wzyc-terms-conditions.pdf")?>" target="_blank">Terms and Conditions</a>, you may submit this form. <strong>Note:</strong> <em>You will not be required to make a payment at this stage</em></p>
 
                         
                     </div>
@@ -105,7 +105,7 @@
     <div class="container">
         <h1>Terms and Conditions</h1>
         <p>Please ensure you have read and understood the Terms and Conditions of the 6WZYC before proceeding</p>
-        <a class="btn btn-primary btn-lg" href="<?php echo createDocumentPath("6wzyc-terms-conditions.docx")?>" target="_blank">Terms and Conditions <i class="fa fa-angle-right"></i></a>
+        <a class="btn btn-primary btn-lg" href="<?php echo createDocumentPath("6wzyc-terms-conditions.pdf")?>" target="_blank">Terms and Conditions <i class="fa fa-angle-right"></i></a>
     </div>
 </section>
 
