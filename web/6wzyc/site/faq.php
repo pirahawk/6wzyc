@@ -263,7 +263,7 @@
             <?php endAnswer();?>
 
             <?php startHeading();?>
-            What do I need to do to complete mysupply with my registration
+            What do I need to do to complete my registration
             <?php endHeading();?>
             <?php startAnswer();?>
             <p>Step 1: Submit</p>
