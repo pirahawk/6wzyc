@@ -37,11 +37,12 @@
                             <li>One recent colour passport-sized photo, with an appropriate label/file name to identify the delegate and their country of origin</li>
                             <li>One doctor’s certificate if said delegate has a pre-existing medical condition</li>
                         </ul>
+                        <p><em>(<strong>*</strong> Legal Verification in New Zealand is when the original document is sighted by a Justice of the Peace/Oath Taker/Registrar/Solicitor and the photocopy version is signed and dated/stamped by them or their company/firm)</em></p>
                         <p>Once you have provided all details, necessary documents and accepted the <a  href="<?php echo createDocumentPath("6wzyc-terms-conditions.pdf")?>" target="_blank">Terms and Conditions</a>, you may submit this form. <strong>Note:</strong> <em>You will not be required to make a payment at this stage</em></p>
-
-                        
                     </div>
                 </div>
+
+
             </div>
 
 
@@ -97,7 +98,7 @@
             </div>
         </div>
 
-        <p><em>(<strong>*</strong> Legal Verification in New Zealand is when the original document is sighted by a Justice of the Peace/Oath Taker/Registrar/Solicitor and the photocopy version is signed and dated/stamped by them or their company/firm)</em></p>
+        <p>If you have any further questions, please refer to the <a href="/faq.php">FAQ's</a> or feel free to email us at <a href="mailto:register.6thwzyc@gmail.com">register.6thwzyc@gmail.com</a></p>
     </div>
 </section>
 
@@ -109,11 +110,23 @@
     </div>
 </section>
 
+
+<section class="grey">
+    <div class="container">
+        <h1>Pricing</h1>
+        <ul>
+            <li><strong>Early Bird Rate</strong>: NZD $1049.00 (valid from 1<sup>st</sup> December 2014 - 12<sup>th</sup> April 2015)</li>
+            <li><strong>Casual Rate</strong>: NZD $1199.00 (valid from 13<sup>th</sup> April 2015 - 16<sup>th</sup> August 2015)</li>
+            <li><strong>Last minute Rate</strong>: NZD $1349.00 (valid from 17<sup>th</sup> August 2015 - 13<sup>th</sup> December 2015)</li>
+        </ul>
+    </div>
+</section>
+
 <section class="grey">
     <div class="container">
         <h1>Register For the Congress</h1>
         <p>Please click through to begin your registration</p>
-        <a class="btn btn-success btn-lg" href="" target="_blank">Register <i class="fa fa-angle-right"></i></a>
+        <a class="btn btn-success btn-lg" href="https://fs30.formsite.com/6thWZYC/6wzyc-registration-form/form_login.html">Register <i class="fa fa-angle-right"></i></a>
     </div>
 </section>
 

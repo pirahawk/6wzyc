@@ -71,7 +71,7 @@
             When does early bird registration open
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Early bird registration will open in December 2014.</p>
+            <p>Early bird registration will open on 1<sup>st</sup> December 2014.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -85,7 +85,7 @@
             Who can attend the Congress
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Registration is open to all global practicing Zoroastrians from age 15 (27<sup>th</sup> December 1975) to 35 (as of 3<sup>rd</sup> January 2016).</p>
+            <p>Registration is open to all global practicing Zoroastrians from age 15 to 35 (as of 27<sup>th</sup> December 2016).</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -107,7 +107,7 @@
             Do you have a travel agent who can help us with bookings if we choose to tour New Zealand before or after the Congress?
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Travel 2000 is the official New Zealand Travel partner for the 6th World Zoroastrian Youth Congress. For special deals and packages, <a href="http://www.travel2000.co.nz" target="_blank">visit their site</a> or contact them on info@travel2000.co.nz / +649 6202266.</p>
+            <p>Travel 2000 is the official New Zealand Travel partner for the 6th World Zoroastrian Youth Congress. For special deals and packages, <a href="http://www.travel2000.co.nz" target="_blank">visit their site</a> or contact them on <a href="mailto:info@travel2000.co.nz">info@travel2000.co.nz</a> / +649 6202266.</p>
             <p>We also have global travel partners for those flying to and from New Zealand. For this list please visit the official <a href="/" target="_blank">Congress website</a></p>
             <?php endAnswer();?>
 
@@ -115,7 +115,7 @@
             Are there any accommodation arrangements available for me should I wish to extend my stay in New Zealand – either before of after the Congress
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Yes, if your visa permits you to stay in New Zealand outside of the Congress dates it, please contact Mrs Tanaz Siganporia at tanaz2210@yahoo.co.nz, who will be happy to arrange accommodation for you with a local Zoroastrian family free of charge.</p>
+            <p>Yes, if your visa permits you to stay in New Zealand outside of the Congress dates it, please contact Mrs Tanaz Siganporia at <a href="mailto:tanaz2210@yahoo.co.nz">tanaz2210@yahoo.co.nz</a>, who will be happy to arrange accommodation for you with a local Zoroastrian family free of charge.</p>
             <?php endAnswer();?>
 
 
@@ -139,6 +139,14 @@
             <?php endHeading();?>
             <?php startAnswer();?>
             <p>Any help or advice you need with visas please contact <i>Mrs Kainaz Jamasbnejad</i> at: <?php renderEmailAddress()?></p>
+            <?php endAnswer();?>
+
+
+            <?php startHeading();?>
+            Do I need insurance
+            <?php endHeading();?>
+            <?php startAnswer();?>
+            <p>Delegates are responsible for organising their own travel and medical insurance. This is strongly recommended by the Organising Committee. Should a delegate choose not to prepare this for themselves it is at their own discretion and the Organising Committee will not be held financially responsible.</p>
             <?php endAnswer();?>
 
 
@@ -255,27 +263,42 @@
             <?php endAnswer();?>
 
             <?php startHeading();?>
-            What do I need to supply with my application for registration
+            What do I need to do to complete mysupply with my registration
             <?php endHeading();?>
             <?php startAnswer();?>
-            <ol>
-                <li>Pay the registration fee</li>
-                <li>Complete and return registration forms (via email or post)</li>
-                <li>Sign & date terms & conditions (and have my legal guardians/parents sign too if applicable) and send back  (via email or post)</li>
-                <li>Provide 2 <strong>verified*</strong> visa copies (for delegates who need a visa prior to entering New Zealand) via email or post</li>
-                <li>Provide 2 <strong>verified*</strong> passport copies via email or post</li>
-                <li>Provide 1 recent colour passport-sized photo (via email or post) with an appropriate label/file name to identify the delegate and their country of origin</li>
-                <li>Provide a doctor’s certificate (if said delegate has a pre-existing medical condition).</li>
-            </ol>
-            <p>All Documents can be sent VIA EMAIL to:<br><br> <?php renderEmailAddress()?> <br><br>OR POST to: <?php renderPostalAddress()?></p>
-            <p>(* Legal Verification in New Zealand is when the original document is sighted by a Justice of the Peace/Oath Taker/Registrar/Solicitor and the photocopy version is signed and dated/stamped by them or their company/firm)</p>
+            <p>Step 1: Submit</p>
+            <ul>
+                <li>Complete registration form & accept <a href="<?php echo createDocumentPath("6wzyc-terms-conditions.pdf")?>" target="_blank">terms & conditions</a> (if applicable, have your  legal guardian complete registration form and accept terms & conditions)</li>
+                <li>Attach 1 <strong>verified<sup>*</sup></strong> visa copy for delegates who need a visa prior to entering New Zealand(not required for New Zealand delegates)</li>
+                <li>Attach 1 <strong>verified<sup>*</sup></strong> passport copy</li>
+                <li>Attach 1 recent colour passport-sized photo, with an appropriate label/file name to identify the delegate and their country of origin</li>
+            </ul>
+            <p><em>(<strong>*</strong> Legal Verification in New Zealand is when the original document is sighted by a Justice of the Peace/Oath Taker/Registrar/Solicitor and the photocopy version is signed and dated/stamped by them or their company/firm)</em></p>
+
+            <p>Step 2: Review</p>
+            <ul>
+                <li>The Organising Committee will review your application. Should it meet all the criteria they will issue a letter to the delegate with a unique delegate code and payment instructions.</li>
+            </ul>
+            
+            <p>Step 3: Payment</p>
+            <ul>
+                <li>Payment must be made using the unique delegate code.</li>
+            </ul>
+
+            <p>Step 4: Confirmation</p>
+            <ul>
+                <li>Upon receiving payment, the Organising Committee will issue a letter of confirmation for attending the Congress. Please make sure you carry this letter with your passport as proof of the reason for your visit to New Zealand. This letter cannot be used as a letter of referee.</li>
+            </ul>
+
             <?php endAnswer();?>
 
             <?php startHeading();?>
             What payment options are provided for delegates
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>We will release more information soon once we have finalised all payment options.</p>
+            <p>Bank transfers and credit card facilities via the SWIPE system.(Please note: With either payment method, delegates will incur minor processing/banking charges)</p>
+            <p>Upon receiving all of the above stated documents, the Organising Committee will send delegates payment instructions for the above methods.</p>
+            <p>These will also be accessible on the Congress website registration page.</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
@@ -292,8 +315,8 @@
             <?php endHeading();?>
             <?php startAnswer();?>
             <ul>
-                <li>Before 28<sup>th</sup> October 2015: Full refund (Less NZD$100.00 for administration charges)</li>
-                <li>From 28<sup>th</sup> October 2015 – 28<sup>th</sup> November 2015: 60% refund</li>
+                <li>Before 28<sup>th</sup> October 2015: 75% refund</li>
+                <li>From 28<sup>th</sup> October 2015 – 28<sup>th</sup> November 2015: 50% refund</li>
                 <li>After 28<sup>th</sup> November 2015: No refund</li>
             </ul>
             <p>Refunds will be in New Zealand dollars and returned via bank wire transfer only. Applicable bank charges deducted from all refunds.</p>

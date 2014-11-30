@@ -60,9 +60,9 @@
 
 <section class="blue">
     <div class="container">
-        <h1>Advertise with us</h1>
-        <p>Advertising for the Congress is now open. Please view our advertising proposal for more information.</p>
-        <a class="btn btn-default btn-lg" href="<?php echo createDocumentPath("6WZYC-Advertising-proposal.pdf")?>" target="_blank" rel="nofollow">Advertising Proposal <i class="fa fa-angle-right"></i></a>
+        <h1>Registration is now open</h1>
+        <p>Registration for the congress is now open. You may apply to attend the congress.</p>
+        <a class="btn btn-default btn-lg" href="/register.php">Register <i class="fa fa-angle-right"></i></a>
     </div>
 </section>
 
@@ -82,7 +82,7 @@
 
             <div class="col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/kM9bLxTDpYc?showinfo=0&autohide=1&theme=light&cc_load_policy=0&controls=2&iv_load_policy=3&modestbranding=1&disablekb=1" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="//www.youtube.com/embed/7-43mgafcv8?showinfo=0&autohide=1&theme=light&cc_load_policy=0&controls=2&iv_load_policy=3&modestbranding=1&disablekb=1" allowfullscreen></iframe>
                 </div>
             </div>
         </div>
