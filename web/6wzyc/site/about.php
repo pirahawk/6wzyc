@@ -61,7 +61,12 @@
 <section class="blue">
     <div class="container">
         <h1>Registration is now open</h1>
-        <p>Registration for the congress is now open. You may apply to attend the congress.</p>
+        <p>You can now register to attend the congress.The rates for the congress are:</p>
+        <ul>
+            <li><strong>Early Bird Rate</strong>: NZD $1049.00 (valid from 1<sup>st</sup> December 2014 - 12<sup>th</sup> April 2015)</li>
+            <li><strong>Casual Rate</strong>: NZD $1199.00 (valid from 13<sup>th</sup> April 2015 - 16<sup>th</sup> August 2015)</li>
+            <li><strong>Last minute Rate</strong>: NZD $1349.00 (valid from 17<sup>th</sup> August 2015 - 13<sup>th</sup> December 2015)</li>
+        </ul>
         <a class="btn btn-default btn-lg" href="/register.php">Register <i class="fa fa-angle-right"></i></a>
     </div>
 </section>
