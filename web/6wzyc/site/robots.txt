@@ -4,4 +4,7 @@ Disallow: /Scripts/*
 Disallow: /fonts/*
 Disallow: /obj/*
 Disallow: /bin/*
+Disallow: /payment.php
+Disallow: /payment-special.php
+Disallow: /payment-nz.php
 Allow: /
