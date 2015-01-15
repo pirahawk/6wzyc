@@ -58,7 +58,7 @@
                             <li>Failure to comply with the above will be classified as non-payment.</li>
                         </ol>
                         <p>You will currently be charged NZD <strong>$980</strong> per person (3.25% transaction charge inclusive).</p>
-                        <p>Please enter the number of delegates you will be paying for (if you are paying for more than one person) and click the 'Pay Now' button. You will then be redirected to the payment portal.</p>
+                        <p>Please click the 'Pay Now' button. You will then be redirected to the payment portal.</p>
 
 
                         <form action="https://payment.swipehq.com/" method="POST" enctype="multipart/form-data">
@@ -107,7 +107,7 @@
                             <li>Failure to comply with the above will be classified as non-payment.</li>
                         </ol>
                         <p>You will currently be charged NZD <strong>$990</strong> per person (3.25% transaction charge inclusive).</p>
-                        <p>Please enter the number of delegates you will be paying for (if you are paying for more than one person) and click the 'Pay Now' button. You will be redirected to the payment portal.</p>
+                        <p>Please click the 'Pay Now' button. You will be redirected to the payment portal.</p>
 
 
                         <form action="https://payment.swipehq.com/" method="POST" enctype="multipart/form-data">
