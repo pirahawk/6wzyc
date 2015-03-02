@@ -5,4 +5,5 @@
  define("CONTENT_PATH", "/Content/");
  define("SCRIPT_PATH", "/Scripts/");
  define("PATH_SEPERATOR", "/");
+ define("CDN_VERSION", "1");
 ?>

@@ -63,7 +63,7 @@
         if( empty($imageName) || is_null($imageName)){
             return "";
         }
-        $path .= $category . PATH_SEPERATOR . $imageName;
+        $path .= $category . PATH_SEPERATOR . $imageName . "?v=". CDN_VERSION;
         return $path;
     }
 
@@ -73,7 +73,7 @@
             return "";
         }
 
-       $path .= $documentName;
+       $path .= $documentName. "?v=". CDN_VERSION;
         return $path;
     }
 
