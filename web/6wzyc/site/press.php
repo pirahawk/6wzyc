@@ -15,6 +15,7 @@
     <div class="container">
         <h1>We're in the press</h1>
         <p>We have been mentioned in the press. Please browse through any of the articles below.</p>
+        <h3><a href="<?php echo createDocumentPath("hamazor-2015-congress-registration.png")?>" target="_blank">Hamazor - 6WZYC is now open for registration</a></h3>
         <h3><a href="<?php echo createDocumentPath("indian-newslink-pragmatic-minority.pdf")?>" target="_blank">Indian Newslink - Pragmatic Minority shines in excellence</a></h3>
         <h3><a href="<?php echo createDocumentPath("indian-newsLink-nature.jpg")?>" target="_blank">Indian Newslink - Young 'Zoros' bring Nature to the world stage</a></h3>
         <h3><a href="<?php echo createDocumentPath("indian-newsLink-global.jpg")?>" target="_blank">Indian Newslink - Young Zoroastrian's call for a global meet</a></h3>
