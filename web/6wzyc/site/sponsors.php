@@ -53,8 +53,19 @@
     <div class="container">
         <h3 class="bronze">Bronze Sponsor</h3>
         <div class="sponsor-row">
+
+            <a class="sponsor special-sponsor" href="http://www.sailegal.biz.com.hk/" target="_blank" rel="nofollow">
+                <img class="" src="<?php echo createImagePath("navaz-jal-karbhari.png","sponsors")?>" alt="navaz-jal-karbhari" />
+            </a>
+
             <span class="sponsor special-sponsor">
                 <img class="" src="<?php echo createImagePath("rusy-purviz-shroff.png","sponsors")?>" alt="rusy-purviz-shroff" />
+            </span>
+
+            
+
+            <span class="sponsor special-sponsor">
+                <img class="" src="<?php echo createImagePath("shernaz-cawas-pardiwalla.png","sponsors")?>" alt="shernaz-cawas-pardiwalla" />
             </span>
 
         </div>

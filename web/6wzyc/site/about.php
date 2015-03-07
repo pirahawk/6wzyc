@@ -4,17 +4,19 @@
     function renderTeamList(){
         $team = array(
         array("name" => "Tinaz Karbhari","title" =>"Chair", "image" =>"tinaz.jpg"),
-        array("name" => "Roxanne Medhora","title" =>"Co-Vice Chair", "image" =>"roxanne.jpg"),
         array("name" => "Nazneen Sukhia","title" =>"Co-Vice Chair", "image" =>"nazneen.jpg"),
+        array("name" => "Roxanne Medhora","title" =>"Co-Vice Chair", "image" =>"roxanne.jpg"),
+        
         array("name" => "Burzin Fatakia","title" =>"Treasurer", "image" =>"burzin.jpg"),
         array("name" => "Xerxes Sukhia","title" =>"Secretary", "image" =>"xerxes.jpg"),
-        array("name" => "Delzin Balsara","title" =>"Web Master", "image" =>"delzin.jpg"),
-        array("name" => "Kainaz Jamasbnejad","title" =>"Visa & Registration", "image" =>"kainaz.jpg"),
-        array("name" => "Mahafrin Suntoke","title" =>"Secretary Speakers", "image" =>"mahafrin.jpg"),
         array("name" => "Cyrus Daji","title" =>"Accomodation & Transport", "image" =>"cyrus.jpg"),
-        array("name" => "Delzin & Zirak Vazifdar","title" =>"Fundraising", "image" =>"blank.jpg"),
-        array("name" => "Ferzeen Irani","title" =>"Marketing", "image" =>"ferzeen.jpg"),
-        array("name" => "Karmin Homavazir","title" =>"Entertainment", "image" =>"karmin.jpg")
+        array("name" => "Kainaz Jamasbnejad","title" =>"Visa & Registration", "image" =>"kainaz.jpg"),
+
+        array("name" => "Delzin Balsara","title" =>"Speakers", "image" =>"delzin.jpg"),
+        array("name" => "Karmin Homavazir","title" =>"Entertainment", "image" =>"karmin.jpg"),
+        array("name" => "Ferzeen Dadabhoy","title" =>"Marketing", "image" =>"ferzeen.jpg"),
+        array("name" => "Delzin & Zirak Vazifdar","title" =>"Fundraising", "image" =>"blank.jpg")
+        
         );
     
         foreach($team as $member){ 
