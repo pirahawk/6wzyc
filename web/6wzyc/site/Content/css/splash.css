@@ -61,14 +61,14 @@ h1, h2, h3 {
 
 .sponsor > img {
     display: block;
-    max-width: 100%
+    max-width: 100%;
 }
 
 footer {
     text-align: center;
 }
 
-img.sponsor, a.sponsor{
+img.sponsor, a.sponsor {
     display: inline-block;
     vertical-align: middle;
     max-width: 100%;
@@ -95,54 +95,26 @@ img.sponsor, a.sponsor > img {
         font-size: 2em;
     }
 
-    /*main {
-        padding: 0;
-        padding-bottom: 5px;
-    }*/
-
     #enter-button {
         font-size: 2em;
     }
-
-    
 }
-
 
 @media (min-height: 600px) and (orientation: landscape ), (min-height: 600px) and (orientation: portrait ) {
-
-    
-   
 }
 
-
-
 @media (min-height: 768px) and (orientation: landscape ), (min-height: 768px) and (orientation: portrait ) {
-
-    /*main {
-        padding-bottom: 120px;
-    }*/
-
     h1 {
         font-size: 12.5em;
     }
-
-   
 }
 
 @media (min-width: 1920px) {
-
     #enter-button {
         background-color: rgba(255,255,255, 0.7);
     }
 
     #enter-button:hover {
         background-color: #FFFFFF;
-    }
-
-    /*main {
-        padding: 100px 0;
-        text-align: center;
-    }*/
-
-    
+    }  
 }
