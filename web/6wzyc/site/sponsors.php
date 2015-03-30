@@ -51,7 +51,7 @@
     </div>
 
     <div class="container">
-        <h3 class="bronze">Bronze Sponsor</h3>
+        <h3 class="bronze">Bronze Sponsors</h3>
         <div class="sponsor-row">
 
             <a class="sponsor special-sponsor" href="http://www.sailegal.biz.com.hk/" target="_blank" rel="nofollow">
