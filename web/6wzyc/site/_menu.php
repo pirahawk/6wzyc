@@ -17,10 +17,17 @@
 
         <div class="collapse navbar-collapse" id="all-navbar-links">
             <ul class="nav navbar-nav">
-                <li><a href="/sponsors.php">Sponsors &amp; Partners</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sponsors<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="/sponsors.php">Sponsors &amp; Partners</a></li>
+                        <li><a href="/legacy-donors.php">Legacy Donors</a></li>
+                    </ul>
+                </li>
+
                 <li><a href="/accommodation.php">Accommodation</a></li>
                 <li><a href="/register.php">Registration</a></li>
-                
+
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fundraising<span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
