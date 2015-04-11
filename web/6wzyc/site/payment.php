@@ -60,7 +60,7 @@
                             <li><strong>If you are a third-party/organization paying for one or more delegate to attend the Congress</strong>, please ensure your <strong>Email address</strong> matches the email address nominated by each of the respective delegate(s) on their registration form to allow us to track your payment successfully.</li>
                             <li>Failure to comply with the above will be classified as non-payment.</li>
                         </ol>
-                        <p>You will currently be charged NZD <strong>$1,084</strong> per person (3.25% transaction charge inclusive).</p>
+                        <p>You will currently be charged NZD <strong>$1,240</strong> per person (3.25% transaction charge inclusive).</p>
                         <p>Please enter the number of delegates you will be paying for (if you are paying for more than one person) and click the 'Pay Now' button. You will be redirected to the payment portal.</p>
 
 
@@ -75,7 +75,7 @@
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
                                                 <tr>
                                                     <td align="center" style="border: none;">
-                                                        <input style="cursor:pointer; color:#fff; text-decoration: none; font-family:'Arial', 'Helvetica', sans-serif; font-size: 14px; font-weight: bold; border: none; background-color: #9FBF00;" type="submit" id="submit" value="Pay Now!!" name="submit"><input type="hidden" id="product_id" name="product_id" value="12448184788C6E">
+                                                        <input style="cursor:pointer; color:#fff; text-decoration: none; font-family:'Arial', 'Helvetica', sans-serif; font-size: 14px; font-weight: bold; border: none; background-color: #9FBF00;" type="submit" id="submit" value="Pay Now!!" name="submit"><input type="hidden" id="product_id" name="product_id" value="79CEEF4D9BB62">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -109,7 +109,7 @@
                             <li><strong>If you are a third-party/organization paying for one or more delegate to attend the Congress</strong>, please ensure your <strong>Email address</strong> matches the email address nominated by each of the respective delegate(s) on their registration form to allow us to track your payment successfully.</li>
                             <li>Failure to comply with the above will be classified as non-payment.</li>
                         </ol>
-                        <p>You will currently be charged NZD <strong>$1,094</strong> per person (3.25% transaction charge inclusive).</p>
+                        <p>You will currently be charged NZD <strong>$1,250</strong> per person (3.25% transaction charge inclusive).</p>
                         <p>Please enter the number of delegates you will be paying for (if you are paying for more than one person) and click the 'Pay Now' button. You will be redirected to the payment portal.</p>
 
 
@@ -124,7 +124,7 @@
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
                                                 <tr>
                                                     <td align="center" style="border: none;">
-                                                        <input style="cursor:pointer; color:#fff; text-decoration: none; font-family:'Arial', 'Helvetica', sans-serif; font-size: 14px; font-weight: bold; border: none; background-color: #9FBF00;" type="submit" id="submit" value="Pay Now!!" name="submit"><input type="hidden" id="product_id" name="product_id" value="EB702E2609A34">
+                                                        <input style="cursor:pointer; color:#fff; text-decoration: none; font-family:'Arial', 'Helvetica', sans-serif; font-size: 14px; font-weight: bold; border: none; background-color: #9FBF00;" type="submit" id="submit" value="Pay Now!!" name="submit"><input type="hidden" id="product_id" name="product_id" value="12456AE440EC5E">
                                                     </td>
                                                 </tr>
                                             </table>
@@ -147,9 +147,10 @@
 
                 <div id="step-three" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <p>All international bank transfers will require the following information and will incur a receiving fee of NZD $25. This will be added to your registration cost.</p>
+                        <p>All international bank transfers will require the following information and will incur a receiving fee of <strong>NZD $25</strong>. This will be added to your registration cost.</p>
                         <p>You will need the following information to make the transfer:</p>
                         <ul>
+                            <li>Total amount to pay: <strong>NZD $1224</strong></li>
                             <li>Reference: You will need to use your <strong>Delegate Id</strong>, assigned upon submitting your registration form, as a reference when making the payment. This will allow us to match your payment to your registration form.</li>
                             <li>Name of PAYEE account: ZANZ WORLD ZOROASTRIAN YOUTH CONGRESS</li>
                             <li>Name of Bank: ASB Bank Limited</li>
