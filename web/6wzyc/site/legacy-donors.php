@@ -28,6 +28,8 @@
             <li><h3>Mr. Dinshawji Avari (Pakistan)</h3></li>
             <li><h3>Mr. Purvez Rustomji (USA)</h3></li>
             <li><h3>The Zartoshti Brothers (UK)</h3></li>
+            <li><h3>The Dabestani Brothers (Iran)</h3></li>
+            <li><h3>Mrs. Khorshed Jungalwalla (USA)</h3></li>
         </ul>
     </div>
 </section>

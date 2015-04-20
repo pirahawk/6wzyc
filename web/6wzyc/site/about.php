@@ -14,9 +14,8 @@
 
         array("name" => "Delzin Balsara","title" =>"Speakers", "image" =>"delzin.jpg"),
         array("name" => "Karmin Homavazir","title" =>"Entertainment", "image" =>"karmin.jpg"),
-        array("name" => "Ferzeen Dadabhoy","title" =>"Marketing", "image" =>"ferzeen.jpg"),
-        array("name" => "Delzin & Zirak Vazifdar","title" =>"Fundraising", "image" =>"blank.jpg")
-        
+        array("name" => "Ferzeen Dadabhoy","title" =>"Marketing", "image" =>"ferzeen.jpg")
+
         );
     
         foreach($team as $member){ 

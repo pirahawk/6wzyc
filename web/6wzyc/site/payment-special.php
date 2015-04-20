@@ -89,13 +89,13 @@
             <div class="panel light-green">
                 <div class="panel-heading">
                     <h3 class="panel-title">
-                        <a data-toggle="collapse" data-parent="#registration-body" href="#step-two">Pay Online (Credit Card) & Donate to Cue Haven</a>
+                        <a data-toggle="collapse" data-parent="#registration-body" href="#step-two">Pay Online (Credit Card) & support the Green Initiative</a>
                     </h3>
                 </div>
 
                 <div id="step-two" class="panel-collapse collapse">
                     <div class="panel-body">
-                        <p>Please use this option if you wish to pay for attending the congress <strong>and make a NZD $10 donation to Cue Haven</strong>.</p>
+                        <p>Please use this option if you wish to pay for attending the congress <strong>and make a NZD $10 donation to support the Green Initiative</strong>.</p>
                         <p>You can make your payments online using <a href="https://www.swipehq.co.nz" target="_blank">Swipe</a>. 
                             Please ensure you read and follow the instructions below:</p>
 
