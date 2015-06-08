@@ -30,8 +30,8 @@
             <li><h3>The Zartoshty Brothers (UK)</h3></li>
             <li><h3>The Dabestani Brothers (Iran)</h3></li>
             <li><h3>Mrs. Khorshed Jungalwalla (USA)</h3></li>
-            <li><h3>The Shapoorji Pallonji & Company Pvt Ltd</h3></li>
-            <li><h3> Mrs Farangis Shahrokh</h3></li>
+            <li><h3>The Shapoorji Pallonji & Company Pvt Ltd (India)</h3></li>
+            <li><h3> Mrs Farangis Shahrokh (Iran)</h3></li>
         </ul>
     </div>
 </section>

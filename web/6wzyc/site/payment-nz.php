@@ -60,7 +60,7 @@
                             <li><strong>If you are a third-party/organization paying for one or more delegate to attend the Congress</strong>, please ensure your <strong>Email address</strong> matches the email address nominated by each of the respective delegate(s) on their registration form to allow us to track your payment successfully.</li>
                             <li>Failure to comply with the above will be classified as non-payment.</li>
                         </ol>
-                        <p>You will currently be charged NZD <strong>$1,211</strong> per person (0.95% transaction charge inclusive).</p>
+                        <p>You will currently be charged NZD <strong>$1,059</strong> per person (0.95% transaction charge inclusive).</p>
                         <p>Please enter the number of delegates you will be paying for (if you are paying for more than one person) and click the 'Pay Now' button. You will be redirected to the payment portal.</p>
 
 
@@ -75,7 +75,7 @@
                                             <table cellpadding="0" cellspacing="0" border="0" width="100%" height="100%">
                                                 <tr>
                                                     <td align="center" style="border: none;">
-                                                        <input style="cursor:pointer; color:#fff; text-decoration: none; font-family:'Arial', 'Helvetica', sans-serif; font-size: 14px; font-weight: bold; border: none; background-color: #9FBF00;" type="submit" id="submit" value="Pay Now!!" name="submit"><input type="hidden" id="product_id" name="product_id" value="12456AE4E162FD">
+                                                        <input style="cursor:pointer; color:#fff; text-decoration: none; font-family:'Arial', 'Helvetica', sans-serif; font-size: 14px; font-weight: bold; border: none; background-color: #9FBF00;" type="submit" id="submit" value="Pay Now!!" name="submit"><input type="hidden" id="product_id" name="product_id" value="B29900DBE4794">
                                                     </td>
                                                 </tr>
                                             </table>
