@@ -16,8 +16,8 @@
     <div class="container">
         <h1>Pricing</h1>
         <ul>
-            <li><strong>Early Bird Rate</strong>: NZD $1049.00 (valid from 1<sup>st</sup> December 2014 - 12<sup>th</sup> April 2015)</li>
-            <li><strong>Casual Rate</strong>: NZD $1199.00 (valid from 13<sup>th</sup> April 2015 - 16<sup>th</sup> August 2015)</li>
+            <li><strong>Early Bird Rate</strong>: NZD $1049.00 (valid from 1<sup>st</sup> December 2014 - 10<sup>th</sup> June 2015)</li>
+            <li><strong>Casual Rate</strong>: NZD $1199.00 (valid from 10<sup>th</sup> June 2015 - 16<sup>th</sup> August 2015)</li>
             <li><strong>Last minute Rate</strong>: NZD $1349.00 (valid from 17<sup>th</sup> August 2015 - 13<sup>th</sup> December 2015)</li>
         </ul>
     </div>

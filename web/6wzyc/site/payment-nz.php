@@ -16,8 +16,7 @@
     <div class="container">
         <h1>Pricing</h1>
         <ul>
-            <li><strong>Early Bird Rate</strong>: NZD $1049.00 (valid from 1<sup>st</sup> December 2014 - 12<sup>th</sup> April 2015)</li>
-            <li><strong>Casual Rate</strong>: NZD $1199.00 (valid from 13<sup>th</sup> April 2015 - 16<sup>th</sup> August 2015)</li>
+            <li><strong>Early Bird Rate</strong>: NZD $1049.00 (valid from 1<sup>st</sup> December 2014 - 16<sup>th</sup> August 2015)</li>
             <li><strong>Last minute Rate</strong>: NZD $1349.00 (valid from 17<sup>th</sup> August 2015 - 13<sup>th</sup> December 2015)</li>
         </ul>
     </div>
@@ -99,7 +98,7 @@
                     <div class="panel-body">
                         <p>All local (NZ) bank transfers will require the following information:</p>
                         <ul>
-                            <li>Total amount to pay: <strong>NZD $1199</strong></li>
+                            <li>Total amount to pay: <strong>NZD $1049</strong></li>
                             <li>Reference: You will need to use your <strong>Delegate Id</strong>, assigned upon submitting your registration form, as a reference when making the payment. This will allow us to match your payment to your registration form.</li>
                             <li>Name of PAYEE account: ZANZ WORLD ZOROASTRIAN YOUTH CONGRESS</li>
                             <li>Name of Bank: ASB Bank Limited</li>
