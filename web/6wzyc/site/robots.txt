@@ -6,4 +6,5 @@ Disallow: /obj/*
 Disallow: /bin/*
 Disallow: /payment.php
 Disallow: /payment-nz.php
+Disallow: /payment-special.php
 Allow: /
