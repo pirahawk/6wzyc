@@ -5,4 +5,4 @@ This repository contains the source code used to build the [6WZYC](http://www.6w
 
 Please feel free to fork this repo and reuse any of the code.
 
-Site created by *@peetat004*
+Site created by [@peetat004](https://twitter.com/peetat004)
