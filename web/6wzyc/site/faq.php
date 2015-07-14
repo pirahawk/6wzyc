@@ -85,7 +85,7 @@
             Who can attend the Congress
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Registration is open to all global practicing Zoroastrians from age 15 to 35 (as of 27<sup>th</sup> December 2016).</p>
+            <p>Registration is open to all global practicing Zoroastrians from age 15 to 35 (as of 27<sup>th</sup> December 2015).</p>
             <?php endAnswer();?>
 
             <?php startHeading();?>
