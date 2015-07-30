@@ -67,6 +67,10 @@
             <span class="sponsor special-sponsor">
                 <img class="" src="<?php echo createImagePath("shernaz-cawas-pardiwalla.png","sponsors")?>" alt="shernaz-cawas-pardiwalla" />
             </span>
+                        
+             <a class="sponsor special-sponsor" href="http://rwhalfmoonbay.co.nz/agent/faz-najmi/" target="_blank" rel="nofollow">
+                <img class="" src="<?php echo createImagePath("faz-najmi.png","sponsors")?>" alt="faz-najmi" />
+            </a>
 
         </div>
     </div>
@@ -90,9 +94,6 @@
         </div>
     </div>
 
-
-
-    
         <div class="container grey">
             <h3 class="grey">Media Partners</h3>
             <div class="sponsor-row">
@@ -104,7 +105,11 @@
                 <a class="sponsor"  href="http://www.fezana.org" target="_blank" rel="nofollow">
                     <img src="<?php echo createImagePath("fezana.png","sponsors")?>" alt="fezana" />
                 </a>
-    
+                
+                <a class="sponsor"  href="http://www.indiannewslink.co.nz/" target="_blank" rel="nofollow">
+                    <img src="<?php echo createImagePath("indian-newslink.png","sponsors")?>" alt="indian-newslink" />
+                </a>
+                
             </div>
         </div>
    

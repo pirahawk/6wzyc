@@ -11,6 +11,7 @@
             <a class="sponsor" href="http://www.sailegal.biz.com.hk/" target="_blank" rel="nofollow"><img src="<?php echo createImagePath("navaz-jal-karbhari.png","sponsors")?>" alt="sponsor"/></a>
             <img class="sponsor" src="<?php echo createImagePath("rusy-purviz-shroff.png","sponsors")?>" alt="sponsor" />
             <img class="sponsor" src="<?php echo createImagePath("shernaz-cawas-pardiwalla.png","sponsors")?>" alt="sponsor" />
+            <a class="sponsor" href="http://rwhalfmoonbay.co.nz/agent/faz-najmi/" target="_blank" rel="nofollow"><img src="<?php echo createImagePath("faz-najmi.png","sponsors")?>" alt="sponsor"/></a>
         </div>
     </div>
 </footer>

@@ -64,9 +64,6 @@
     <div class="container">
         <div class="panel-group" id="faq-body">
 
-            
-
-
             <?php startHeading();?>
             When does early bird registration open
             <?php endHeading();?>
