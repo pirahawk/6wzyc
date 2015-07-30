@@ -107,8 +107,12 @@
             Do you have a travel agent who can help us with bookings if we choose to tour New Zealand before or after the Congress?
             <?php endHeading();?>
             <?php startAnswer();?>
-            <p>Travel 2000 is the official New Zealand Travel partner for the 6th World Zoroastrian Youth Congress. For special deals and packages, <a href="http://www.travel2000.co.nz" target="_blank">visit their site</a> or contact them on <a href="mailto:info@travel2000.co.nz">info@travel2000.co.nz</a> / +649 6202266.</p>
-            <p>We also have global travel partners for those flying to and from New Zealand. For this list please visit the official <a href="/" target="_blank">Congress website</a></p>
+            <p>Travel 2000 are the official New Zealand Travel Partner for the 6th World Zoroastrian Youth Congress. For special deals and packages <a href="http://www.travel2000.co.nz" target="_blank">visit their site</a> or email them at: <a href="mailto:sunny@travel2000.co.nz">sunny@travel2000.co.nz</a></p>
+            
+            <p>We also have global travel partners for those travelling to and from New Zealand. Trail Blazer tours are the official Indian Travel Partner for the 6th World Zoroastrian Youth Congress. For special deals and packages <a href="http://trailblazertours.com/" target="_blank">visit their site</a> or email them at: <a href="mailto:vdastur@tbi.co.in">vdastur@tbi.co.in</a></p>
+            
+            <p>BB Travel experts are the official North American Travel Partner for the 6th World Zoroastrian Youth Congress. For special deals and packages <a href="http://www.bbtes.com/" target="_blank">visit their site</a> or email them at: <a href="mailto:bomip@yahoo.com">bomip@yahoo.com</a></p>
+            
             <?php endAnswer();?>
 
             <?php startHeading();?>
