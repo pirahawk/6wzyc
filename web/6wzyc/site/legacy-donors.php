@@ -24,6 +24,7 @@
 <section>
     <div class="container">
         <ul class="list-unstyled">
+            <li><h3>Dr. Cyrus S. Poonawalla (India)</h3></li>
             <li><h3>Mr. Nadir & Mrs. Rati Godrej (India)</h3></li>
             <li><h3>Mr. Dinshawji Avari (Pakistan)</h3></li>
             <li><h3>Mr. Purvez Rustomji (USA)</h3></li>

@@ -52,7 +52,7 @@
 
             <div class="col-md-6 center-txt">
                 <img alt="6wzyc" src="<?php echo createImagePath("6wzyc.png","site")?>" class="logo">
-                <img alt="6wzyc" src="<?php echo createImagePath("zanz.png","site")?>" class="logo">
+                <a href="http://www.zanz.org.nz/" target="_blank"><img alt="6wzyc" src="<?php echo createImagePath("zanz.png","site")?>" class="logo"></a> 
             </div>
         </div>
     </div>
