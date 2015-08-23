@@ -24,16 +24,17 @@
 <section>
     <div class="container">
         <ul class="list-unstyled">
-            <li><h3>Dr. Cyrus S. Poonawalla (India)</h3></li>
-            <li><h3>Mr. Nadir & Mrs. Rati Godrej (India)</h3></li>
-            <li><h3>Mr. Dinshawji Avari (Pakistan)</h3></li>
-            <li><h3>Mr. Purvez Rustomji (USA)</h3></li>
-            <li><h3>The Zartoshty Brothers (UK)</h3></li>
-            <li><h3>The Dabestani Brothers (Iran)</h3></li>
-            <li><h3>Mrs. Khorshed Jungalwalla (USA)</h3></li>
-            <li><h3>The Shapoorji Pallonji & Company Pvt Ltd (India)</h3></li>
-            <li><h3>Mrs Farangis Shahrokh (Iran)</h3></li>
-            <li><h3>The Jokhi Family (Hong Kong)</h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Zerbanoo-Gifford-Asha-Centre.pdf")?>" target="_blank">Mrs. Zerbanoo Gifford (UK)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Dr-Cyrus-S-Poonawalla.pdf")?>" target="_blank">Dr. Cyrus S. Poonawalla (India)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Nadir-Rati-Godrej.pdf")?>" target="_blank">Mr. Nadir & Mrs. Rati Godrej (India)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("The-Jokhi-Family.pdf")?>" target="_blank">The Jokhi Family (Hong Kong)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Shapoorji-pallonji.pdf")?>" target="_blank">Mr Shapoor Pallonji Mistry (India)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("The-Zartoshty-Brothers.pdf")?>" target="_blank">The Zartoshty Brothers (UK)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("The-Dabestani-Brothers.pdf")?>" target="_blank">The Dabestani Brothers (Iran)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Khorshed-Jungalwala.pdf")?>" target="_blank">Mrs. Khorshed Jungalwalla (USA)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Purvez-Rustomji.pdf")?>" target="_blank">Mr. Purvez Rustomji (USA)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Dinshawji-B-Avari.pdf")?>" target="_blank">Mr. Dinshawji Avari (Pakistan)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Faranghis-Shahrokh.pdf")?>" target="_blank">Mrs Farangis Shahrokh (Iran)</a></h3></li>
         </ul>
     </div>
 </section>

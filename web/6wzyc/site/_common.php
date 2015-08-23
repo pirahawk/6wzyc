@@ -34,11 +34,12 @@
     function getBlobHostName(){
         $hostName = $_SERVER["HTTP_HOST"];
         $localHost = "/^(localhost|127.0.0.1)/";
+        $devLocal = "/^dev\.6wzyc\.co\.nz$/";
         $test = "/^test6wzyc\.azurewebsites\.net$/";
         $live = "/^6wzyc\.co\.nz$/";
 
 
-        if(preg_match($localHost, $hostName) != false){
+        if((preg_match($localHost, $hostName) != false) || (preg_match($devLocal, $hostName) != false)){
             return "http://127.0.0.1:10000/devstoreaccount1/";
         }
 
