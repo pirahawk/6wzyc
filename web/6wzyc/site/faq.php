@@ -106,7 +106,7 @@
             <?php startAnswer();?>
             <p>Travel 2000 are the official New Zealand Travel Partner for the 6th World Zoroastrian Youth Congress. For special deals and packages <a href="http://www.travel2000.co.nz" target="_blank">visit their site</a> or email them at: <a href="mailto:sunny@travel2000.co.nz">sunny@travel2000.co.nz</a></p>
             
-            <p>We also have global travel partners for those travelling to and from New Zealand. Trail Blazer tours are the official Indian Travel Partner for the 6th World Zoroastrian Youth Congress. For special deals and packages <a href="http://trailblazertours.com/" target="_blank">visit their site</a> or email them at: <a href="mailto:vdastur@tbi.co.in">vdastur@tbi.co.in</a></p>
+            <p>We also have global travel partners for those travelling to and from New Zealand. Trail Blazer tours are the official Indian Travel Partner for the 6th World Zoroastrian Youth Congress. For special deals and packages <a href="http://trailblazertours.com/essential_info/australia_newzealand.asp" target="_blank">visit their site</a> or email them at: <a href="mailto:vdastur@tbi.co.in">vdastur@tbi.co.in</a></p>
             
             <p>BB Travel experts are the official North American Travel Partner for the 6th World Zoroastrian Youth Congress. For special deals and packages <a href="http://www.bbtes.com/" target="_blank">visit their site</a> or email them at: <a href="mailto:bomip@yahoo.com">bomip@yahoo.com</a></p>
             
