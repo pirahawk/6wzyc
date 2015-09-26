@@ -35,6 +35,7 @@
                         <li><a href="/fundraising.php?year=2012">2012</a></li>
                         <li><a href="/fundraising.php?year=2013">2013</a></li>
                         <li><a href="/fundraising.php?year=2014">2014</a></li>
+                        <li><a href="/fundraising.php?year=2015">2015</a></li>
                     </ul>
                 </li>
                 <li><a href="/press.php">Press</a></li>
