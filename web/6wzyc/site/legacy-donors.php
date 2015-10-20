@@ -28,13 +28,14 @@
             <li><h3><a href="<?php echo createDocumentPath("Dr-Cyrus-S-Poonawalla.pdf")?>" target="_blank">Dr. Cyrus S. Poonawalla (India)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("Nadir-Rati-Godrej.pdf")?>" target="_blank">Mr. Nadir & Mrs. Rati Godrej (India)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("The-Jokhi-Family.pdf")?>" target="_blank">The Jokhi Family (Hong Kong)</a></h3></li>
-            <li><h3><a href="<?php echo createDocumentPath("Shapoorji-pallonji.pdf")?>" target="_blank">Mr Shapoor Pallonji Mistry (India)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("The-Zartoshty-Brothers.pdf")?>" target="_blank">The Zartoshty Brothers (UK)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Shapoorji-pallonji.pdf")?>" target="_blank">The Shapoorji Pallonji & Company Pvt Ltd (India)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("The-Dabestani-Brothers.pdf")?>" target="_blank">The Dabestani Brothers (Iran)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("Khorshed-Jungalwala.pdf")?>" target="_blank">Mrs. Khorshed Jungalwalla (USA)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("Purvez-Rustomji.pdf")?>" target="_blank">Mr. Purvez Rustomji (USA)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("Dinshawji-B-Avari.pdf")?>" target="_blank">Mr. Dinshawji Avari (Pakistan)</a></h3></li>
             <li><h3><a href="<?php echo createDocumentPath("Faranghis-Shahrokh.pdf")?>" target="_blank">Mrs Farangis Shahrokh (Iran)</a></h3></li>
+            <li><h3><a href="<?php echo createDocumentPath("Farhang-Mehr.pdf")?>" target="_blank">Dr. Farhang Mehr (Iran)</a></h3></li>
         </ul>
     </div>
 </section>
