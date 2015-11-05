@@ -59,6 +59,15 @@
 </section>
 
 
+
+<section class="grey">
+    <div class="container">
+        <h1>Official Congress Event-Plan released </h1>
+        <p>We have just released the official 6WZYC Event-Plan.</p>
+        <a class="btn btn-success btn-lg" href="<?php echo createDocumentPath("event-plan.pdf")?>">Download Event Plan <i class="fa fa-angle-right"></i></a>
+    </div>
+</section>
+
 <section class="blue">
     <div class="container">
         <h1>Registration is now open</h1>
@@ -71,6 +80,8 @@
         <a class="btn btn-default btn-lg" href="/register.php">Register <i class="fa fa-angle-right"></i></a>
     </div>
 </section>
+
+
 
 
 <section class="green">
