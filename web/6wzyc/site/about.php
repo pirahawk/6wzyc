@@ -58,22 +58,18 @@
     </div>
 </section>
 
-
-
-<section class="blue">
+<section class="grey">
     <div class="container">
-        <h1>Official Congress Event-Plan released</h1>
-        <p>We have just released the official 6WZYC Event-Plan.</p>
-        <a class="btn btn-default btn-lg" href="<?php echo createDocumentPath("event-plan.pdf")?>">Download Event Plan <i class="fa fa-angle-right"></i></a>
+        <h1>Videos from the 6WZYC now available</h1>
+        <p>We have uploaded all the videos recorded during the 6WZYC to our <a href="https://www.youtube.com/channel/UCf0uhw0ygc3dqgO7IC41okw" target="_blank">Youtube channel</a>.</p>
     </div>
 </section>
 
-
-<section class="grey">
+<section class="blue">
     <div class="container">
-        <h1>6WZYC Registration Closed</h1>
-        <p>Registration for the 6th World Zoroastrian Youth Congress has now officially closed.</p>
-        <p>If you have any further questions, please refer to the <a href="/faq.php">FAQ's</a> or feel free to email us at <a href="mailto:register.6thwzyc@gmail.com">register.6thwzyc@gmail.com</a></p>
+        <h1>Official Congress Event-Plan</h1>
+        <p>The official 6WZYC Event-Plan is available to download.</p>
+        <a class="btn btn-default btn-lg" href="<?php echo createDocumentPath("event-plan.pdf")?>">Download Event Plan <i class="fa fa-angle-right"></i></a>
     </div>
 </section>
 
