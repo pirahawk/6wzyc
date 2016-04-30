@@ -47,6 +47,7 @@
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="https://twitter.com/6WZYC" target="_blank" rel="nofollow"><i class="fa fa-twitter-square fa-5" rel=''></i></a></li>
                 <li><a href="https://www.facebook.com/groups/223424211030360/" target="_blank" rel="nofollow"><i class="fa fa-facebook-square fa-5"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCf0uhw0ygc3dqgO7IC41okw" target="_blank" rel="nofollow"><i class="fa fa-youtube-square fa-5"></i></a></li>
                 <li><a href="http://6wzyc.tumblr.com/" target="_blank" rel="nofollow"><i class="fa fa-tumblr-square fa-5"></i></a></li>
             </ul>
         </div>
