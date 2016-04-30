@@ -30,6 +30,7 @@
         <address class="social-media">
             <a href="https://twitter.com/6WZYC" target="_blank"><i class="fa fa-twitter-square fa-6"></i></a>
             <a href="https://www.facebook.com/groups/223424211030360/" target="_blank"><i class="fa fa-facebook-square fa-6"></i></a>
+            <a href="https://www.youtube.com/channel/UCf0uhw0ygc3dqgO7IC41okw" target="_blank"><i class="fa fa-youtube-square fa-6"></i></a>
             <a href="http://6wzyc.tumblr.com/" target="_blank"><i class="fa fa-tumblr-square fa-6"></i></a>
         </address>
     </div>
