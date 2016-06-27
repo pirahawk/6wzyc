@@ -20,7 +20,7 @@ namespace ImageResize
         const string imgFileExtension = "*.jpg";
         static object encoderLock = new object();
 
-        static void Main(string[] args)
+        static void MainOld(string[] args)
         {
             Task.WaitAll(ConvertImages());
         }
