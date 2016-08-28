@@ -39,7 +39,7 @@ namespace ImageResize
                 throw new Exception($"Directory '{path}' does not exist");
             }
             //const string imgFileExtension = "*.jpg";
-            var files = Directory.GetFiles(path, "*.jpg").Select(f => Path.GetFileName(f));
+            var files = Directory.GetFiles(path, "*.jpg").Select(Path.GetFileNameWithoutExtension);
             return new PicFolder {
                 Folder = folder,
                 Files = files

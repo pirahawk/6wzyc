@@ -27,6 +27,7 @@
 
                 <li><a href="/accommodation.php">Accommodation</a></li>
                 <li><a href="/register.php">Registration</a></li>
+                <li><a href="/photos.php">Photos</a></li>
 
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fundraising<span class="caret"></span></a>

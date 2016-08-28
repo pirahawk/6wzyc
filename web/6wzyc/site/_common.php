@@ -40,7 +40,8 @@
 
 
         if((preg_match($localHost, $hostName) != false) || (preg_match($devLocal, $hostName) != false)){
-            return "http://127.0.0.1:10000/devstoreaccount1/";
+            //return "http://127.0.0.1:10000/devstoreaccount1/";
+            return "http://6wzyc.blob.core.windows.net/";
         }
 
         if(preg_match($test, $hostName) != false){

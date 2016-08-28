@@ -71,7 +71,7 @@
                 renderScripts(
                 "lodash.min.js",
                 "knockout-3.1.0.js",
-                "6WZYC/site.js");
+                "6WZYC/fundraising.js");
             
                 call_user_func(RENDER_FUNDRAISE_SCRIPTS);
             }

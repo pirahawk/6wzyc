@@ -10,9 +10,13 @@
             array("kc-5.jpg"));
     
             foreach($images as $img){
+                $currClass = "";
+                if(isset($img[1])){
+                    $currClass = $img[1];
+                }
 ?>
 
-<div class="item <?php echo $img[1] ?>">
+<div class="item <?php echo $currClass ?>">
     <img src="<?php echo createImagePath($img[0],"location")?>" alt="<?php echo $img[0] ?>" />
 </div>
 <?php

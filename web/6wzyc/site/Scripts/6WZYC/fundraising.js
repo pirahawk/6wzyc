@@ -1,4 +1,4 @@
-﻿var WZYC = WZYC || {};
+﻿var WZYC = WZYC || {}; 
 
 (function () {
     "use strict";
