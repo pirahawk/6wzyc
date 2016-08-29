@@ -262,3 +262,15 @@ section.sponsors .special-sponsor {
     max-height: 500px;
     max-width: 100%;
 }
+
+
+.thumbnail-container{
+    display: inline-block;
+    width:320px;
+    height:320px;
+    text-align: center;
+}
+
+.hide-component{
+    display: none;
+}
