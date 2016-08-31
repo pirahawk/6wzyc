@@ -4,7 +4,7 @@ var WZYC = WZYC || {};
     if (WZYC.Images === undefined) {
         return;
     }
-    var BLOB_PATH = 'http://test6wzyc.blob.core.windows.net/images/';
+    var BLOB_PATH = 'http://6wzyc.blob.core.windows.net/6wzyc-photos/';
 
     var Image = function (id, label) {
         this.id = id;
@@ -80,6 +80,12 @@ var WZYC = WZYC || {};
     var ImageGalleryModel = function (menuModel, allFolders) {
         var _self = this;
         var imagesPerPage = 50;
+
+        _self.scrollToTop = function(){
+            var topElem = document.getElementById('top');
+            topElem.scrollIntoView();
+        };
+
         _self.currentLibrary = ko.computed(function () {
 
             return _.find(allFolders, function (f) {
@@ -141,9 +147,11 @@ var WZYC = WZYC || {};
         _self.currentLibrary.subscribe(function () {
             _self.currentPage(0);
             _self.previewImage(null);
+            window.location.hash = "top";
         });
 
         _self.showPreviousPage = function () {
+            _self.scrollToTop();
             var currentValue = _self.currentPage();
             if (currentValue === 0) {
                 return;
@@ -152,6 +160,7 @@ var WZYC = WZYC || {};
         };
 
         _self.showNextPage = function () {
+            _self.scrollToTop();
             var currentValue = _self.currentPage();
             var highestPageNumber = _self.calculateHighestPageNumber();
             if (currentValue === highestPageNumber) {
@@ -176,6 +185,7 @@ var WZYC = WZYC || {};
         },_self);
 
         _self.onThumbnailSelected = function(e){
+            _self.scrollToTop();
             var selectedImage = e;
             _self.previewImage(selectedImage);
         }

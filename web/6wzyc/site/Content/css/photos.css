@@ -1,0 +1,38 @@
+#image-menu{
+    margin-top:10px;
+    text-align: center;
+}
+
+#thumb-gallery{
+    text-align: center;
+}
+
+
+.thumbnail-container{
+    display: inline-block;
+    height:322px;
+    padding-top: 2px;
+    text-align: center;
+    margin: 2px auto;
+}
+
+.thumbnail-container, .photo-thumbnail{
+    max-width: 100%;
+}
+
+.hide-component{
+    display: none;
+}
+
+#preview-gallery{
+    text-align: center;
+    max-width: 100%;
+}
+
+.pager li, #preview-gallery .btn{
+    margin: 10px 10px;
+}
+
+#preview-gallery img{
+    max-width: 100%;
+}

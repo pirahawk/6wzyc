@@ -15,7 +15,12 @@
         <link href="http://fonts.googleapis.com/css?family=Roboto:700,500,400" rel="stylesheet" type="text/css">
         <?php
             renderStyleSheets("bootstrap.min.css", "font-awesome.min.css", "css/site.css");
+
+            if(function_exists(RENDER_CUSTOM_STYLE)){
+                call_user_func(RENDER_CUSTOM_STYLE);
+            }
         ?>
+
     </head>
     <body>
 
