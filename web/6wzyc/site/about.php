@@ -60,8 +60,9 @@
 
 <section class="grey">
     <div class="container">
-        <h1>Videos from the 6WZYC now available</h1>
+        <h1>All media from the 6WZYC now available</h1>
         <p>We have uploaded all the videos recorded during the 6WZYC to our <a href="https://www.youtube.com/channel/UCf0uhw0ygc3dqgO7IC41okw" target="_blank">Youtube channel</a>.</p>
+        <p>All 6WZYC pictures can be viewed and downloaded from our <a href="/photos.php">online gallery</a>.</p>
     </div>
 </section>
 
