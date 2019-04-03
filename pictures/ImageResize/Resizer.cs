@@ -14,13 +14,16 @@ namespace ImageResize
 {
     class Resizer
     {
-        const string imgSourceDir = @"S:\6wzyc\pictures-transformed\full";
-        //const string imgDestDir = @"S:\6wzyc\pictures-transformed-test\preview";
-        const string imgDestDir = @"S:\6wzyc\pictures-transformed-test\thumbnail";
+        const string imgSourceDir = @"C:\Users\piran\Downloads\image-fixup";
+        
+        //const string imgDestDir = @"C:\Users\piran\Downloads\image-regen\preview";
+
+        const string imgDestDir = @"C:\Users\piran\Downloads\image-regen\thumbnail";
+
         const string imgFileExtension = "*.jpg";
         static object encoderLock = new object();
 
-        static void MainOld(string[] args)
+        public static void MainDo()
         {
             Task.WaitAll(ConvertImages());
         }
@@ -37,7 +40,7 @@ namespace ImageResize
             };
 
             //Test
-            var testImg = Guid.Parse("13911e38-af31-48eb-a39d-b5e695124351");
+            //var testImg = Guid.Parse("13911e38-af31-48eb-a39d-b5e695124351");
             var allFiles = folders
                 .Select(folder => ExtractImageMetaData(folder))
                 .SelectMany(img => img)
@@ -45,7 +48,18 @@ namespace ImageResize
                 .ToArray();
 
 
-            var numFiles = allFiles.Count();
+            //var numFiles = allFiles.Count();
+
+            //var allFiles = new []
+            //{
+            //    new ImageData
+            //    {
+            //        Id = new Guid("05f67c97-306d-4884-b1da-08c64658fc45"),
+            //        DestinationPath = @"C:\Users\piran\Downloads\image-test\result\05f67c97-306d-4884-b1da-08c64658fc45.jpg",
+            //        FileName = @"05f67c97-306d-4884-b1da-08c64658fc45.jpg",
+            //        SourcePath = @"C:\Users\piran\Downloads\image-test\05f67c97-306d-4884-b1da-08c64658fc45.jpg",
+            //    }, 
+            //};
 
             const long quality = 100L;
             var qualityParam = System.Drawing.Imaging.Encoder.Quality;

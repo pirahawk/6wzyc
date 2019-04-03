@@ -4,7 +4,7 @@ var WZYC = WZYC || {};
     if (WZYC.Images === undefined) {
         return;
     }
-    var BLOB_PATH = 'http://6wzyc.blob.core.windows.net/6wzyc-photos/';
+    var BLOB_PATH = 'http://az684910.vo.msecnd.net/6wzyc-photos/';
 
     var Image = function (id, label) {
         this.id = id;
